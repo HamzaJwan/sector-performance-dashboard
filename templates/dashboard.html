@@ -5,181 +5,211 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>📊 مركز مراقبة السكاتر</title>
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: 'Cairo', sans-serif;
       direction: rtl;
-      text-align: center;
-      background-color: #f8f9fa;
+      background: #f2f4f6;
       margin: 0;
       padding: 0;
     }
+
     header {
+      background: linear-gradient(to left, #007bff, #0056b3);
+      color: white;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+      flex: 1 1 100%;
+      text-align: center;
+    }
+
+    form {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      align-items: center;
-      padding: 20px 5%;
-      background: white;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      gap: 10px;
+      flex: 1 1 100%;
+      margin-top: 10px;
     }
-    header h1 {
-      margin: 0 20px;
-    }
-    form {
-      margin: 10px;
-    }
-    select, input[type="search"] {
+
+    select {
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
       font-size: 16px;
-      padding: 6px;
-      margin: 5px;
+      min-width: 160px;
     }
+
     .dataTables_wrapper {
       padding: 20px;
-      overflow-x: auto;
     }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      table-layout: auto;
+
+    table.dataTable {
+      width: 100% !important;
+      background-color: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
+
     th, td {
-      border: 1px solid #ddd;
-      padding: 10px 6px;
       text-align: center;
-      white-space: nowrap;
-      max-width: 150px;
-      overflow: visible !important;
-      text-overflow: ellipsis;
+      padding: 12px 8px;
+      font-size: 15px;
       position: relative;
     }
+
     th {
       background-color: #343a40;
       color: white;
     }
+
     tr:nth-child(even) {
-      background-color: #f2f2f2;
+      background-color: #f9f9f9;
     }
+
     td.highlight {
       font-weight: bold;
-      background-color: #fff9e6;
+      background-color: #e9f7ff;
     }
+
     .badge {
-      padding: 5px 10px;
-      border-radius: 12px;
+      padding: 6px 10px;
+      border-radius: 20px;
+      font-size: 13px;
       color: white;
-      font-size: 14px;
       font-weight: bold;
-      margin: 2px;
       display: inline-block;
+      transition: transform 0.2s ease;
     }
+
+    .badge:hover {
+      transform: scale(1.1);
+    }
+
     .badge-red { background-color: #dc3545; }
     .badge-orange { background-color: #fd7e14; }
     .badge-green { background-color: #28a745; }
     .badge-blue { background-color: #007bff; }
     .badge-yellow { background-color: #ffc107; }
     .badge-gray { background-color: #6c757d; }
-    td[data-tooltip]::after, span[data-tooltip]::after {
+
+    td[data-tooltip]::after,
+    span[data-tooltip]::after {
       content: attr(data-tooltip);
       position: absolute;
-      background-color: rgba(0, 0, 0, 0.85);
+      background: rgba(0, 0, 0, 0.85);
       color: #fff;
-      padding: 6px 10px;
+      padding: 6px 12px;
       border-radius: 6px;
       font-size: 13px;
-      white-space: normal;
-      z-index: 1000;
       bottom: 100%;
       right: 50%;
-      transform: translateX(50%) translateY(-5px);
+      transform: translateX(50%) translateY(-6px);
       opacity: 0;
-      visibility: hidden;
-      transition: opacity 0.25s ease-in-out;
+      white-space: normal;
       pointer-events: none;
+      transition: opacity 0.3s;
+      z-index: 999;
+      width: max-content;
+      max-width: 250px;
     }
-    td[data-tooltip]:hover::after, span[data-tooltip]:hover::after {
+
+    td[data-tooltip]:hover::after,
+    span[data-tooltip]:hover::after {
       opacity: 1;
-      visibility: visible;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>📊 مركز مراقبة السكاتر</h1>
-    <form method="get">
-      <label for="branch">الفرع:</label>
-      <select name="branch" onchange="this.form.submit()">
-        <option value="">كل الفروع</option>
-        {% for b in branches %}
-          <option value="{{ b }}" {% if selected_branch == b %}selected{% endif %}>{{ b }}</option>
-        {% endfor %}
-      </select>
 
-      <label for="status">الحالة:</label>
-      <select name="status" onchange="this.form.submit()">
-        <option value="">كل الحالات</option>
-        {% for st in ["جيد", "ازدحام", "ضعيف جدًا", "متذبذب", "يحتاج دعم", "بلا بيانات"] %}
-          <option value="{{ st }}" {% if selected_status == st %}selected{% endif %}>{{ st }}</option>
-        {% endfor %}
-      </select>
-    </form>
-  </header>
+<header>
+  <h1>📊 مركز مراقبة السكاتر</h1>
+  <form method="get">
+    <label for="branch">الفرع:</label>
+    <select name="branch" onchange="this.form.submit()">
+      <option value="">كل الفروع</option>
+      {% for b in branches %}
+        <option value="{{ b }}" {% if selected_branch == b %}selected{% endif %}>{{ b }}</option>
+      {% endfor %}
+    </select>
 
-  <div class="dataTables_wrapper">
-    <table id="sectors" class="display">
-      <thead>
+    <label for="status">الحالة:</label>
+    <select name="status" onchange="this.form.submit()">
+      <option value="">كل الحالات</option>
+      {% for st in ["جيد", "ازدحام", "ضعيف جدًا", "متذبذب", "يحتاج دعم", "بلا بيانات"] %}
+        <option value="{{ st }}" {% if selected_status == st %}selected{% endif %}>{{ st }}</option>
+      {% endfor %}
+    </select>
+  </form>
+</header>
+
+<div class="dataTables_wrapper">
+  <table id="sectors" class="display">
+    <thead>
+      <tr>
+        <th>الفرع</th>
+        <th>السكتور</th>
+        <th>IP</th>
+        <th>👥 أقصى عدد</th>
+        <th>⚡ متوسط</th>
+        <th>🚀 أعلى</th>
+        <th>📶 السحب</th>
+        <th>🔥 الحمل</th>
+        <th>🧠 التقييم</th>
+        <th>📅 التاريخ</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for s in sectors %}
+        {% if not selected_status or selected_status in s.statuses|map(attribute=0)|list %}
         <tr>
-          <th>الفرع</th>
-          <th>السكتور</th>
-          <th>IP</th>
-          <th>👥 أقصى عدد</th>
-          <th>⚡ متوسط</th>
-          <th>🚀 أعلى</th>
-          <th>📶 السحب</th>
-          <th>🔥 الحمل</th>
-          <th>🧠 التقييم</th>
-          <th>📅 التاريخ</th>
+          <td data-tooltip="فرع السكتور">{{ s.branch }}</td>
+          <td class="highlight" data-tooltip="اسم السكتور">{{ s.hostname }}</td>
+          <td data-tooltip="عنوان IP للجهاز">{{ s.ip }}</td>
+          <td data-tooltip="عدد الزبائن في الذروة">{{ s.max_clients }}</td>
+          <td class="highlight" data-tooltip="متوسط السرعة في الذروة">{{ s.avg_mbps }}</td>
+          <td data-tooltip="أعلى سرعة">{{ s.max_mbps }}</td>
+          <td data-tooltip="السحب لكل زبون">{{ s.load_ratio }}</td>
+          <td data-tooltip="أقصى تحميل">{{ s.peak_load_ratio }}</td>
+          <td>
+            {% for label, color, tip in s.statuses %}
+              <span class="badge badge-{{ color }}" data-tooltip="{{ tip }}">{{ label }}</span>
+            {% endfor %}
+          </td>
+          <td data-tooltip="آخر وقت لقراءة الأداء">{{ s.last_updated.strftime('%Y-%m-%d %H:%M') }}</td>
         </tr>
-      </thead>
-      <tbody>
-        {% for s in sectors %}
-          {% if not selected_status or selected_status in s.statuses|map(attribute=0)|list %}
-          <tr>
-            <td data-tooltip="فرع السكتور">{{ s.branch }}</td>
-            <td class="highlight" data-tooltip="اسم السكتور">{{ s.hostname }}</td>
-            <td data-tooltip="عنوان IP للجهاز">{{ s.ip }}</td>
-            <td data-tooltip="عدد الزبائن في الذروة">{{ s.max_clients }}</td>
-            <td class="highlight" data-tooltip="متوسط السرعة في الذروة">{{ s.avg_mbps }}</td>
-            <td data-tooltip="أعلى سرعة">{{ s.max_mbps }}</td>
-            <td data-tooltip="السحب لكل زبون">{{ s.load_ratio }}</td>
-            <td data-tooltip="أقصى تحميل">{{ s.peak_load_ratio }}</td>
-            <td>
-              {% for label, color, tip in s.statuses %}
-                <span class="badge badge-{{ color }}" data-tooltip="{{ tip }}">{{ label }}</span>
-              {% endfor %}
-            </td>
-            <td data-tooltip="آخر وقت لقراءة الأداء">{{ s.last_updated.strftime('%Y-%m-%d %H:%M') }}</td>
-          </tr>
-          {% endif %}
-        {% endfor %}
-      </tbody>
-    </table>
-  </div>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
 
-  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      $('#sectors').DataTable({
-        language: {
-          url: "//cdn.datatables.net/plug-ins/1.13.4/i18n/ar.json"
-        },
-        pageLength: 25,
-        autoWidth: false,
-        responsive: true
-      });
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('#sectors').DataTable({
+      language: {
+        url: "//cdn.datatables.net/plug-ins/1.13.4/i18n/ar.json"
+      },
+      pageLength: 25,
+      autoWidth: false,
+      responsive: true
     });
-  </script>
+  });
+</script>
+
 </body>
 </html>
