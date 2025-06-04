@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}🚨 خطأ في التقرير{% endblock %}
+{% block content %}
+<div class="container mt-5">
+  <div class="alert alert-danger shadow text-center p-5" role="alert">
+    <h3 class="mb-3">⚠️ عذرًا، حدث خطأ أثناء عرض التقرير</h3>
+    <p class="fs-5">{{ message }}</p>
+    <a href="/reports" class="btn btn-outline-light btn-lg mt-4">⬅ العودة إلى مركز التقارير</a>
+  </div>
+</div>
+{% endblock %}

@@ -43,7 +43,7 @@
       font-weight: bold;
     }
     .navbar-logo {
-      height: 48px;
+      height: 42px;
       margin-left: 12px;
     }
     .navbar-nav .nav-link {
@@ -57,6 +57,14 @@
     }
     .filter-bar {
       margin-bottom: 24px;
+    }
+    .branch-filter {
+      max-width: 700px;
+      margin: 0 auto 1rem;
+    }
+    .report-header {
+      text-align: center;
+      margin-bottom: 1.5rem;
     }
   </style>
 </head>
@@ -77,7 +85,72 @@
   </nav>
 
   <div class="container mt-4">
-    {% block content %}{% endblock %}
+    <div class="report-header">
+      {% if title %}
+        <h2 class="fw-bold mb-3">{{ title }}</h2>
+      {% endif %}
+      {% if description %}
+        <p class="text-muted">📝 <strong>وصف التقرير:</strong> {{ description }}</p>
+      {% endif %}
+      {% if purpose %}
+        <p class="text-muted">🎯 <strong>فائدة التقرير:</strong> {{ purpose }}</p>
+      {% endif %}
+    </div>
+
+    {% if branches is defined %}
+    <form method="POST" class="branch-filter row g-3">
+      <div class="col-md-4">
+        <label for="branch" class="form-label">🧭 اختر الفرع</label>
+        <select name="branch" id="branch" class="form-select" onchange="this.form.submit()">
+          <option value="">-- كل الفروع --</option>
+          {% for b in branches %}
+            <option value="{{ b }}" {% if selected_branch == b %}selected{% endif %}>{{ b }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="col-md-4">
+        <label for="days" class="form-label">📆 عدد الأيام لحساب المتوسط</label>
+        <select name="days" id="days" class="form-select" onchange="this.form.submit()">
+          <option value="3" {% if selected_days == 3 %}selected{% endif %}>3 أيام</option>
+          <option value="5" {% if selected_days == 5 %}selected{% endif %}>5 أيام</option>
+          <option value="7" {% if selected_days == 7 %}selected{% endif %}>7 أيام</option>
+          <option value="14" {% if selected_days == 14 %}selected{% endif %}>14 يومًا</option>
+        </select>
+      </div>
+      <div class="col-md-4">
+        <label for="drop" class="form-label">📉 نسبة انخفاض الأداء المقبولة</label>
+        <input type="number" name="drop" id="drop" class="form-control" min="1" max="100" step="1" value="{{ selected_drop|default(40) }}" onchange="this.form.submit()">
+        <div class="form-text">حدد النسبة المئوية التي تعتبر بها السكتور ضعيفًا مقارنةً بمتوسطه (مثلًا: 40%)</div>
+      </div>
+    </form>
+    {% endif %}
+
+    {% if table_headers and table_data %}
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped text-center align-middle">
+          <thead class="table-dark">
+            <tr>
+              {% for header in table_headers %}
+                <th>{{ header }}</th>
+              {% endfor %}
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in table_data %}
+              <tr>
+                {% for col in row.values() %}
+                  <td>{{ col }}</td>
+                {% endfor %}
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% else %}
+      <div class="alert alert-info text-center mt-4">
+        لا توجد بيانات لعرضها حاليًا.
+      </div>
+    {% endif %}
   </div>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

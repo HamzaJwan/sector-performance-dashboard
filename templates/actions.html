@@ -1,163 +1,97 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <title>🛠️ سجل صيانة السكتورات</title>
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-  <style>
-    body {
-      font-family: 'Cairo', sans-serif;
-      background-color: #f9f9f9;
-      padding: 20px;
-      direction: rtl;
-      text-align: center;
-    }
-    form {
-      background: white;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      margin-bottom: 30px;
-    }
-    label {
-      font-weight: bold;
-      display: block;
-      margin-top: 10px;
-    }
-    select, input, textarea {
-      width: 80%;
-      padding: 8px;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-      margin-bottom: 10px;
-    }
-    table {
-      width: 100%;
-      background: white;
-      border-collapse: collapse;
-      margin-top: 20px;
-    }
-    th, td {
-      padding: 10px;
-      border: 1px solid #ddd;
-    }
-    th {
-      background: #f0f0f0;
-    }
-    .alert {
-      list-style: none;
-      color: green;
-      font-weight: bold;
-    }
-    .btn {
-      background-color: #28a745;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-    .btn:hover {
-      background-color: #218838;
-    }
-  </style>
-</head>
-<body>
+{% extends 'base.html' %}
 
-  <h2>🛠️ سجل صيانة السكتورات</h2>
+{% block content %}
+<h2>🛠️ سجل صيانة السكتورات</h2>
 
-  {% with messages = get_flashed_messages(with_categories=true) %}
-    {% if messages %}
-      <ul>
-      {% for category, message in messages %}
-        <li class="alert alert-{{ category }}">{{ message }}</li>
-      {% endfor %}
-      </ul>
-    {% endif %}
-  {% endwith %}
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    <ul>
+    {% for category, message in messages %}
+      <li class="alert alert-{{ category }}">{{ message }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
 
-  <form method="POST">
-    <label>🌍 الفرع:</label>
-    <select id="branch-select" required>
-      <option value="">اختر فرعًا</option>
-      {% for b in branches %}
-        <option value="{{ b.name }}">{{ b.name }}</option>
-      {% endfor %}
-    </select>
+<form method="POST">
+  <label>🌍 الفرع:</label>
+  <select id="branch-select" required>
+    <option value="">اختر فرعًا</option>
+    {% for b in branches %}
+      <option value="{{ b.name }}">{{ b.name }}</option>
+    {% endfor %}
+  </select>
 
-    <label>📡 السكتور:</label>
-    <select name="hostname" id="sector-select" required>
-      <option value="">اختر سكتور</option>
-      {% for s in sectors %}
-        <option value="{{ s.hostname }}" data-branch="{{ s.branch }}">{{ s.hostname }}</option>
-      {% endfor %}
-    </select>
+  <label>📡 السكتور:</label>
+  <select name="hostname" id="sector-select" required>
+    <option value="">اختر سكتور</option>
+    {% for s in sectors %}
+      <option value="{{ s.hostname }}" data-branch="{{ s.branch }}">{{ s.hostname }}</option>
+    {% endfor %}
+  </select>
 
-    <label>🛠️ نوع العملية:</label>
-    <select name="action_type" required>
-      {% for action in action_types %}
-        <option value="{{ action.id }}">{{ action.name }}</option>
-      {% endfor %}
-    </select>
+  <label>🛠️ نوع العملية:</label>
+  <select name="action_type" required>
+    {% for action in action_types %}
+      <option value="{{ action.id }}">{{ action.name }}</option>
+    {% endfor %}
+  </select>
 
-    <label>👷‍♂️ المهندس:</label>
-    <select name="performed_by" id="staff-select" required>
-      <option value="">اختر مهندس</option>
-      {% for s in staff %}
-        <option value="{{ s.full_name }}" data-branch="{{ s.branch }}">{{ s.full_name }}</option>
-      {% endfor %}
-    </select>
+  <label>👷‍♂️ المهندس:</label>
+  <select name="performed_by" id="staff-select" required>
+    <option value="">اختر مهندس</option>
+    {% for s in staff %}
+      <option value="{{ s.full_name }}" data-branch="{{ s.branch }}">{{ s.full_name }}</option>
+    {% endfor %}
+  </select>
 
-    <label>📝 ملاحظات:</label>
-    <textarea name="notes" rows="3"></textarea>
+  <label>📝 ملاحظات:</label>
+  <textarea name="notes" rows="3"></textarea>
 
-    <br>
-    <button class="btn" type="submit">💾 تسجيل العملية</button>
-  </form>
+  <br>
+  <button class="btn" type="submit">💾 تسجيل العملية</button>
+</form>
 
-  <table id="actions-table">
-    <thead>
-      <tr>
-        <th>📡 السكتور</th>
-        <th>🛠️ نوع العملية</th>
-        <th>👷‍♂️ المهندس</th>
-        <th>🕒 التاريخ</th>
-        <th>📝 ملاحظات</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for a in actions %}
-      <tr>
-        <td>{{ a.hostname }}</td>
-        <td>{{ a.action_name }}</td>
-        <td>{{ a.performed_by }}</td>
-        <td>{{ a.performed_at }}</td>
-        <td>{{ a.notes }}</td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+<table id="actions-table">
+  <thead>
+    <tr>
+      <th>📡 السكتور</th>
+      <th>🛠️ نوع العملية</th>
+      <th>👷‍♂️ المهندس</th>
+      <th>🕒 التاريخ</th>
+      <th>📝 ملاحظات</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for a in actions %}
+    <tr>
+      <td>{{ a.hostname }}</td>
+      <td>{{ a.action_name }}</td>
+      <td>{{ a.performed_by }}</td>
+      <td>{{ a.performed_at }}</td>
+      <td>{{ a.notes }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
-  <script>
-    document.getElementById('branch-select').addEventListener('change', function () {
-      const selected = this.value;
+<script>
+  document.getElementById('branch-select').addEventListener('change', function () {
+    const selected = this.value;
 
-      // Filter sectors
-      document.querySelectorAll('#sector-select option').forEach(opt => {
-        opt.style.display = (opt.dataset.branch === selected || opt.value === "") ? 'block' : 'none';
-      });
-
-      // Filter staff
-      document.querySelectorAll('#staff-select option').forEach(opt => {
-        opt.style.display = (opt.dataset.branch === selected || opt.value === "") ? 'block' : 'none';
-      });
-
-      // Reset selections
-      document.getElementById('sector-select').value = "";
-      document.getElementById('staff-select').value = "";
+    // Filter sectors
+    document.querySelectorAll('#sector-select option').forEach(opt => {
+      opt.style.display = (opt.dataset.branch === selected || opt.value === "") ? 'block' : 'none';
     });
-  </script>
 
-</body>
-</html>
+    // Filter staff
+    document.querySelectorAll('#staff-select option').forEach(opt => {
+      opt.style.display = (opt.dataset.branch === selected || opt.value === "") ? 'block' : 'none';
+    });
+
+    // Reset selections
+    document.getElementById('sector-select').value = "";
+    document.getElementById('staff-select').value = "";
+  });
+</script>
+{% endblock %}
