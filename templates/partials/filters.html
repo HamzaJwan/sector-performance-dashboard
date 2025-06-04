@@ -1,0 +1,28 @@
+<div class="filters-container">
+  <form method="GET" action="/" style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center;">
+    
+    <label for="branch">الفرع:</label>
+    <select name="branch" id="branch">
+      <option value="">الكل</option>
+      {% for branch in branches %}
+        <option value="{{ branch }}" {% if branch == selected_branch %}selected{% endif %}>{{ branch }}</option>
+      {% endfor %}
+    </select>
+
+    <label for="evaluation">التقييم:</label>
+    <select name="evaluation" id="evaluation">
+      <option value="">الكل</option>
+      {% for ev in evaluations %}
+        <option value="{{ ev }}" {% if ev == selected_eval %}selected{% endif %}>{{ ev }}</option>
+      {% endfor %}
+    </select>
+
+    <label for="start_date">من:</label>
+    <input type="date" name="start_date" value="{{ start_date }}">
+
+    <label for="end_date">إلى:</label>
+    <input type="date" name="end_date" value="{{ end_date }}">
+
+    <button type="submit">🔍 تصفية</button>
+  </form>
+</div>
