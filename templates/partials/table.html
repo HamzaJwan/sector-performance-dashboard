@@ -1,0 +1,107 @@
+<div class="table-container">
+  <table id="sector-table" class="display nowrap" style="width:100%">
+    <thead>
+      <tr>
+        <th style="background-color:#e0f7fa; color:#007b8a">اسم السكتور 📈</th>
+        <th>الفرع 📍</th>
+        <th>IP 🌐</th>
+        <th>التردد 📶</th>
+        <th>النسخة 🧠</th>
+        <th>مدة التشغيل ⏱</th>
+        <th>التقييم ⚠️</th>
+        <th>أعلى عدد عملاء 👥</th>
+        <th>متوسط السرعة (Mbps) 📊</th>
+        <th>أقصى سرعة 🚀</th>
+        <th>الوقت ⏰</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in stats %}
+      <tr>
+        <td style="background-color:#e0f7fa; font-weight:bold; color:#007b8a">{{ row.hostname }}</td>
+        <td>{{ row.branch }}</td>
+        <td>{{ row.ip }}</td>
+        <td>{{ row.frequency if row.frequency else '-' }}</td>
+        <td>{{ row.firmware_version }}</td>
+        <td>
+          {% set total_seconds = row.uptime|int %}
+          {% set days = total_seconds // 86400 %}
+          {% set hours = (total_seconds % 86400) // 3600 %}
+          {% set minutes = (total_seconds % 3600) // 60 %}
+          {% if days > 0 %}{{ days }}ي {{ hours }}س {{ minutes }}د{% elif hours > 0 %}{{ hours }}س {{ minutes }}د{% else %}{{ minutes }}د{% endif %}
+        </td>
+        <td>{{ row.evaluation }}</td>
+        <td>{{ '{:.1f}'.format(row.max_clients or 0) }}</td>
+        <td>{{ '{:.2f}'.format(row.avg_mbps or 0) }}</td>
+        <td>{{ '{:.2f}'.format(row.max_mbps or 0) }}</td>
+        <td>{{ row.timestamp.strftime('%Y-%m-%d %H:%M') }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+$(document).ready(function() {
+  const table = $('#sector-table').DataTable({
+    autoWidth: false,
+    colReorder: true,
+    dom: 'Bfltip',
+    buttons: [
+      {
+        extend: 'colvis',
+        text: '📑 اختيار الأعمدة'
+      }
+    ],
+    lengthMenu: [[25, 50, 100], [25, 50, 100]],
+    language: {
+      url: "//cdn.datatables.net/plug-ins/1.13.4/i18n/ar.json"
+    },
+    responsive: false,
+    order: []
+  });
+
+  setTimeout(function () {
+    table.columns.adjust().draw(false);
+  }, 800);
+
+  $(window).on('resize', function () {
+    table.columns.adjust();
+  });
+
+  $('#sector-table').on('draw.dt', function () {
+    table.columns.adjust();
+  });
+});
+</script>
+
+<style>
+#sector-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: max-content;
+  min-width: 100%;
+  border: 1px solid #ccc;
+  table-layout: fixed;
+}
+
+#sector-table th, #sector-table td {
+  padding: 8px;
+  white-space: normal;
+  text-align: center;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+}
+
+#sector-table thead th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  white-space: normal;
+}
+</style>

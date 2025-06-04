@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>📊 مركز التقارير</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h2>📑 التقارير والتحليلات</h2>
+    <ul style="line-height: 2em;">
+        <li><a href="{{ url_for('reports.sector_history_selector') }}">📈 تقرير: تاريخ السكتور</a></li>
+        <li><a href="{{ url_for('reports.actions_summary') }}">🛠️ تقرير: ملخص عمليات الصيانة</a></li>
+        <li><a href="{{ url_for('reports.weekly') }}">📊 تقرير: الأداء الأسبوعي</a></li>
+    </ul>
+    <br>
+    <a href="/">⬅️ العودة إلى الصفحة الرئيسية</a>
+</body>
+</html>

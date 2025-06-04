@@ -1,0 +1,733 @@
+2025-06-01 17:12:28,823 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-01 17:12:28,823 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-01 17:12:28,825 - INFO -  * Restarting with stat
+2025-06-01 17:12:29,237 - WARNING -  * Debugger is active!
+2025-06-01 17:12:29,240 - INFO -  * Debugger PIN: 625-805-964
+2025-06-01 17:14:53,176 - INFO - package: mysql.connector.plugins
+2025-06-01 17:14:53,176 - INFO - plugin_name: mysql_native_password
+2025-06-01 17:14:53,178 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-01 17:14:53,230 - INFO - 127.0.0.1 - - [01/Jun/2025 17:14:53] "GET / HTTP/1.1" 200 -
+2025-06-01 17:14:53,329 - INFO - 127.0.0.1 - - [01/Jun/2025 17:14:53] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-01 17:14:53,871 - INFO - 127.0.0.1 - - [01/Jun/2025 17:14:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-01 17:15:15,997 - INFO - 127.0.0.1 - - [01/Jun/2025 17:15:15] "GET /?start_date=&end_date=&evaluation=&branch= HTTP/1.1" 200 -
+2025-06-01 17:15:16,067 - INFO - 127.0.0.1 - - [01/Jun/2025 17:15:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-01 17:15:45,960 - INFO - 127.0.0.1 - - [01/Jun/2025 17:15:45] "GET /?start_date=2025-05-31&end_date=2025-05-31&evaluation=&branch= HTTP/1.1" 200 -
+2025-06-01 17:15:46,011 - INFO - 127.0.0.1 - - [01/Jun/2025 17:15:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-01 17:15:57,219 - INFO - 127.0.0.1 - - [01/Jun/2025 17:15:57] "GET /?start_date=2025-05-30&end_date=2025-05-30&evaluation=&branch= HTTP/1.1" 200 -
+2025-06-01 17:15:57,281 - INFO - 127.0.0.1 - - [01/Jun/2025 17:15:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-01 17:22:43,427 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-01 17:22:43,428 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-01 17:22:43,429 - INFO -  * Restarting with stat
+2025-06-01 17:22:43,815 - WARNING -  * Debugger is active!
+2025-06-01 17:22:43,817 - INFO -  * Debugger PIN: 625-805-964
+2025-06-01 17:23:02,746 - INFO - package: mysql.connector.plugins
+2025-06-01 17:23:02,747 - INFO - plugin_name: mysql_native_password
+2025-06-01 17:23:02,748 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-01 17:23:02,839 - INFO - 127.0.0.1 - - [01/Jun/2025 17:23:02] "GET / HTTP/1.1" 200 -
+2025-06-01 17:23:02,981 - INFO - 127.0.0.1 - - [01/Jun/2025 17:23:02] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 14:13:37,554 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-02 14:13:37,554 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 14:13:37,555 - INFO -  * Restarting with stat
+2025-06-02 14:13:37,957 - WARNING -  * Debugger is active!
+2025-06-02 14:13:37,960 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 14:13:47,020 - INFO - 127.0.0.1 - - [02/Jun/2025 14:13:47] "[33mGET /actions HTTP/1.1[0m" 404 -
+2025-06-02 14:13:47,521 - INFO - 127.0.0.1 - - [02/Jun/2025 14:13:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-02 14:16:09,341 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\app.py', reloading
+2025-06-02 14:16:09,401 - INFO -  * Restarting with stat
+2025-06-02 14:16:09,861 - WARNING -  * Debugger is active!
+2025-06-02 14:16:09,864 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 14:17:46,071 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-02 14:17:46,071 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 14:17:46,072 - INFO -  * Restarting with stat
+2025-06-02 14:17:46,475 - WARNING -  * Debugger is active!
+2025-06-02 14:17:46,478 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 14:17:49,372 - INFO - package: mysql.connector.plugins
+2025-06-02 14:17:49,372 - INFO - plugin_name: mysql_native_password
+2025-06-02 14:17:49,373 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-02 14:17:49,422 - INFO - 127.0.0.1 - - [02/Jun/2025 14:17:49] "GET /actions HTTP/1.1" 200 -
+2025-06-02 14:17:49,507 - INFO - 127.0.0.1 - - [02/Jun/2025 14:17:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 14:24:39,441 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-02 14:24:39,517 - INFO -  * Restarting with stat
+2025-06-02 14:24:39,964 - WARNING -  * Debugger is active!
+2025-06-02 14:24:39,968 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 14:30:56,638 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\app.py', reloading
+2025-06-02 14:30:56,686 - INFO -  * Restarting with stat
+2025-06-02 14:30:57,154 - WARNING -  * Debugger is active!
+2025-06-02 14:30:57,156 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 14:31:03,793 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-02 14:31:03,793 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 14:31:03,794 - INFO -  * Restarting with stat
+2025-06-02 14:31:04,192 - WARNING -  * Debugger is active!
+2025-06-02 14:31:04,194 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 14:31:05,146 - INFO - 127.0.0.1 - - [02/Jun/2025 14:31:05] "[33mGET /reports/history HTTP/1.1[0m" 404 -
+2025-06-02 14:31:12,026 - INFO - 127.0.0.1 - - [02/Jun/2025 14:31:12] "[33mGET /reports/weekly HTTP/1.1[0m" 404 -
+2025-06-02 14:31:14,477 - INFO - 127.0.0.1 - - [02/Jun/2025 14:31:14] "[33mGET /reports/actions HTTP/1.1[0m" 404 -
+2025-06-02 14:33:20,357 - INFO - 127.0.0.1 - - [02/Jun/2025 14:33:20] "[33mGET /reports HTTP/1.1[0m" 404 -
+2025-06-02 14:33:27,824 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-02 14:33:27,825 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 14:33:27,826 - INFO -  * Restarting with stat
+2025-06-02 14:33:28,245 - WARNING -  * Debugger is active!
+2025-06-02 14:33:28,247 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 14:33:29,912 - INFO - 127.0.0.1 - - [02/Jun/2025 14:33:29] "[33mGET /reports HTTP/1.1[0m" 404 -
+2025-06-02 14:36:00,604 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-02 14:36:00,688 - INFO -  * Restarting with stat
+2025-06-02 14:36:01,251 - WARNING -  * Debugger is active!
+2025-06-02 14:36:01,253 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 14:36:06,948 - INFO - package: mysql.connector.plugins
+2025-06-02 14:36:06,948 - INFO - plugin_name: mysql_native_password
+2025-06-02 14:36:06,949 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-02 14:36:06,998 - INFO - 127.0.0.1 - - [02/Jun/2025 14:36:06] "GET /reports/weekly HTTP/1.1" 200 -
+2025-06-02 14:36:18,998 - INFO - 127.0.0.1 - - [02/Jun/2025 14:36:18] "GET /reports/sector-history HTTP/1.1" 200 -
+2025-06-02 14:36:32,565 - INFO - 127.0.0.1 - - [02/Jun/2025 14:36:32] "GET /reports/actions-summary HTTP/1.1" 200 -
+2025-06-02 14:36:50,246 - INFO - 127.0.0.1 - - [02/Jun/2025 14:36:50] "GET /reports/ HTTP/1.1" 200 -
+2025-06-02 14:36:50,367 - INFO - 127.0.0.1 - - [02/Jun/2025 14:36:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 14:36:56,237 - INFO - 127.0.0.1 - - [02/Jun/2025 14:36:56] "GET / HTTP/1.1" 200 -
+2025-06-02 14:36:56,311 - INFO - 127.0.0.1 - - [02/Jun/2025 14:36:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 14:40:08,226 - INFO - 127.0.0.1 - - [02/Jun/2025 14:40:08] "GET / HTTP/1.1" 200 -
+2025-06-02 14:40:08,276 - INFO - 127.0.0.1 - - [02/Jun/2025 14:40:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 14:40:11,376 - INFO - 127.0.0.1 - - [02/Jun/2025 14:40:11] "[32mGET /reports HTTP/1.1[0m" 308 -
+2025-06-02 14:40:11,386 - INFO - 127.0.0.1 - - [02/Jun/2025 14:40:11] "GET /reports/ HTTP/1.1" 200 -
+2025-06-02 14:40:11,434 - INFO - 127.0.0.1 - - [02/Jun/2025 14:40:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 14:40:14,828 - INFO - 127.0.0.1 - - [02/Jun/2025 14:40:14] "GET /reports/sector-history HTTP/1.1" 200 -
+2025-06-02 17:33:06,349 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-02 17:33:06,350 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 17:33:06,351 - INFO -  * Restarting with stat
+2025-06-02 17:33:06,747 - WARNING -  * Debugger is active!
+2025-06-02 17:33:06,749 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 17:36:23,585 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\dashboard.py', reloading
+2025-06-02 17:36:23,659 - INFO -  * Restarting with stat
+2025-06-02 18:06:01,033 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-02 18:06:01,034 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 18:06:01,035 - INFO -  * Restarting with stat
+2025-06-02 18:06:01,465 - WARNING -  * Debugger is active!
+2025-06-02 18:06:01,468 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 18:07:34,571 - INFO - package: mysql.connector.plugins
+2025-06-02 18:07:34,571 - INFO - plugin_name: mysql_native_password
+2025-06-02 18:07:34,573 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-02 18:07:34,633 - INFO - 127.0.0.1 - - [02/Jun/2025 18:07:34] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-06-02 18:07:34,777 - INFO - 127.0.0.1 - - [02/Jun/2025 18:07:34] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-06-02 18:07:34,821 - INFO - 127.0.0.1 - - [02/Jun/2025 18:07:34] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-06-02 18:07:35,210 - INFO - 127.0.0.1 - - [02/Jun/2025 18:07:35] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=CHEd6CORY4kpPB8xPAlP HTTP/1.1" 200 -
+2025-06-02 18:07:35,448 - INFO - 127.0.0.1 - - [02/Jun/2025 18:07:35] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-06-02 18:09:24,398 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\dashboard.py', reloading
+2025-06-02 18:09:24,453 - INFO -  * Restarting with stat
+2025-06-02 18:09:24,873 - WARNING -  * Debugger is active!
+2025-06-02 18:09:24,876 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 18:09:37,378 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-02 18:09:37,378 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 18:09:37,379 - INFO -  * Restarting with stat
+2025-06-02 18:09:37,787 - WARNING -  * Debugger is active!
+2025-06-02 18:09:37,790 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 18:09:49,376 - INFO - package: mysql.connector.plugins
+2025-06-02 18:09:49,376 - INFO - plugin_name: mysql_native_password
+2025-06-02 18:09:49,377 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-02 18:09:49,445 - INFO - 127.0.0.1 - - [02/Jun/2025 18:09:49] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-06-02 18:09:49,551 - INFO - 127.0.0.1 - - [02/Jun/2025 18:09:49] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-02 18:09:49,587 - INFO - 127.0.0.1 - - [02/Jun/2025 18:09:49] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-02 18:09:49,926 - INFO - 127.0.0.1 - - [02/Jun/2025 18:09:49] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=Lysqj5IPSJusA0mdrLe8 HTTP/1.1" 200 -
+2025-06-02 18:14:29,376 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\dashboard.py', reloading
+2025-06-02 18:14:29,427 - INFO -  * Restarting with stat
+2025-06-02 18:14:29,544 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\dashboard.py', reloading
+2025-06-02 18:14:29,609 - INFO -  * Restarting with stat
+2025-06-02 18:14:29,879 - WARNING -  * Debugger is active!
+2025-06-02 18:14:29,882 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 18:14:30,040 - WARNING -  * Debugger is active!
+2025-06-02 18:14:30,042 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 18:16:24,042 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-02 18:16:24,042 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 18:16:24,043 - INFO -  * Restarting with stat
+2025-06-02 18:16:24,432 - WARNING -  * Debugger is active!
+2025-06-02 18:16:24,434 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 18:16:29,186 - INFO - package: mysql.connector.plugins
+2025-06-02 18:16:29,186 - INFO - plugin_name: mysql_native_password
+2025-06-02 18:16:29,187 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-02 18:16:29,286 - INFO - 127.0.0.1 - - [02/Jun/2025 18:16:29] "GET / HTTP/1.1" 200 -
+2025-06-02 18:16:29,431 - INFO - 127.0.0.1 - - [02/Jun/2025 18:16:29] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 18:16:30,767 - INFO - 127.0.0.1 - - [02/Jun/2025 18:16:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-02 18:16:38,755 - INFO - 127.0.0.1 - - [02/Jun/2025 18:16:38] "GET /?branch=Tarhona HTTP/1.1" 200 -
+2025-06-02 18:16:38,808 - INFO - 127.0.0.1 - - [02/Jun/2025 18:16:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 18:16:51,934 - INFO - 127.0.0.1 - - [02/Jun/2025 18:16:51] "GET /?branch= HTTP/1.1" 200 -
+2025-06-02 18:16:52,153 - INFO - 127.0.0.1 - - [02/Jun/2025 18:16:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 18:17:10,365 - INFO - 127.0.0.1 - - [02/Jun/2025 18:17:10] "GET /?branch=Al+Khomes HTTP/1.1" 200 -
+2025-06-02 18:17:10,411 - INFO - 127.0.0.1 - - [02/Jun/2025 18:17:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 18:27:27,721 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-02 18:27:27,721 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 18:27:27,722 - INFO -  * Restarting with stat
+2025-06-02 18:27:28,127 - WARNING -  * Debugger is active!
+2025-06-02 18:27:28,129 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 18:27:36,198 - INFO - 127.0.0.1 - - [02/Jun/2025 18:27:36] "GET /?branch=Al+Khomes HTTP/1.1" 200 -
+2025-06-02 18:28:09,806 - INFO - 127.0.0.1 - - [02/Jun/2025 18:28:09] "[32mGET /reports HTTP/1.1[0m" 308 -
+2025-06-02 18:28:09,821 - INFO - 127.0.0.1 - - [02/Jun/2025 18:28:09] "GET /reports/ HTTP/1.1" 200 -
+2025-06-02 18:28:10,179 - INFO - 127.0.0.1 - - [02/Jun/2025 18:28:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 18:28:13,923 - INFO - 127.0.0.1 - - [02/Jun/2025 18:28:13] "GET /reports/sector-history HTTP/1.1" 200 -
+2025-06-02 18:31:44,399 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-02 18:31:44,399 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 18:31:44,400 - INFO -  * Restarting with stat
+2025-06-02 18:31:44,793 - WARNING -  * Debugger is active!
+2025-06-02 18:31:44,795 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 18:31:52,318 - INFO - 127.0.0.1 - - [02/Jun/2025 18:31:52] "GET /?branch=Al+Khomes HTTP/1.1" 200 -
+2025-06-02 18:42:52,760 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-02 18:42:52,760 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 18:42:52,762 - INFO -  * Restarting with stat
+2025-06-02 18:42:53,185 - WARNING -  * Debugger is active!
+2025-06-02 18:42:53,187 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 18:43:05,329 - INFO - 127.0.0.1 - - [02/Jun/2025 18:43:05] "GET /?branch=Al+Khomes HTTP/1.1" 200 -
+2025-06-02 18:47:23,360 - INFO - 127.0.0.1 - - [02/Jun/2025 18:47:23] "GET /?branch=&status=\u0628\u0644\u0627+\u0628\u064a\u0627\u0646\u0627\u062a&start_date=2025-06-01&end_date=2025-06-01 HTTP/1.1" 200 -
+2025-06-02 18:47:37,124 - INFO - 127.0.0.1 - - [02/Jun/2025 18:47:37] "GET /?branch=Tarhona&status=&start_date=2025-06-01&end_date=2025-06-01 HTTP/1.1" 200 -
+2025-06-02 18:48:21,562 - INFO - 127.0.0.1 - - [02/Jun/2025 18:48:21] "GET /?branch=Tarhona&status=\u064a\u062d\u062a\u0627\u062c+\u062f\u0639\u0645&start_date=&end_date= HTTP/1.1" 200 -
+2025-06-02 18:58:37,099 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-02 18:58:37,099 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 18:58:37,101 - INFO -  * Restarting with stat
+2025-06-02 18:58:37,533 - WARNING -  * Debugger is active!
+2025-06-02 18:58:37,536 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 18:58:42,218 - INFO - 127.0.0.1 - - [02/Jun/2025 18:58:42] "[35m[1mGET /?branch=Tarhona&status=\u064a\u062d\u062a\u0627\u062c+\u062f\u0639\u0645&start_date=&end_date= HTTP/1.1[0m" 500 -
+2025-06-02 18:58:42,256 - INFO - 127.0.0.1 - - [02/Jun/2025 18:58:42] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-02 18:58:42,360 - INFO - 127.0.0.1 - - [02/Jun/2025 18:58:42] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-02 18:58:42,717 - INFO - 127.0.0.1 - - [02/Jun/2025 18:58:42] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=6OPxggzyXbQsH4vyYhoH HTTP/1.1" 200 -
+2025-06-02 18:58:42,968 - INFO - 127.0.0.1 - - [02/Jun/2025 18:58:42] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-06-02 19:05:19,086 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\dashboard.py', reloading
+2025-06-02 19:05:19,154 - INFO -  * Restarting with stat
+2025-06-02 19:05:19,593 - WARNING -  * Debugger is active!
+2025-06-02 19:05:19,595 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 19:05:19,599 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\dashboard.py', reloading
+2025-06-02 19:05:19,670 - INFO -  * Restarting with stat
+2025-06-02 19:05:20,085 - WARNING -  * Debugger is active!
+2025-06-02 19:05:20,088 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 19:05:20,634 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\dashboard.py', reloading
+2025-06-02 19:05:20,697 - INFO -  * Restarting with stat
+2025-06-02 19:05:21,101 - WARNING -  * Debugger is active!
+2025-06-02 19:05:21,103 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 19:05:44,722 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-02 19:05:44,722 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 19:05:44,723 - INFO -  * Restarting with stat
+2025-06-02 19:05:45,107 - WARNING -  * Debugger is active!
+2025-06-02 19:05:45,110 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 19:05:50,777 - INFO - package: mysql.connector.plugins
+2025-06-02 19:05:50,778 - INFO - plugin_name: mysql_native_password
+2025-06-02 19:05:50,779 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-02 19:05:50,827 - INFO - 127.0.0.1 - - [02/Jun/2025 19:05:50] "GET /?branch=Tarhona&status=\u064a\u062d\u062a\u0627\u062c+\u062f\u0639\u0645&start_date=&end_date= HTTP/1.1" 200 -
+2025-06-02 19:07:57,714 - INFO - 127.0.0.1 - - [02/Jun/2025 19:07:57] "GET /?branch=&evaluation=&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-02 19:13:19,346 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-02 19:13:19,346 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 19:13:19,347 - INFO -  * Restarting with stat
+2025-06-02 19:13:19,809 - WARNING -  * Debugger is active!
+2025-06-02 19:13:19,812 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 19:13:24,343 - INFO - 127.0.0.1 - - [02/Jun/2025 19:13:24] "GET /?branch=&evaluation=&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-02 19:14:02,103 - INFO - 127.0.0.1 - - [02/Jun/2025 19:14:02] "GET /?branch=&evaluation=&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-02 19:15:27,120 - INFO - 127.0.0.1 - - [02/Jun/2025 19:15:27] "GET /?branch=&evaluation=\U0001f535+\u064a\u062d\u062a\u0627\u062c+\u062f\u0639\u0645&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-02 19:16:53,611 - INFO - 127.0.0.1 - - [02/Jun/2025 19:16:53] "GET /?branch=&evaluation=&start_date=2025-06-01&end_date=2025-06-01 HTTP/1.1" 200 -
+2025-06-02 19:18:41,870 - INFO - 127.0.0.1 - - [02/Jun/2025 19:18:41] "GET /?branch=&evaluation=&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-02 19:23:10,992 - INFO - 127.0.0.1 - - [02/Jun/2025 19:23:10] "GET /?branch=&evaluation=&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-02 19:23:33,337 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-02 19:23:33,337 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 19:23:33,339 - INFO -  * Restarting with stat
+2025-06-02 19:23:33,789 - WARNING -  * Debugger is active!
+2025-06-02 19:23:33,791 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 19:23:36,598 - INFO - 127.0.0.1 - - [02/Jun/2025 19:23:36] "GET /?branch=&evaluation=&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-02 19:27:11,141 - INFO - 127.0.0.1 - - [02/Jun/2025 19:27:11] "GET /?branch=&evaluation=&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-02 19:27:13,558 - INFO - 127.0.0.1 - - [02/Jun/2025 19:27:13] "GET / HTTP/1.1" 200 -
+2025-06-02 19:27:14,769 - INFO - 127.0.0.1 - - [02/Jun/2025 19:27:14] "GET /reports/ HTTP/1.1" 200 -
+2025-06-02 19:27:15,104 - INFO - 127.0.0.1 - - [02/Jun/2025 19:27:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 19:27:19,235 - INFO - 127.0.0.1 - - [02/Jun/2025 19:27:19] "GET / HTTP/1.1" 200 -
+2025-06-02 19:27:20,932 - INFO - 127.0.0.1 - - [02/Jun/2025 19:27:20] "GET /actions HTTP/1.1" 200 -
+2025-06-02 19:27:20,981 - INFO - 127.0.0.1 - - [02/Jun/2025 19:27:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 19:27:24,252 - INFO - 127.0.0.1 - - [02/Jun/2025 19:27:24] "GET / HTTP/1.1" 200 -
+2025-06-02 19:30:43,016 - INFO - 127.0.0.1 - - [02/Jun/2025 19:30:43] "GET / HTTP/1.1" 200 -
+2025-06-02 19:33:44,489 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-02 19:33:44,489 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 19:33:44,492 - INFO -  * Restarting with stat
+2025-06-02 19:33:44,945 - WARNING -  * Debugger is active!
+2025-06-02 19:33:44,947 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 19:33:47,002 - INFO - 127.0.0.1 - - [02/Jun/2025 19:33:47] "GET / HTTP/1.1" 200 -
+2025-06-02 21:35:20,591 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-02 21:35:20,591 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 21:35:20,593 - INFO -  * Restarting with stat
+2025-06-02 21:35:21,039 - WARNING -  * Debugger is active!
+2025-06-02 21:35:21,042 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 21:35:23,673 - INFO - 127.0.0.1 - - [02/Jun/2025 21:35:23] "GET / HTTP/1.1" 200 -
+2025-06-02 21:44:04,921 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\dashboard.py', reloading
+2025-06-02 21:44:04,996 - INFO -  * Restarting with stat
+2025-06-02 21:44:05,150 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\dashboard.py', reloading
+2025-06-02 21:44:05,227 - INFO -  * Restarting with stat
+2025-06-02 21:44:05,460 - WARNING -  * Debugger is active!
+2025-06-02 21:44:05,463 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 21:44:05,655 - WARNING -  * Debugger is active!
+2025-06-02 21:44:05,658 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 21:44:58,593 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-02 21:44:58,593 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 21:44:58,595 - INFO -  * Restarting with stat
+2025-06-02 21:44:59,019 - WARNING -  * Debugger is active!
+2025-06-02 21:44:59,021 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 21:45:04,601 - INFO - package: mysql.connector.plugins
+2025-06-02 21:45:04,601 - INFO - plugin_name: mysql_native_password
+2025-06-02 21:45:04,602 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-02 21:45:04,691 - INFO - 127.0.0.1 - - [02/Jun/2025 21:45:04] "GET / HTTP/1.1" 200 -
+2025-06-02 21:45:52,508 - INFO - 127.0.0.1 - - [02/Jun/2025 21:45:52] "GET /?branch=&evaluation=\U0001f7e1+\u0645\u062a\u0630\u0628\u0630\u0628&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-02 21:45:58,975 - INFO - 127.0.0.1 - - [02/Jun/2025 21:45:58] "GET /?branch=&evaluation=&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-02 21:58:19,747 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-02 21:58:19,748 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 21:58:19,750 - INFO -  * Restarting with stat
+2025-06-02 21:58:20,136 - WARNING -  * Debugger is active!
+2025-06-02 21:58:20,139 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 21:58:24,891 - INFO - 127.0.0.1 - - [02/Jun/2025 21:58:24] "GET / HTTP/1.1" 200 -
+2025-06-02 22:01:22,576 - INFO - 127.0.0.1 - - [02/Jun/2025 22:01:22] "[33mGET /"//" HTTP/1.1[0m" 404 -
+2025-06-02 22:01:24,910 - INFO - 127.0.0.1 - - [02/Jun/2025 22:01:24] "[33mGET /"//" HTTP/1.1[0m" 404 -
+2025-06-02 22:01:34,334 - INFO - 127.0.0.1 - - [02/Jun/2025 22:01:34] "[33mGET /"/reports/" HTTP/1.1[0m" 404 -
+2025-06-02 22:01:35,919 - INFO - 127.0.0.1 - - [02/Jun/2025 22:01:35] "[33mGET /"/actions/" HTTP/1.1[0m" 404 -
+2025-06-02 22:02:00,537 - INFO - 127.0.0.1 - - [02/Jun/2025 22:02:00] "[33mGET /"//" HTTP/1.1[0m" 404 -
+2025-06-02 22:02:11,466 - INFO - 127.0.0.1 - - [02/Jun/2025 22:02:11] "[33mGET /"/reports/" HTTP/1.1[0m" 404 -
+2025-06-02 22:02:23,118 - INFO - 127.0.0.1 - - [02/Jun/2025 22:02:23] "GET /reports/ HTTP/1.1" 200 -
+2025-06-02 22:02:23,459 - INFO - 127.0.0.1 - - [02/Jun/2025 22:02:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 22:04:16,947 - INFO - 127.0.0.1 - - [02/Jun/2025 22:04:16] "[33mGET /"/reports/" HTTP/1.1[0m" 404 -
+2025-06-02 22:04:20,399 - INFO - 127.0.0.1 - - [02/Jun/2025 22:04:20] "[33mGET /"//" HTTP/1.1[0m" 404 -
+2025-06-02 22:04:22,724 - INFO - 127.0.0.1 - - [02/Jun/2025 22:04:22] "[33mGET /"/reports/" HTTP/1.1[0m" 404 -
+2025-06-02 22:06:06,925 - INFO - 127.0.0.1 - - [02/Jun/2025 22:06:06] "GET / HTTP/1.1" 200 -
+2025-06-02 22:06:07,940 - INFO - 127.0.0.1 - - [02/Jun/2025 22:06:07] "GET / HTTP/1.1" 200 -
+2025-06-02 22:06:09,114 - INFO - 127.0.0.1 - - [02/Jun/2025 22:06:09] "GET /reports/ HTTP/1.1" 200 -
+2025-06-02 22:06:09,559 - INFO - 127.0.0.1 - - [02/Jun/2025 22:06:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 22:06:12,617 - INFO - 127.0.0.1 - - [02/Jun/2025 22:06:12] "GET /actions HTTP/1.1" 200 -
+2025-06-02 22:06:12,667 - INFO - 127.0.0.1 - - [02/Jun/2025 22:06:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 22:09:32,443 - INFO - 127.0.0.1 - - [02/Jun/2025 22:09:32] "GET / HTTP/1.1" 200 -
+2025-06-02 22:11:37,249 - INFO - 127.0.0.1 - - [02/Jun/2025 22:11:37] "GET / HTTP/1.1" 200 -
+2025-06-02 22:13:29,589 - INFO - 127.0.0.1 - - [02/Jun/2025 22:13:29] "GET / HTTP/1.1" 200 -
+2025-06-02 22:14:44,129 - INFO - 127.0.0.1 - - [02/Jun/2025 22:14:44] "GET / HTTP/1.1" 200 -
+2025-06-02 22:15:40,995 - INFO - 127.0.0.1 - - [02/Jun/2025 22:15:40] "GET / HTTP/1.1" 200 -
+2025-06-02 22:19:56,333 - INFO - 127.0.0.1 - - [02/Jun/2025 22:19:56] "GET / HTTP/1.1" 200 -
+2025-06-02 22:20:00,422 - INFO - 127.0.0.1 - - [02/Jun/2025 22:20:00] "GET / HTTP/1.1" 200 -
+2025-06-02 22:20:06,840 - INFO - 127.0.0.1 - - [02/Jun/2025 22:20:06] "GET / HTTP/1.1" 200 -
+2025-06-02 22:20:38,691 - INFO - 127.0.0.1 - - [02/Jun/2025 22:20:38] "GET / HTTP/1.1" 200 -
+2025-06-02 22:24:58,689 - INFO - 127.0.0.1 - - [02/Jun/2025 22:24:58] "GET / HTTP/1.1" 200 -
+2025-06-02 22:25:06,575 - INFO - 127.0.0.1 - - [02/Jun/2025 22:25:06] "GET / HTTP/1.1" 200 -
+2025-06-02 22:25:23,320 - INFO - 127.0.0.1 - - [02/Jun/2025 22:25:23] "GET / HTTP/1.1" 200 -
+2025-06-02 22:25:26,014 - INFO - 127.0.0.1 - - [02/Jun/2025 22:25:26] "GET / HTTP/1.1" 200 -
+2025-06-02 22:25:37,805 - INFO - 127.0.0.1 - - [02/Jun/2025 22:25:37] "GET /reports/ HTTP/1.1" 200 -
+2025-06-02 22:25:38,108 - INFO - 127.0.0.1 - - [02/Jun/2025 22:25:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 22:25:40,169 - INFO - 127.0.0.1 - - [02/Jun/2025 22:25:40] "GET /reports/ HTTP/1.1" 200 -
+2025-06-02 22:25:40,207 - INFO - 127.0.0.1 - - [02/Jun/2025 22:25:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 22:26:01,041 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-02 22:26:01,041 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 22:26:01,043 - INFO -  * Restarting with stat
+2025-06-02 22:26:01,450 - WARNING -  * Debugger is active!
+2025-06-02 22:26:01,453 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 22:26:03,600 - INFO - 127.0.0.1 - - [02/Jun/2025 22:26:03] "GET /reports/ HTTP/1.1" 200 -
+2025-06-02 22:26:03,682 - INFO - 127.0.0.1 - - [02/Jun/2025 22:26:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 22:26:06,160 - INFO - package: mysql.connector.plugins
+2025-06-02 22:26:06,160 - INFO - plugin_name: mysql_native_password
+2025-06-02 22:26:06,161 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-02 22:26:06,240 - INFO - 127.0.0.1 - - [02/Jun/2025 22:26:06] "GET / HTTP/1.1" 200 -
+2025-06-02 22:28:42,994 - INFO - 127.0.0.1 - - [02/Jun/2025 22:28:42] "GET / HTTP/1.1" 200 -
+2025-06-02 22:31:16,408 - INFO - 127.0.0.1 - - [02/Jun/2025 22:31:16] "GET / HTTP/1.1" 200 -
+2025-06-02 22:34:04,036 - INFO - 127.0.0.1 - - [02/Jun/2025 22:34:04] "GET / HTTP/1.1" 200 -
+2025-06-02 22:34:13,672 - INFO - 127.0.0.1 - - [02/Jun/2025 22:34:13] "GET / HTTP/1.1" 200 -
+2025-06-02 22:34:16,480 - INFO - 127.0.0.1 - - [02/Jun/2025 22:34:16] "GET / HTTP/1.1" 200 -
+2025-06-02 22:37:36,080 - INFO - 127.0.0.1 - - [02/Jun/2025 22:37:36] "GET / HTTP/1.1" 200 -
+2025-06-02 22:38:19,893 - INFO - 127.0.0.1 - - [02/Jun/2025 22:38:19] "GET / HTTP/1.1" 200 -
+2025-06-02 22:39:45,174 - INFO - 127.0.0.1 - - [02/Jun/2025 22:39:45] "GET / HTTP/1.1" 200 -
+2025-06-02 22:39:49,645 - INFO - 127.0.0.1 - - [02/Jun/2025 22:39:49] "GET / HTTP/1.1" 200 -
+2025-06-02 22:39:57,213 - INFO - 127.0.0.1 - - [02/Jun/2025 22:39:57] "GET / HTTP/1.1" 200 -
+2025-06-02 22:40:06,197 - INFO - 127.0.0.1 - - [02/Jun/2025 22:40:06] "GET / HTTP/1.1" 200 -
+2025-06-02 22:43:06,656 - INFO - 127.0.0.1 - - [02/Jun/2025 22:43:06] "GET / HTTP/1.1" 200 -
+2025-06-02 22:47:12,817 - INFO - 127.0.0.1 - - [02/Jun/2025 22:47:12] "GET / HTTP/1.1" 200 -
+2025-06-02 22:50:14,781 - INFO - 127.0.0.1 - - [02/Jun/2025 22:50:14] "GET / HTTP/1.1" 200 -
+2025-06-02 22:59:18,325 - INFO - 127.0.0.1 - - [02/Jun/2025 22:59:18] "GET / HTTP/1.1" 200 -
+2025-06-02 22:59:34,875 - INFO - 127.0.0.1 - - [02/Jun/2025 22:59:34] "GET /?branch=&evaluation=&start_date=2025-06-01&end_date=2025-06-01 HTTP/1.1" 200 -
+2025-06-02 22:59:54,603 - INFO - 127.0.0.1 - - [02/Jun/2025 22:59:54] "GET /?branch=&evaluation=&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-02 23:00:35,357 - INFO - 127.0.0.1 - - [02/Jun/2025 23:00:35] "GET /?branch=&evaluation=&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-02 23:12:14,714 - INFO - 127.0.0.1 - - [02/Jun/2025 23:12:14] "GET /?branch=&evaluation=&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-02 23:12:23,197 - INFO - 127.0.0.1 - - [02/Jun/2025 23:12:23] "GET /actions HTTP/1.1" 200 -
+2025-06-02 23:20:42,854 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\admin.py', reloading
+2025-06-02 23:20:42,922 - INFO -  * Restarting with stat
+2025-06-02 23:20:43,415 - WARNING -  * Debugger is active!
+2025-06-02 23:20:43,418 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 23:20:44,459 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\admin.py', reloading
+2025-06-02 23:20:44,526 - INFO -  * Restarting with stat
+2025-06-02 23:20:44,938 - WARNING -  * Debugger is active!
+2025-06-02 23:20:44,940 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 23:20:54,055 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\admin.py', reloading
+2025-06-02 23:20:54,105 - INFO -  * Restarting with stat
+2025-06-02 23:20:54,695 - WARNING -  * Debugger is active!
+2025-06-02 23:20:54,698 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 23:22:03,365 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\app.py', reloading
+2025-06-02 23:22:03,426 - INFO -  * Restarting with stat
+2025-06-02 23:22:03,911 - WARNING -  * Debugger is active!
+2025-06-02 23:22:03,914 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 23:22:05,963 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\app.py', reloading
+2025-06-02 23:22:06,009 - INFO -  * Restarting with stat
+2025-06-02 23:22:06,408 - WARNING -  * Debugger is active!
+2025-06-02 23:22:06,411 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 23:35:09,361 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\admin.py', reloading
+2025-06-02 23:35:09,428 - INFO -  * Restarting with stat
+2025-06-02 23:35:09,855 - WARNING -  * Debugger is active!
+2025-06-02 23:35:09,858 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 23:39:15,431 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\actions.py', reloading
+2025-06-02 23:39:15,490 - INFO -  * Restarting with stat
+2025-06-02 23:39:15,928 - WARNING -  * Debugger is active!
+2025-06-02 23:39:15,931 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 23:39:16,971 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\actions.py', reloading
+2025-06-02 23:39:17,029 - INFO -  * Restarting with stat
+2025-06-02 23:39:17,478 - WARNING -  * Debugger is active!
+2025-06-02 23:39:17,481 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 23:40:44,303 - INFO - package: mysql.connector.plugins
+2025-06-02 23:40:44,303 - INFO - plugin_name: mysql_native_password
+2025-06-02 23:40:44,305 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-02 23:40:44,401 - INFO - 127.0.0.1 - - [02/Jun/2025 23:40:44] "GET /?branch=&evaluation=&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-02 23:40:46,783 - INFO - 127.0.0.1 - - [02/Jun/2025 23:40:46] "GET / HTTP/1.1" 200 -
+2025-06-02 23:40:48,119 - ERROR - \u062e\u0637\u0623 \u0641\u064a \u0635\u0641\u062d\u0629 \u0627\u0644\u0625\u062c\u0631\u0627\u0621\u0627\u062a: 1054 (42S22): Unknown column 'branch' in 'field list'
+2025-06-02 23:40:48,119 - INFO - 127.0.0.1 - - [02/Jun/2025 23:40:48] "GET /actions HTTP/1.1" 200 -
+2025-06-02 23:40:51,042 - INFO - 127.0.0.1 - - [02/Jun/2025 23:40:51] "GET / HTTP/1.1" 200 -
+2025-06-02 23:40:52,312 - INFO - 127.0.0.1 - - [02/Jun/2025 23:40:52] "GET /reports/ HTTP/1.1" 200 -
+2025-06-02 23:40:52,647 - INFO - 127.0.0.1 - - [02/Jun/2025 23:40:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 23:40:55,455 - ERROR - \u062e\u0637\u0623 \u0641\u064a \u0635\u0641\u062d\u0629 \u0627\u0644\u0625\u062c\u0631\u0627\u0621\u0627\u062a: 1054 (42S22): Unknown column 'branch' in 'field list'
+2025-06-02 23:40:55,456 - INFO - 127.0.0.1 - - [02/Jun/2025 23:40:55] "GET /actions HTTP/1.1" 200 -
+2025-06-02 23:42:45,703 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-02 23:42:45,703 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-02 23:42:45,705 - INFO -  * Restarting with stat
+2025-06-02 23:42:46,130 - WARNING -  * Debugger is active!
+2025-06-02 23:42:46,132 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 23:43:29,310 - INFO - package: mysql.connector.plugins
+2025-06-02 23:43:29,311 - INFO - plugin_name: mysql_native_password
+2025-06-02 23:43:29,312 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-02 23:43:29,405 - INFO - 127.0.0.1 - - [02/Jun/2025 23:43:29] "GET / HTTP/1.1" 200 -
+2025-06-02 23:43:32,089 - INFO - 127.0.0.1 - - [02/Jun/2025 23:43:32] "[33mGET /admin HTTP/1.1[0m" 404 -
+2025-06-02 23:47:01,574 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\admin.py', reloading
+2025-06-02 23:47:01,648 - INFO -  * Restarting with stat
+2025-06-02 23:47:02,093 - WARNING -  * Debugger is active!
+2025-06-02 23:47:02,096 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 23:47:07,284 - INFO - 127.0.0.1 - - [02/Jun/2025 23:47:07] "[32mGET /admin HTTP/1.1[0m" 308 -
+2025-06-02 23:47:07,388 - INFO - package: mysql.connector.plugins
+2025-06-02 23:47:07,388 - INFO - plugin_name: mysql_native_password
+2025-06-02 23:47:07,389 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-02 23:47:07,442 - ERROR - admin_panel error: 1054 (42S22): Unknown column 'rule_type' in 'order clause'
+2025-06-02 23:47:07,442 - INFO - 127.0.0.1 - - [02/Jun/2025 23:47:07] "GET /admin/ HTTP/1.1" 200 -
+2025-06-02 23:52:16,258 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\admin.py', reloading
+2025-06-02 23:52:16,327 - INFO -  * Restarting with stat
+2025-06-02 23:52:16,772 - WARNING -  * Debugger is active!
+2025-06-02 23:52:16,774 - INFO -  * Debugger PIN: 625-805-964
+2025-06-02 23:52:31,043 - INFO - package: mysql.connector.plugins
+2025-06-02 23:52:31,043 - INFO - plugin_name: mysql_native_password
+2025-06-02 23:52:31,045 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-02 23:52:31,064 - ERROR - admin_panel error: 1054 (42S22): Unknown column 'rule_type' in 'order clause'
+2025-06-02 23:52:31,065 - INFO - 127.0.0.1 - - [02/Jun/2025 23:52:31] "GET /admin/ HTTP/1.1" 200 -
+2025-06-02 23:52:33,572 - INFO - 127.0.0.1 - - [02/Jun/2025 23:52:33] "GET / HTTP/1.1" 200 -
+2025-06-02 23:52:35,482 - ERROR - admin_panel error: 1054 (42S22): Unknown column 'rule_type' in 'order clause'
+2025-06-02 23:52:35,483 - INFO - 127.0.0.1 - - [02/Jun/2025 23:52:35] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:01:54,534 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\collect_stats.py', reloading
+2025-06-03 00:01:54,604 - INFO -  * Restarting with stat
+2025-06-03 00:01:55,019 - WARNING -  * Debugger is active!
+2025-06-03 00:01:55,021 - INFO -  * Debugger PIN: 625-805-964
+2025-06-03 00:07:38,613 - INFO - package: mysql.connector.plugins
+2025-06-03 00:07:38,614 - INFO - plugin_name: mysql_native_password
+2025-06-03 00:07:38,615 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-03 00:07:38,637 - ERROR - admin_panel error: 1054 (42S22): Unknown column 'rule_type' in 'order clause'
+2025-06-03 00:07:38,638 - INFO - 127.0.0.1 - - [03/Jun/2025 00:07:38] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:07:42,108 - INFO - 127.0.0.1 - - [03/Jun/2025 00:07:42] "GET / HTTP/1.1" 200 -
+2025-06-03 00:07:46,549 - INFO - 127.0.0.1 - - [03/Jun/2025 00:07:46] "GET /reports/ HTTP/1.1" 200 -
+2025-06-03 00:07:46,901 - INFO - 127.0.0.1 - - [03/Jun/2025 00:07:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:08:00,952 - ERROR - \u062e\u0637\u0623 \u0641\u064a \u0635\u0641\u062d\u0629 \u0627\u0644\u0625\u062c\u0631\u0627\u0621\u0627\u062a: 1054 (42S22): Unknown column 'branch' in 'field list'
+2025-06-03 00:08:00,953 - INFO - 127.0.0.1 - - [03/Jun/2025 00:08:00] "GET /actions HTTP/1.1" 200 -
+2025-06-03 00:08:04,141 - ERROR - admin_panel error: 1054 (42S22): Unknown column 'rule_type' in 'order clause'
+2025-06-03 00:08:04,142 - INFO - 127.0.0.1 - - [03/Jun/2025 00:08:04] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:08:05,995 - ERROR - \u062e\u0637\u0623 \u0641\u064a \u0635\u0641\u062d\u0629 \u0627\u0644\u0625\u062c\u0631\u0627\u0621\u0627\u062a: 1054 (42S22): Unknown column 'branch' in 'field list'
+2025-06-03 00:08:05,996 - INFO - 127.0.0.1 - - [03/Jun/2025 00:08:05] "GET /actions HTTP/1.1" 200 -
+2025-06-03 00:08:17,144 - ERROR - admin_panel error: 1054 (42S22): Unknown column 'rule_type' in 'order clause'
+2025-06-03 00:08:17,145 - INFO - 127.0.0.1 - - [03/Jun/2025 00:08:17] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:12:51,458 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\admin.py', reloading
+2025-06-03 00:12:51,535 - INFO -  * Restarting with stat
+2025-06-03 00:12:51,995 - WARNING -  * Debugger is active!
+2025-06-03 00:12:51,998 - INFO -  * Debugger PIN: 625-805-964
+2025-06-03 00:14:15,873 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\actions.py', reloading
+2025-06-03 00:14:15,931 - INFO -  * Restarting with stat
+2025-06-03 00:14:16,370 - WARNING -  * Debugger is active!
+2025-06-03 00:14:16,372 - INFO -  * Debugger PIN: 625-805-964
+2025-06-03 00:14:19,713 - INFO - package: mysql.connector.plugins
+2025-06-03 00:14:19,713 - INFO - plugin_name: mysql_native_password
+2025-06-03 00:14:19,714 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-03 00:14:19,743 - ERROR - admin_panel error: base.html
+2025-06-03 00:14:19,744 - INFO - 127.0.0.1 - - [03/Jun/2025 00:14:19] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:14:22,966 - INFO - 127.0.0.1 - - [03/Jun/2025 00:14:22] "GET / HTTP/1.1" 200 -
+2025-06-03 00:14:24,495 - INFO - 127.0.0.1 - - [03/Jun/2025 00:14:24] "GET /actions HTTP/1.1" 200 -
+2025-06-03 00:14:24,778 - INFO - 127.0.0.1 - - [03/Jun/2025 00:14:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:14:43,149 - ERROR - admin_panel error: base.html
+2025-06-03 00:14:43,149 - INFO - 127.0.0.1 - - [03/Jun/2025 00:14:43] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:21:19,841 - INFO - 127.0.0.1 - - [03/Jun/2025 00:21:19] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:21:19,907 - INFO - 127.0.0.1 - - [03/Jun/2025 00:21:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:21:54,446 - INFO - 127.0.0.1 - - [03/Jun/2025 00:21:54] "[33mPOST /admin/add_branch HTTP/1.1[0m" 404 -
+2025-06-03 00:27:34,709 - INFO - 127.0.0.1 - - [03/Jun/2025 00:27:34] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:27:34,752 - INFO - 127.0.0.1 - - [03/Jun/2025 00:27:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:28:25,046 - INFO - 127.0.0.1 - - [03/Jun/2025 00:28:25] "[33mPOST /admin/add_action_type HTTP/1.1[0m" 404 -
+2025-06-03 00:30:50,191 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\admin.py', reloading
+2025-06-03 00:30:50,256 - INFO -  * Restarting with stat
+2025-06-03 00:30:50,733 - WARNING -  * Debugger is active!
+2025-06-03 00:30:50,735 - INFO -  * Debugger PIN: 625-805-964
+2025-06-03 00:30:53,792 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\admin.py', reloading
+2025-06-03 00:30:53,860 - INFO -  * Restarting with stat
+2025-06-03 00:30:54,249 - WARNING -  * Debugger is active!
+2025-06-03 00:30:54,251 - INFO -  * Debugger PIN: 625-805-964
+2025-06-03 00:30:56,622 - INFO - package: mysql.connector.plugins
+2025-06-03 00:30:56,622 - INFO - plugin_name: mysql_native_password
+2025-06-03 00:30:56,623 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-03 00:30:56,655 - ERROR - add_action_type error: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2025-06-03 00:30:56,663 - INFO - 127.0.0.1 - - [03/Jun/2025 00:30:56] "[35m[1mPOST /admin/add_action_type HTTP/1.1[0m" 500 -
+2025-06-03 00:30:56,771 - INFO - 127.0.0.1 - - [03/Jun/2025 00:30:56] "GET /admin/add_action_type?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-06-03 00:30:56,799 - INFO - 127.0.0.1 - - [03/Jun/2025 00:30:56] "GET /admin/add_action_type?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-06-03 00:30:57,176 - INFO - 127.0.0.1 - - [03/Jun/2025 00:30:57] "GET /admin/add_action_type?__debugger__=yes&cmd=resource&f=console.png&s=3CJEC2j3iaow2HxjNB60 HTTP/1.1" 200 -
+2025-06-03 00:30:57,432 - INFO - 127.0.0.1 - - [03/Jun/2025 00:30:57] "GET /admin/add_action_type?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-06-03 00:31:00,240 - INFO - 127.0.0.1 - - [03/Jun/2025 00:31:00] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:31:00,519 - INFO - 127.0.0.1 - - [03/Jun/2025 00:31:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:31:01,585 - INFO - 127.0.0.1 - - [03/Jun/2025 00:31:01] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:31:01,702 - INFO - 127.0.0.1 - - [03/Jun/2025 00:31:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:31:03,403 - INFO - 127.0.0.1 - - [03/Jun/2025 00:31:03] "GET / HTTP/1.1" 200 -
+2025-06-03 00:31:05,251 - INFO - 127.0.0.1 - - [03/Jun/2025 00:31:05] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:31:05,524 - INFO - 127.0.0.1 - - [03/Jun/2025 00:31:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:31:06,669 - INFO - 127.0.0.1 - - [03/Jun/2025 00:31:06] "GET /actions HTTP/1.1" 200 -
+2025-06-03 00:31:06,775 - INFO - 127.0.0.1 - - [03/Jun/2025 00:31:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:31:29,546 - ERROR - add_staff error: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2025-06-03 00:31:29,560 - INFO - 127.0.0.1 - - [03/Jun/2025 00:31:29] "[35m[1mPOST /admin/add_staff HTTP/1.1[0m" 500 -
+2025-06-03 00:31:29,821 - INFO - 127.0.0.1 - - [03/Jun/2025 00:31:29] "GET /admin/add_staff?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-06-03 00:31:29,947 - INFO - 127.0.0.1 - - [03/Jun/2025 00:31:29] "GET /admin/add_staff?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-06-03 00:31:30,273 - INFO - 127.0.0.1 - - [03/Jun/2025 00:31:30] "GET /admin/add_staff?__debugger__=yes&cmd=resource&f=console.png&s=3CJEC2j3iaow2HxjNB60 HTTP/1.1" 200 -
+2025-06-03 00:31:30,541 - INFO - 127.0.0.1 - - [03/Jun/2025 00:31:30] "GET /admin/add_staff?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-06-03 00:34:20,315 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\app.py', reloading
+2025-06-03 00:34:20,391 - INFO -  * Restarting with stat
+2025-06-03 00:34:20,864 - WARNING -  * Debugger is active!
+2025-06-03 00:34:20,867 - INFO -  * Debugger PIN: 625-805-964
+2025-06-03 00:34:25,957 - INFO - package: mysql.connector.plugins
+2025-06-03 00:34:25,958 - INFO - plugin_name: mysql_native_password
+2025-06-03 00:34:25,959 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-03 00:34:25,984 - INFO - 127.0.0.1 - - [03/Jun/2025 00:34:25] "[32mPOST /admin/add_staff HTTP/1.1[0m" 302 -
+2025-06-03 00:34:26,027 - INFO - 127.0.0.1 - - [03/Jun/2025 00:34:26] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:34:26,149 - INFO - 127.0.0.1 - - [03/Jun/2025 00:34:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:34:30,190 - INFO - 127.0.0.1 - - [03/Jun/2025 00:34:30] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:34:30,235 - INFO - 127.0.0.1 - - [03/Jun/2025 00:34:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:34:38,338 - INFO - 127.0.0.1 - - [03/Jun/2025 00:34:38] "[32mPOST /admin/add_staff HTTP/1.1[0m" 302 -
+2025-06-03 00:34:38,643 - INFO - 127.0.0.1 - - [03/Jun/2025 00:34:38] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:34:39,007 - INFO - 127.0.0.1 - - [03/Jun/2025 00:34:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:34:48,525 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-03 00:34:48,525 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 00:34:48,526 - INFO -  * Restarting with stat
+2025-06-03 00:34:48,906 - WARNING -  * Debugger is active!
+2025-06-03 00:34:48,909 - INFO -  * Debugger PIN: 625-805-964
+2025-06-03 00:34:55,602 - INFO - package: mysql.connector.plugins
+2025-06-03 00:34:55,603 - INFO - plugin_name: mysql_native_password
+2025-06-03 00:34:55,604 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-03 00:34:55,629 - INFO - 127.0.0.1 - - [03/Jun/2025 00:34:55] "[32mPOST /admin/add_staff HTTP/1.1[0m" 302 -
+2025-06-03 00:34:55,670 - INFO - 127.0.0.1 - - [03/Jun/2025 00:34:55] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:34:55,836 - INFO - 127.0.0.1 - - [03/Jun/2025 00:34:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:35:13,993 - INFO - 127.0.0.1 - - [03/Jun/2025 00:35:13] "[32mPOST /admin/add_branch HTTP/1.1[0m" 302 -
+2025-06-03 00:35:14,028 - INFO - 127.0.0.1 - - [03/Jun/2025 00:35:14] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:35:14,224 - INFO - 127.0.0.1 - - [03/Jun/2025 00:35:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:35:22,345 - INFO - 127.0.0.1 - - [03/Jun/2025 00:35:22] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:35:22,388 - INFO - 127.0.0.1 - - [03/Jun/2025 00:35:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:36:01,090 - INFO - 127.0.0.1 - - [03/Jun/2025 00:36:01] "GET / HTTP/1.1" 200 -
+2025-06-03 00:39:46,403 - INFO - 127.0.0.1 - - [03/Jun/2025 00:39:46] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:39:46,552 - INFO - 127.0.0.1 - - [03/Jun/2025 00:39:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:39:57,540 - INFO - 127.0.0.1 - - [03/Jun/2025 00:39:57] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:39:57,817 - INFO - 127.0.0.1 - - [03/Jun/2025 00:39:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:40:17,654 - INFO - 127.0.0.1 - - [03/Jun/2025 00:40:17] "[32mPOST /admin/add_action_type HTTP/1.1[0m" 302 -
+2025-06-03 00:40:17,685 - INFO - 127.0.0.1 - - [03/Jun/2025 00:40:17] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:40:17,892 - INFO - 127.0.0.1 - - [03/Jun/2025 00:40:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:40:28,954 - INFO - 127.0.0.1 - - [03/Jun/2025 00:40:28] "[32mPOST /admin/add_staff HTTP/1.1[0m" 302 -
+2025-06-03 00:40:28,989 - INFO - 127.0.0.1 - - [03/Jun/2025 00:40:28] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:40:29,189 - INFO - 127.0.0.1 - - [03/Jun/2025 00:40:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:40:56,226 - INFO - 127.0.0.1 - - [03/Jun/2025 00:40:56] "[32mPOST /admin/add_branch HTTP/1.1[0m" 302 -
+2025-06-03 00:40:56,255 - INFO - 127.0.0.1 - - [03/Jun/2025 00:40:56] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:40:56,464 - INFO - 127.0.0.1 - - [03/Jun/2025 00:40:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:44:28,668 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\admin.py', reloading
+2025-06-03 00:44:28,733 - INFO -  * Restarting with stat
+2025-06-03 00:44:29,157 - WARNING -  * Debugger is active!
+2025-06-03 00:44:29,160 - INFO -  * Debugger PIN: 625-805-964
+2025-06-03 00:44:30,202 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\admin.py', reloading
+2025-06-03 00:44:30,252 - INFO -  * Restarting with stat
+2025-06-03 00:44:30,674 - WARNING -  * Debugger is active!
+2025-06-03 00:44:30,676 - INFO -  * Debugger PIN: 625-805-964
+2025-06-03 00:49:39,664 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\admin.py', reloading
+2025-06-03 00:49:39,734 - INFO -  * Restarting with stat
+2025-06-03 00:52:47,148 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-03 00:52:47,149 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 00:52:47,150 - INFO -  * Restarting with stat
+2025-06-03 00:52:47,552 - WARNING -  * Debugger is active!
+2025-06-03 00:52:47,556 - INFO -  * Debugger PIN: 625-805-964
+2025-06-03 00:52:51,518 - INFO - package: mysql.connector.plugins
+2025-06-03 00:52:51,519 - INFO - plugin_name: mysql_native_password
+2025-06-03 00:52:51,520 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-03 00:52:51,554 - INFO - 127.0.0.1 - - [03/Jun/2025 00:52:51] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:52:51,661 - INFO - 127.0.0.1 - - [03/Jun/2025 00:52:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:53:09,962 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:09] "[32mPOST /admin/add_staff HTTP/1.1[0m" 302 -
+2025-06-03 00:53:10,258 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:10] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:53:10,610 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:53:14,992 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:14] "[32mPOST /admin/delete_staff HTTP/1.1[0m" 302 -
+2025-06-03 00:53:15,298 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:15] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:53:15,658 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:53:17,574 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:17] "[32mPOST /admin/delete_staff HTTP/1.1[0m" 302 -
+2025-06-03 00:53:17,874 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:17] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:53:18,229 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:53:20,109 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:20] "[32mPOST /admin/delete_staff HTTP/1.1[0m" 302 -
+2025-06-03 00:53:20,431 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:20] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:53:20,788 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:53:24,338 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:24] "[32mPOST /admin/delete_action_type HTTP/1.1[0m" 302 -
+2025-06-03 00:53:24,641 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:24] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:53:25,010 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:53:28,708 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:28] "[32mPOST /admin/delete_action_type HTTP/1.1[0m" 302 -
+2025-06-03 00:53:29,012 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:29] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 00:53:29,368 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:53:54,831 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:54] "GET / HTTP/1.1" 200 -
+2025-06-03 00:53:57,367 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:57] "GET /actions HTTP/1.1" 200 -
+2025-06-03 00:53:57,629 - INFO - 127.0.0.1 - - [03/Jun/2025 00:53:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 00:54:35,282 - INFO - 127.0.0.1 - - [03/Jun/2025 00:54:35] "GET /?branch=&evaluation=&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-03 00:54:43,832 - INFO - 127.0.0.1 - - [03/Jun/2025 00:54:43] "GET /?branch=&evaluation=&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-03 00:54:47,905 - INFO - 127.0.0.1 - - [03/Jun/2025 00:54:47] "GET /?branch=&evaluation=&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-03 00:54:48,693 - INFO - 127.0.0.1 - - [03/Jun/2025 00:54:48] "GET /?branch=&evaluation=&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-03 00:54:49,076 - INFO - 127.0.0.1 - - [03/Jun/2025 00:54:49] "GET /?branch=&evaluation=&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-03 13:29:59,068 - INFO - 127.0.0.1 - - [03/Jun/2025 13:29:59] "GET /?branch=&evaluation=&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-03 13:30:01,118 - INFO - 127.0.0.1 - - [03/Jun/2025 13:30:01] "GET /?branch=&evaluation=&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-03 13:30:06,051 - INFO - 127.0.0.1 - - [03/Jun/2025 13:30:06] "GET /?branch=&evaluation=&start_date=2025-06-01&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-03 13:30:09,098 - INFO - 127.0.0.1 - - [03/Jun/2025 13:30:09] "GET /?branch=&evaluation=&start_date=2025-06-03&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-03 13:30:14,632 - INFO - 127.0.0.1 - - [03/Jun/2025 13:30:14] "GET /?branch=&evaluation=&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-03 17:47:50,218 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\collect_stats.py', reloading
+2025-06-03 17:47:50,299 - INFO -  * Restarting with stat
+2025-06-03 17:47:50,974 - WARNING -  * Debugger is active!
+2025-06-03 17:47:50,977 - INFO -  * Debugger PIN: 625-805-964
+2025-06-03 17:50:41,283 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-03 17:50:41,284 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 17:50:41,285 - INFO -  * Restarting with stat
+2025-06-03 17:50:41,674 - WARNING -  * Debugger is active!
+2025-06-03 17:50:41,677 - INFO -  * Debugger PIN: 625-805-964
+2025-06-03 17:50:49,261 - INFO - package: mysql.connector.plugins
+2025-06-03 17:50:49,261 - INFO - plugin_name: mysql_native_password
+2025-06-03 17:50:49,263 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-03 17:50:49,575 - INFO - 127.0.0.1 - - [03/Jun/2025 17:50:49] "GET / HTTP/1.1" 200 -
+2025-06-03 17:50:59,492 - INFO - 127.0.0.1 - - [03/Jun/2025 17:50:59] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 17:50:59,680 - INFO - 127.0.0.1 - - [03/Jun/2025 17:50:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 17:51:06,280 - INFO - 127.0.0.1 - - [03/Jun/2025 17:51:06] "GET / HTTP/1.1" 200 -
+2025-06-03 17:51:42,027 - INFO - 127.0.0.1 - - [03/Jun/2025 17:51:42] "GET /?branch=&evaluation=\U0001f534+\u0636\u0639\u064a\u0641+\u062c\u062f\u064b\u0627&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-03 17:52:37,889 - INFO - 127.0.0.1 - - [03/Jun/2025 17:52:37] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 17:52:38,012 - INFO - 127.0.0.1 - - [03/Jun/2025 17:52:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 17:53:03,970 - INFO - 127.0.0.1 - - [03/Jun/2025 17:53:03] "GET / HTTP/1.1" 200 -
+2025-06-03 17:54:40,796 - ERROR - admin_panel error: Unexpected end of template. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+2025-06-03 17:54:40,796 - INFO - 127.0.0.1 - - [03/Jun/2025 17:54:40] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 17:55:06,031 - INFO - 127.0.0.1 - - [03/Jun/2025 17:55:06] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 17:55:06,087 - INFO - 127.0.0.1 - - [03/Jun/2025 17:55:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 17:58:46,154 - INFO - 127.0.0.1 - - [03/Jun/2025 17:58:46] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 17:58:46,199 - INFO - 127.0.0.1 - - [03/Jun/2025 17:58:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 18:00:03,350 - INFO - 127.0.0.1 - - [03/Jun/2025 18:00:03] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 18:00:03,401 - INFO - 127.0.0.1 - - [03/Jun/2025 18:00:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 18:06:47,104 - INFO - 127.0.0.1 - - [03/Jun/2025 18:06:47] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 18:06:47,147 - INFO - 127.0.0.1 - - [03/Jun/2025 18:06:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 18:06:58,548 - INFO - 127.0.0.1 - - [03/Jun/2025 18:06:58] "GET / HTTP/1.1" 200 -
+2025-06-03 18:07:16,310 - INFO - 127.0.0.1 - - [03/Jun/2025 18:07:16] "GET /actions HTTP/1.1" 200 -
+2025-06-03 18:07:16,526 - INFO - 127.0.0.1 - - [03/Jun/2025 18:07:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 18:07:29,938 - INFO - 127.0.0.1 - - [03/Jun/2025 18:07:29] "GET /reports/ HTTP/1.1" 200 -
+2025-06-03 18:07:29,998 - INFO - 127.0.0.1 - - [03/Jun/2025 18:07:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 18:26:42,546 - INFO - 127.0.0.1 - - [03/Jun/2025 18:26:42] "GET /?branch=&evaluation=&start_date=2025-06-02&end_date=2025-06-02 HTTP/1.1" 200 -
+2025-06-03 18:27:24,344 - INFO - 127.0.0.1 - - [03/Jun/2025 18:27:24] "GET / HTTP/1.1" 200 -
+2025-06-03 18:28:20,173 - INFO - 127.0.0.1 - - [03/Jun/2025 18:28:20] "GET /?branch=Al+Khomes&evaluation=&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-03 18:29:29,202 - INFO - 127.0.0.1 - - [03/Jun/2025 18:29:29] "GET /reports/ HTTP/1.1" 200 -
+2025-06-03 18:29:29,413 - INFO - 127.0.0.1 - - [03/Jun/2025 18:29:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 18:29:37,420 - INFO - 127.0.0.1 - - [03/Jun/2025 18:29:37] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 18:29:37,680 - INFO - 127.0.0.1 - - [03/Jun/2025 18:29:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 18:30:03,576 - INFO - 127.0.0.1 - - [03/Jun/2025 18:30:03] "GET / HTTP/1.1" 200 -
+2025-06-03 18:30:05,902 - INFO - 127.0.0.1 - - [03/Jun/2025 18:30:05] "GET /reports/ HTTP/1.1" 200 -
+2025-06-03 18:30:05,976 - INFO - 127.0.0.1 - - [03/Jun/2025 18:30:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 18:30:12,056 - INFO - 127.0.0.1 - - [03/Jun/2025 18:30:12] "GET /reports/sector-history HTTP/1.1" 200 -
+2025-06-03 18:30:15,472 - INFO - 127.0.0.1 - - [03/Jun/2025 18:30:15] "POST /reports/sector-history HTTP/1.1" 200 -
+2025-06-03 18:31:11,193 - INFO - 127.0.0.1 - - [03/Jun/2025 18:31:11] "GET / HTTP/1.1" 200 -
+2025-06-03 18:31:19,817 - INFO - 127.0.0.1 - - [03/Jun/2025 18:31:19] "POST /reports/sector-history HTTP/1.1" 200 -
+2025-06-03 18:31:23,634 - INFO - 127.0.0.1 - - [03/Jun/2025 18:31:23] "POST /reports/sector-history HTTP/1.1" 200 -
+2025-06-03 18:33:52,422 - INFO - 127.0.0.1 - - [03/Jun/2025 18:33:52] "GET /?branch=&evaluation=\U0001f7e0+\u063a\u064a\u0631+\u0645\u0635\u0646\u0641&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-03 18:34:03,969 - INFO - 127.0.0.1 - - [03/Jun/2025 18:34:03] "GET /?branch=&evaluation=&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-03 18:37:20,793 - INFO - 127.0.0.1 - - [03/Jun/2025 18:37:20] "GET /?branch=&evaluation=\U0001f7e0+\u0627\u0632\u062f\u062d\u0627\u0645&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-03 18:37:38,800 - INFO - 127.0.0.1 - - [03/Jun/2025 18:37:38] "GET /?branch=Al+Khomes&evaluation=\U0001f7e0+\u0627\u0632\u062f\u062d\u0627\u0645&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-03 18:37:53,000 - INFO - 127.0.0.1 - - [03/Jun/2025 18:37:53] "GET /?branch=Al+Khomes&evaluation=&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-03 18:37:57,266 - INFO - 127.0.0.1 - - [03/Jun/2025 18:37:57] "GET /?branch=Al+Khomes&evaluation=\U0001f535+\u064a\u062d\u062a\u0627\u062c+\u062f\u0639\u0645&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-03 18:38:10,831 - INFO - 127.0.0.1 - - [03/Jun/2025 18:38:10] "GET /?branch=Al+Khomes&evaluation=&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-03 18:38:15,376 - INFO - 127.0.0.1 - - [03/Jun/2025 18:38:15] "GET /?branch=Al+Khomes&evaluation=\U0001f534+\u0636\u0639\u064a\u0641+\u062c\u062f\u064b\u0627&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-03 18:41:29,679 - INFO - 127.0.0.1 - - [03/Jun/2025 18:41:29] "GET /?branch=Al+Khomes&evaluation=&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-03 18:41:37,567 - INFO - 127.0.0.1 - - [03/Jun/2025 18:41:37] "GET /?branch=Al+Khomes&evaluation=\U0001f7e1+\u0645\u062a\u0630\u0628\u0630\u0628&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-03 18:41:47,913 - INFO - 127.0.0.1 - - [03/Jun/2025 18:41:47] "GET /?branch=Al+Khomes&evaluation=&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-03 18:41:54,341 - INFO - 127.0.0.1 - - [03/Jun/2025 18:41:54] "GET /reports/ HTTP/1.1" 200 -
+2025-06-03 18:41:54,643 - INFO - 127.0.0.1 - - [03/Jun/2025 18:41:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 18:42:01,766 - INFO - 127.0.0.1 - - [03/Jun/2025 18:42:01] "GET /reports/weekly HTTP/1.1" 200 -
+2025-06-03 18:42:38,408 - INFO - 127.0.0.1 - - [03/Jun/2025 18:42:38] "GET /actions HTTP/1.1" 200 -
+2025-06-03 18:42:38,465 - INFO - 127.0.0.1 - - [03/Jun/2025 18:42:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-03 18:43:09,288 - INFO - 127.0.0.1 - - [03/Jun/2025 18:43:09] "GET /reports/sector-history HTTP/1.1" 200 -
+2025-06-03 18:43:13,988 - INFO - 127.0.0.1 - - [03/Jun/2025 18:43:13] "GET /admin/ HTTP/1.1" 200 -
+2025-06-03 18:43:14,037 - INFO - 127.0.0.1 - - [03/Jun/2025 18:43:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 09:44:57,158 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-04 09:44:57,159 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 09:44:57,161 - INFO -  * Restarting with stat
+2025-06-04 09:44:57,599 - WARNING -  * Debugger is active!
+2025-06-04 09:44:57,601 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 09:45:03,141 - INFO - package: mysql.connector.plugins
+2025-06-04 09:45:03,141 - INFO - plugin_name: mysql_native_password
+2025-06-04 09:45:03,142 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 09:45:03,240 - INFO - 127.0.0.1 - - [04/Jun/2025 09:45:03] "GET / HTTP/1.1" 200 -
+2025-06-04 09:45:05,600 - INFO - 127.0.0.1 - - [04/Jun/2025 09:45:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-04 09:45:14,378 - INFO - 127.0.0.1 - - [04/Jun/2025 09:45:14] "GET /?branch=&evaluation=&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-04 09:45:24,774 - INFO - 127.0.0.1 - - [04/Jun/2025 09:45:24] "GET /?branch=Al+Khomes&evaluation=&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -

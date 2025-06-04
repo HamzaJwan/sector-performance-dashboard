@@ -1,0 +1,165 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-5">
+  <h1 class="mb-4 text-center">🎛️ لوحة الإدارة</h1>
+
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+      {% for category, message in messages %}
+        <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+          {{ message }}
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      {% endfor %}
+    {% endif %}
+  {% endwith %}
+
+  <h3>📌 إدارة الفروع</h3>
+  <form action="/admin/add_branch" method="post" class="mb-4">
+    <div class="form-group">
+      <input type="text" name="branch_name" class="form-control" placeholder="أدخل اسم الفرع الجديد" required>
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">➕ إضافة فرع</button>
+  </form>
+
+  <table class="table table-bordered">
+    <thead class="thead-light">
+      <tr>
+        <th>📍 اسم الفرع</th>
+        <th>إجراءات</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for branch in branches %}
+      <tr>
+        <td>{{ branch }}</td>
+        <td>
+          <form action="/admin/delete_branch" method="post" style="display:inline">
+            <input type="hidden" name="branch_name" value="{{ branch }}">
+            <button type="submit" class="btn btn-sm btn-danger">🗑 حذف</button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h3>👷‍♂️ الموظفون الفنيون</h3>
+  <form method="POST" action="/admin/add_staff" class="mb-4">
+    <input type="text" name="full_name" class="form-control mb-2" placeholder="الاسم الكامل" required>
+    <input type="text" name="username" class="form-control mb-2" placeholder="اسم المستخدم">
+    <input type="text" name="phone" class="form-control mb-2" placeholder="رقم الهاتف">
+    <button type="submit" class="btn btn-success">➕ إضافة موظف</button>
+  </form>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>الاسم</th>
+        <th>الفرع</th>
+        <th>إجراءات</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for staff in tower_staff %}
+      <tr>
+        <td>{{ staff.full_name }}</td>
+        <td>{{ staff.branch }}</td>
+        <td>
+          <form action="/admin/delete_staff" method="post" style="display:inline">
+            <input type="hidden" name="staff_id" value="{{ staff.id }}">
+            <button type="submit" class="btn btn-sm btn-danger">🗑 حذف</button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <h3>⚙️ أنواع الإجراءات</h3>
+  <form method="POST" action="/admin/add_action_type" class="mb-4">
+    <input type="text" name="name" class="form-control mb-2" placeholder="اسم نوع الإجراء" required>
+    <input type="text" name="description" class="form-control mb-2" placeholder="الوصف">
+    <button type="submit" class="btn btn-success">➕ إضافة نوع</button>
+  </form>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>الاسم</th>
+        <th>الوصف</th>
+        <th>إجراءات</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for action in action_types %}
+      <tr>
+        <td>{{ action.name }}</td>
+        <td>{{ action.description }}</td>
+        <td>
+          <form action="/admin/delete_action_type" method="post" style="display:inline">
+            <input type="hidden" name="action_id" value="{{ action.id }}">
+            <button type="submit" class="btn btn-sm btn-danger">🗑 حذف</button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <div class="card" style="background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 12px; padding: 20px; margin-top: 40px;">
+  <h2 class="mb-3">🧮 منطق تقييم السكتورات (KPI Evaluation Logic)</h2>
+  <table style="width: 100%; border-collapse: collapse; text-align: center;">
+    <thead style="background-color: #e9ecef;">
+      <tr>
+        <th style="padding: 10px; border: 1px solid #ccc;">🔖 التقييم</th>
+        <th style="padding: 10px; border: 1px solid #ccc;">📋 الشرط الفني</th>
+        <th style="padding: 10px; border: 1px solid #ccc;">💡 التفسير والحل</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>⚫ بلا بيانات</td>
+        <td>avg_mbps = 0 و clients = 0</td>
+        <td>السكتور لا يرسل بيانات. تحقق من الاتصال بـ Zabbix أو من عمل جهاز البث.</td>
+      </tr>
+      <tr>
+        <td>🔴 ضعيف جدًا</td>
+        <td>avg_mbps &lt; 5</td>
+        <td>الأداء منخفض جدًا. افحص التداخل أو سوء التوجيه أو مشاكل في العتاد.</td>
+      </tr>
+      <tr>
+        <td>🟠 ازدحام</td>
+        <td>clients &gt; 25</td>
+        <td>عدد كبير من الزبائن، قد يكون السبب في انخفاض الأداء. فكر في توزيع الحمل.</td>
+      </tr>
+      <tr>
+        <td>🔵 يحتاج دعم</td>
+        <td>clients ≤ 5</td>
+        <td>السكتور غير مستغل جيدًا. افحص الموقع الجغرافي أو التوجيه أو احتياج المنطقة للخدمة.</td>
+      </tr>
+      <tr>
+        <td>🟡 متذبذب</td>
+        <td>5 ≤ avg_mbps ≤ 10</td>
+        <td>الأداء غير ثابت. راقب خلال عدة أيام لتحديد ما إذا كان الوضع مستقرًا أم لا.</td>
+      </tr>
+      <tr>
+        <td>🟢 جيد</td>
+        <td>5 ≤ clients ≤ 25 و avg_mbps &gt; 15</td>
+        <td>السكتور يعمل بشكل جيد ويغطي عددًا مناسبًا من المستخدمين بسرعة جيدة.</td>
+      </tr>
+      <tr>
+        <td>🟠 غير مصنف</td>
+        <td>لا ينطبق عليه أي من الشروط السابقة</td>
+        <td>تحتاج إلى مراجعة بيانات الأداء يدويًا لهذا السكتور لتحديد مشكلته.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+{% endblock %}
+

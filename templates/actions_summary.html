@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>🛠️ ملخص عمليات الصيانة</title>
+</head>
+<body>
+    <h2>🛠️ ملخص عمليات الصيانة</h2>
+    <table border="1" style="width:100%">
+        <thead>
+            <tr>
+                <th>نوع العملية</th>
+                <th>عدد المرات</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in summary %}
+            <tr>
+                <td>{{ row.action_type }}</td>
+                <td>{{ row.total_actions }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

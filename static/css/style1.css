@@ -1,0 +1,21 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    background: #f9f9f9;
+    color: #333;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+}
+td {
+    padding: 8px;
+    text-align: center;
+}
+form {
+    margin-bottom: 20px;
+}
