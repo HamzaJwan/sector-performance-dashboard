@@ -731,3 +731,1034 @@
 2025-06-04 09:45:05,600 - INFO - 127.0.0.1 - - [04/Jun/2025 09:45:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 2025-06-04 09:45:14,378 - INFO - 127.0.0.1 - - [04/Jun/2025 09:45:14] "GET /?branch=&evaluation=&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
 2025-06-04 09:45:24,774 - INFO - 127.0.0.1 - - [04/Jun/2025 09:45:24] "GET /?branch=Al+Khomes&evaluation=&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-04 11:05:42,600 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-04 11:05:42,601 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 11:05:42,602 - INFO -  * Restarting with stat
+2025-06-04 11:05:42,991 - WARNING -  * Debugger is active!
+2025-06-04 11:05:42,994 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 11:59:28,551 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-04 11:59:28,551 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 11:59:28,554 - INFO -  * Restarting with stat
+2025-06-04 11:59:29,062 - WARNING -  * Debugger is active!
+2025-06-04 11:59:29,064 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 12:22:34,450 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-04 12:22:34,451 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 12:22:34,452 - INFO -  * Restarting with stat
+2025-06-04 12:22:34,850 - WARNING -  * Debugger is active!
+2025-06-04 12:22:34,853 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 17:04:51,766 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-04 17:04:51,766 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 17:04:51,768 - INFO -  * Restarting with stat
+2025-06-04 17:04:52,219 - WARNING -  * Debugger is active!
+2025-06-04 17:04:52,222 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 17:05:06,899 - INFO - package: mysql.connector.plugins
+2025-06-04 17:05:06,899 - INFO - plugin_name: mysql_native_password
+2025-06-04 17:05:06,901 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 17:05:07,138 - INFO - 127.0.0.1 - - [04/Jun/2025 17:05:07] "GET / HTTP/1.1" 200 -
+2025-06-04 17:05:07,255 - INFO - 127.0.0.1 - - [04/Jun/2025 17:05:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:05:12,176 - INFO - 127.0.0.1 - - [04/Jun/2025 17:05:12] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-06-04 17:05:15,496 - INFO - 127.0.0.1 - - [04/Jun/2025 17:05:15] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:05:15,569 - INFO - 127.0.0.1 - - [04/Jun/2025 17:05:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:05:19,229 - INFO - 127.0.0.1 - - [04/Jun/2025 17:05:19] "GET /actions HTTP/1.1" 200 -
+2025-06-04 17:05:19,342 - INFO - 127.0.0.1 - - [04/Jun/2025 17:05:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:05:21,850 - INFO - 127.0.0.1 - - [04/Jun/2025 17:05:21] "GET /admin/ HTTP/1.1" 200 -
+2025-06-04 17:05:22,103 - INFO - 127.0.0.1 - - [04/Jun/2025 17:05:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:05:26,216 - INFO - 127.0.0.1 - - [04/Jun/2025 17:05:26] "GET /actions HTTP/1.1" 200 -
+2025-06-04 17:05:26,332 - INFO - 127.0.0.1 - - [04/Jun/2025 17:05:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:05:27,281 - INFO - 127.0.0.1 - - [04/Jun/2025 17:05:27] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:05:27,579 - INFO - 127.0.0.1 - - [04/Jun/2025 17:05:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:05:29,192 - INFO - 127.0.0.1 - - [04/Jun/2025 17:05:29] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-06-04 17:05:54,116 - INFO - 127.0.0.1 - - [04/Jun/2025 17:05:54] "GET /actions HTTP/1.1" 200 -
+2025-06-04 17:05:54,165 - INFO - 127.0.0.1 - - [04/Jun/2025 17:05:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:05:57,356 - INFO - 127.0.0.1 - - [04/Jun/2025 17:05:57] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:05:57,528 - INFO - 127.0.0.1 - - [04/Jun/2025 17:05:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:06:06,132 - INFO - 127.0.0.1 - - [04/Jun/2025 17:06:06] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-06-04 17:06:30,058 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-04 17:06:30,058 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 17:06:30,060 - INFO -  * Restarting with stat
+2025-06-04 17:06:30,446 - WARNING -  * Debugger is active!
+2025-06-04 17:06:30,448 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 17:06:32,447 - INFO - 127.0.0.1 - - [04/Jun/2025 17:06:32] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-06-04 17:06:36,843 - INFO - 127.0.0.1 - - [04/Jun/2025 17:06:36] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:06:36,940 - INFO - 127.0.0.1 - - [04/Jun/2025 17:06:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:06:38,163 - INFO - package: mysql.connector.plugins
+2025-06-04 17:06:38,163 - INFO - plugin_name: mysql_native_password
+2025-06-04 17:06:38,165 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 17:06:38,252 - INFO - 127.0.0.1 - - [04/Jun/2025 17:06:38] "GET / HTTP/1.1" 200 -
+2025-06-04 17:06:38,308 - INFO - 127.0.0.1 - - [04/Jun/2025 17:06:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:06:47,958 - INFO - 127.0.0.1 - - [04/Jun/2025 17:06:47] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-06-04 17:06:50,635 - INFO - 127.0.0.1 - - [04/Jun/2025 17:06:50] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:06:50,930 - INFO - 127.0.0.1 - - [04/Jun/2025 17:06:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:06:51,846 - INFO - 127.0.0.1 - - [04/Jun/2025 17:06:51] "GET /actions HTTP/1.1" 200 -
+2025-06-04 17:06:51,976 - INFO - 127.0.0.1 - - [04/Jun/2025 17:06:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:06:53,503 - INFO - 127.0.0.1 - - [04/Jun/2025 17:06:53] "GET /admin/ HTTP/1.1" 200 -
+2025-06-04 17:06:53,760 - INFO - 127.0.0.1 - - [04/Jun/2025 17:06:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:07:00,858 - INFO - 127.0.0.1 - - [04/Jun/2025 17:07:00] "GET / HTTP/1.1" 200 -
+2025-06-04 17:07:00,937 - INFO - 127.0.0.1 - - [04/Jun/2025 17:07:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:07:37,651 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-04 17:07:37,651 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 17:07:37,653 - INFO -  * Restarting with stat
+2025-06-04 17:07:38,059 - WARNING -  * Debugger is active!
+2025-06-04 17:07:38,062 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 17:07:43,413 - INFO - package: mysql.connector.plugins
+2025-06-04 17:07:43,413 - INFO - plugin_name: mysql_native_password
+2025-06-04 17:07:43,414 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 17:07:43,508 - INFO - 127.0.0.1 - - [04/Jun/2025 17:07:43] "GET / HTTP/1.1" 200 -
+2025-06-04 17:07:43,596 - INFO - 127.0.0.1 - - [04/Jun/2025 17:07:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:09:22,761 - INFO - 127.0.0.1 - - [04/Jun/2025 17:09:22] "GET / HTTP/1.1" 200 -
+2025-06-04 17:09:22,871 - INFO - 127.0.0.1 - - [04/Jun/2025 17:09:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:12:02,459 - INFO - 127.0.0.1 - - [04/Jun/2025 17:12:02] "GET / HTTP/1.1" 200 -
+2025-06-04 17:12:02,508 - INFO - 127.0.0.1 - - [04/Jun/2025 17:12:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:12:06,229 - INFO - 127.0.0.1 - - [04/Jun/2025 17:12:06] "GET / HTTP/1.1" 200 -
+2025-06-04 17:12:06,406 - INFO - 127.0.0.1 - - [04/Jun/2025 17:12:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:14:12,417 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-04 17:14:12,418 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 17:14:12,419 - INFO -  * Restarting with stat
+2025-06-04 17:14:12,832 - WARNING -  * Debugger is active!
+2025-06-04 17:14:12,834 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 17:14:14,166 - INFO - package: mysql.connector.plugins
+2025-06-04 17:14:14,166 - INFO - plugin_name: mysql_native_password
+2025-06-04 17:14:14,167 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 17:14:14,256 - INFO - 127.0.0.1 - - [04/Jun/2025 17:14:14] "GET / HTTP/1.1" 200 -
+2025-06-04 17:14:14,361 - INFO - 127.0.0.1 - - [04/Jun/2025 17:14:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:15:14,863 - INFO - 127.0.0.1 - - [04/Jun/2025 17:15:14] "GET / HTTP/1.1" 200 -
+2025-06-04 17:15:14,913 - INFO - 127.0.0.1 - - [04/Jun/2025 17:15:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:16:26,430 - INFO - 127.0.0.1 - - [04/Jun/2025 17:16:26] "GET / HTTP/1.1" 200 -
+2025-06-04 17:16:26,480 - INFO - 127.0.0.1 - - [04/Jun/2025 17:16:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:16:53,120 - INFO - 127.0.0.1 - - [04/Jun/2025 17:16:53] "GET / HTTP/1.1" 200 -
+2025-06-04 17:16:53,344 - INFO - 127.0.0.1 - - [04/Jun/2025 17:16:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:17:32,611 - INFO - 127.0.0.1 - - [04/Jun/2025 17:17:32] "GET / HTTP/1.1" 200 -
+2025-06-04 17:17:41,756 - INFO - 127.0.0.1 - - [04/Jun/2025 17:17:41] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:17:41,810 - INFO - 127.0.0.1 - - [04/Jun/2025 17:17:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:17:46,648 - INFO - 127.0.0.1 - - [04/Jun/2025 17:17:46] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:17:46,697 - INFO - 127.0.0.1 - - [04/Jun/2025 17:17:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:17:48,662 - INFO - 127.0.0.1 - - [04/Jun/2025 17:17:48] "GET /actions HTTP/1.1" 200 -
+2025-06-04 17:17:48,915 - INFO - 127.0.0.1 - - [04/Jun/2025 17:17:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:23:29,591 - INFO - 127.0.0.1 - - [04/Jun/2025 17:23:29] "GET / HTTP/1.1" 200 -
+2025-06-04 17:23:37,666 - INFO - 127.0.0.1 - - [04/Jun/2025 17:23:37] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:23:37,738 - INFO - 127.0.0.1 - - [04/Jun/2025 17:23:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:23:40,936 - INFO - 127.0.0.1 - - [04/Jun/2025 17:23:40] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:23:41,101 - INFO - 127.0.0.1 - - [04/Jun/2025 17:23:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:23:41,964 - INFO - 127.0.0.1 - - [04/Jun/2025 17:23:41] "GET /actions HTTP/1.1" 200 -
+2025-06-04 17:23:42,228 - INFO - 127.0.0.1 - - [04/Jun/2025 17:23:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:23:43,177 - INFO - 127.0.0.1 - - [04/Jun/2025 17:23:43] "GET /admin/ HTTP/1.1" 200 -
+2025-06-04 17:23:43,335 - INFO - 127.0.0.1 - - [04/Jun/2025 17:23:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:23:45,109 - INFO - 127.0.0.1 - - [04/Jun/2025 17:23:45] "GET /actions HTTP/1.1" 200 -
+2025-06-04 17:23:45,373 - INFO - 127.0.0.1 - - [04/Jun/2025 17:23:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:23:46,136 - INFO - 127.0.0.1 - - [04/Jun/2025 17:23:46] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:23:46,337 - INFO - 127.0.0.1 - - [04/Jun/2025 17:23:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:23:47,051 - INFO - 127.0.0.1 - - [04/Jun/2025 17:23:47] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-06-04 17:23:49,465 - INFO - 127.0.0.1 - - [04/Jun/2025 17:23:49] "GET / HTTP/1.1" 200 -
+2025-06-04 17:23:59,551 - INFO - 127.0.0.1 - - [04/Jun/2025 17:23:59] "GET /admin/ HTTP/1.1" 200 -
+2025-06-04 17:23:59,828 - INFO - 127.0.0.1 - - [04/Jun/2025 17:23:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:24:01,664 - INFO - 127.0.0.1 - - [04/Jun/2025 17:24:01] "GET / HTTP/1.1" 200 -
+2025-06-04 17:24:30,898 - INFO - 127.0.0.1 - - [04/Jun/2025 17:24:30] "GET / HTTP/1.1" 200 -
+2025-06-04 17:24:30,945 - INFO - 127.0.0.1 - - [04/Jun/2025 17:24:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:24:49,556 - INFO - 127.0.0.1 - - [04/Jun/2025 17:24:49] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-06-04 17:24:51,722 - INFO - 127.0.0.1 - - [04/Jun/2025 17:24:51] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:24:51,774 - INFO - 127.0.0.1 - - [04/Jun/2025 17:24:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:24:53,320 - INFO - 127.0.0.1 - - [04/Jun/2025 17:24:53] "GET / HTTP/1.1" 200 -
+2025-06-04 17:24:53,426 - INFO - 127.0.0.1 - - [04/Jun/2025 17:24:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:27:17,028 - INFO - 127.0.0.1 - - [04/Jun/2025 17:27:17] "GET / HTTP/1.1" 200 -
+2025-06-04 17:27:17,072 - INFO - 127.0.0.1 - - [04/Jun/2025 17:27:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:28:49,135 - INFO - 127.0.0.1 - - [04/Jun/2025 17:28:49] "GET / HTTP/1.1" 200 -
+2025-06-04 17:28:49,181 - INFO - 127.0.0.1 - - [04/Jun/2025 17:28:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:28:56,446 - INFO - 127.0.0.1 - - [04/Jun/2025 17:28:56] "GET / HTTP/1.1" 200 -
+2025-06-04 17:28:56,640 - INFO - 127.0.0.1 - - [04/Jun/2025 17:28:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:33:08,081 - INFO - 127.0.0.1 - - [04/Jun/2025 17:33:08] "GET / HTTP/1.1" 200 -
+2025-06-04 17:33:08,127 - INFO - 127.0.0.1 - - [04/Jun/2025 17:33:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:33:21,630 - INFO - 127.0.0.1 - - [04/Jun/2025 17:33:21] "GET / HTTP/1.1" 200 -
+2025-06-04 17:33:21,830 - INFO - 127.0.0.1 - - [04/Jun/2025 17:33:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:33:23,332 - INFO - 127.0.0.1 - - [04/Jun/2025 17:33:23] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:33:23,476 - INFO - 127.0.0.1 - - [04/Jun/2025 17:33:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:33:24,801 - INFO - 127.0.0.1 - - [04/Jun/2025 17:33:24] "GET /actions HTTP/1.1" 200 -
+2025-06-04 17:33:25,066 - INFO - 127.0.0.1 - - [04/Jun/2025 17:33:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:33:25,833 - INFO - 127.0.0.1 - - [04/Jun/2025 17:33:25] "GET /admin/ HTTP/1.1" 200 -
+2025-06-04 17:33:25,939 - INFO - 127.0.0.1 - - [04/Jun/2025 17:33:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:33:27,076 - INFO - 127.0.0.1 - - [04/Jun/2025 17:33:27] "GET / HTTP/1.1" 200 -
+2025-06-04 17:33:27,281 - INFO - 127.0.0.1 - - [04/Jun/2025 17:33:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:37:41,778 - INFO - 127.0.0.1 - - [04/Jun/2025 17:37:41] "GET / HTTP/1.1" 200 -
+2025-06-04 17:37:41,850 - INFO - 127.0.0.1 - - [04/Jun/2025 17:37:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:39:17,974 - INFO - 127.0.0.1 - - [04/Jun/2025 17:39:17] "GET / HTTP/1.1" 200 -
+2025-06-04 17:39:18,016 - INFO - 127.0.0.1 - - [04/Jun/2025 17:39:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:39:25,619 - INFO - 127.0.0.1 - - [04/Jun/2025 17:39:25] "GET / HTTP/1.1" 200 -
+2025-06-04 17:39:25,819 - INFO - 127.0.0.1 - - [04/Jun/2025 17:39:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:41:12,960 - INFO - 127.0.0.1 - - [04/Jun/2025 17:41:12] "GET / HTTP/1.1" 200 -
+2025-06-04 17:41:12,999 - INFO - 127.0.0.1 - - [04/Jun/2025 17:41:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:43:27,224 - INFO - 127.0.0.1 - - [04/Jun/2025 17:43:27] "GET / HTTP/1.1" 200 -
+2025-06-04 17:43:27,261 - INFO - 127.0.0.1 - - [04/Jun/2025 17:43:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:43:46,289 - INFO - 127.0.0.1 - - [04/Jun/2025 17:43:46] "GET /?branch=&evaluation=\u26ab+\u0628\u0644\u0627+\u0628\u064a\u0627\u0646\u0627\u062a&start_date=2025-06-04&end_date=2025-06-04 HTTP/1.1" 200 -
+2025-06-04 17:43:46,558 - INFO - 127.0.0.1 - - [04/Jun/2025 17:43:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:43:50,099 - INFO - 127.0.0.1 - - [04/Jun/2025 17:43:50] "GET /?branch=&evaluation=&start_date=2025-06-04&end_date=2025-06-04 HTTP/1.1" 200 -
+2025-06-04 17:43:50,156 - INFO - 127.0.0.1 - - [04/Jun/2025 17:43:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:45:05,444 - INFO - 127.0.0.1 - - [04/Jun/2025 17:45:05] "GET /?branch=&evaluation=&start_date=2025-06-04&end_date=2025-06-04 HTTP/1.1" 200 -
+2025-06-04 17:45:19,049 - INFO - 127.0.0.1 - - [04/Jun/2025 17:45:19] "GET /?branch=&evaluation=&start_date=2025-06-04&end_date=2025-06-04 HTTP/1.1" 200 -
+2025-06-04 17:45:19,093 - INFO - 127.0.0.1 - - [04/Jun/2025 17:45:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:45:42,328 - INFO - 127.0.0.1 - - [04/Jun/2025 17:45:42] "GET /?branch=&evaluation=&start_date=2025-06-04&end_date=2025-06-04 HTTP/1.1" 200 -
+2025-06-04 17:45:42,380 - INFO - 127.0.0.1 - - [04/Jun/2025 17:45:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:45:54,832 - INFO - 127.0.0.1 - - [04/Jun/2025 17:45:54] "GET /?branch=&evaluation=&start_date=2025-06-04&end_date=2025-06-04 HTTP/1.1" 200 -
+2025-06-04 17:45:55,059 - INFO - 127.0.0.1 - - [04/Jun/2025 17:45:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:51:14,118 - INFO - 127.0.0.1 - - [04/Jun/2025 17:51:14] "GET /?branch=&evaluation=&start_date=2025-06-04&end_date=2025-06-04 HTTP/1.1" 200 -
+2025-06-04 17:51:14,166 - INFO - 127.0.0.1 - - [04/Jun/2025 17:51:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:52:06,727 - INFO - 127.0.0.1 - - [04/Jun/2025 17:52:06] "GET /?branch=&evaluation=&start_date=2025-06-04&end_date=2025-06-04 HTTP/1.1" 200 -
+2025-06-04 17:52:06,957 - INFO - 127.0.0.1 - - [04/Jun/2025 17:52:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:52:10,620 - INFO - 127.0.0.1 - - [04/Jun/2025 17:52:10] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-06-04 17:52:33,833 - INFO - 127.0.0.1 - - [04/Jun/2025 17:52:33] "GET /?branch=&evaluation=&start_date=2025-06-04&end_date=2025-06-04 HTTP/1.1" 200 -
+2025-06-04 17:52:33,879 - INFO - 127.0.0.1 - - [04/Jun/2025 17:52:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:52:36,017 - INFO - 127.0.0.1 - - [04/Jun/2025 17:52:36] "GET / HTTP/1.1" 200 -
+2025-06-04 17:52:36,082 - INFO - 127.0.0.1 - - [04/Jun/2025 17:52:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:52:37,697 - INFO - 127.0.0.1 - - [04/Jun/2025 17:52:37] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:52:37,993 - INFO - 127.0.0.1 - - [04/Jun/2025 17:52:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:52:46,100 - INFO - 127.0.0.1 - - [04/Jun/2025 17:52:46] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:52:46,142 - INFO - 127.0.0.1 - - [04/Jun/2025 17:52:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:52:49,580 - INFO - 127.0.0.1 - - [04/Jun/2025 17:52:49] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:52:49,882 - INFO - 127.0.0.1 - - [04/Jun/2025 17:52:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:52:50,634 - INFO - 127.0.0.1 - - [04/Jun/2025 17:52:50] "GET /actions HTTP/1.1" 200 -
+2025-06-04 17:52:50,771 - INFO - 127.0.0.1 - - [04/Jun/2025 17:52:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:52:51,964 - INFO - 127.0.0.1 - - [04/Jun/2025 17:52:51] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:52:52,268 - INFO - 127.0.0.1 - - [04/Jun/2025 17:52:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:56:02,063 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 17:56:02,131 - INFO -  * Restarting with stat
+2025-06-04 17:56:33,857 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-04 17:56:33,857 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 17:56:33,859 - INFO -  * Restarting with stat
+2025-06-04 17:56:34,265 - WARNING -  * Debugger is active!
+2025-06-04 17:56:34,268 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 17:56:38,343 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 17:56:38,396 - INFO -  * Restarting with stat
+2025-06-04 17:56:52,548 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-04 17:56:52,548 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 17:56:52,550 - INFO -  * Restarting with stat
+2025-06-04 17:56:52,981 - WARNING -  * Debugger is active!
+2025-06-04 17:56:52,983 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 17:57:03,903 - INFO - package: mysql.connector.plugins
+2025-06-04 17:57:03,904 - INFO - plugin_name: mysql_native_password
+2025-06-04 17:57:03,905 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 17:57:03,951 - INFO - 127.0.0.1 - - [04/Jun/2025 17:57:03] "GET /actions HTTP/1.1" 200 -
+2025-06-04 17:57:04,113 - INFO - 127.0.0.1 - - [04/Jun/2025 17:57:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:58:18,860 - INFO - 127.0.0.1 - - [04/Jun/2025 17:58:18] "GET /actions HTTP/1.1" 200 -
+2025-06-04 17:58:18,898 - INFO - 127.0.0.1 - - [04/Jun/2025 17:58:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:58:21,174 - INFO - 127.0.0.1 - - [04/Jun/2025 17:58:21] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:58:21,464 - INFO - 127.0.0.1 - - [04/Jun/2025 17:58:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:58:22,862 - INFO - 127.0.0.1 - - [04/Jun/2025 17:58:22] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:58:23,052 - INFO - 127.0.0.1 - - [04/Jun/2025 17:58:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:58:23,651 - INFO - 127.0.0.1 - - [04/Jun/2025 17:58:23] "GET /actions HTTP/1.1" 200 -
+2025-06-04 17:58:23,927 - INFO - 127.0.0.1 - - [04/Jun/2025 17:58:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:58:25,436 - INFO - 127.0.0.1 - - [04/Jun/2025 17:58:25] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:58:25,595 - INFO - 127.0.0.1 - - [04/Jun/2025 17:58:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:59:16,155 - INFO - 127.0.0.1 - - [04/Jun/2025 17:59:16] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 17:59:16,459 - INFO - 127.0.0.1 - - [04/Jun/2025 17:59:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:59:20,400 - INFO - 127.0.0.1 - - [04/Jun/2025 17:59:20] "GET /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 17:59:20,560 - INFO - 127.0.0.1 - - [04/Jun/2025 17:59:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:59:25,204 - INFO - 127.0.0.1 - - [04/Jun/2025 17:59:25] "GET /reports/actions-summary HTTP/1.1" 200 -
+2025-06-04 17:59:25,497 - INFO - 127.0.0.1 - - [04/Jun/2025 17:59:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 17:59:34,472 - INFO - 127.0.0.1 - - [04/Jun/2025 17:59:34] "GET /reports/weekly HTTP/1.1" 200 -
+2025-06-04 17:59:34,524 - INFO - 127.0.0.1 - - [04/Jun/2025 17:59:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:01:30,269 - INFO - 127.0.0.1 - - [04/Jun/2025 18:01:30] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 18:01:30,562 - INFO - 127.0.0.1 - - [04/Jun/2025 18:01:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:01:32,820 - INFO - 127.0.0.1 - - [04/Jun/2025 18:01:32] "GET /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 18:01:33,010 - INFO - 127.0.0.1 - - [04/Jun/2025 18:01:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:01:38,511 - INFO - 127.0.0.1 - - [04/Jun/2025 18:01:38] "GET /reports/actions-summary HTTP/1.1" 200 -
+2025-06-04 18:01:38,799 - INFO - 127.0.0.1 - - [04/Jun/2025 18:01:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:01:41,937 - INFO - 127.0.0.1 - - [04/Jun/2025 18:01:41] "GET /reports/weekly HTTP/1.1" 200 -
+2025-06-04 18:01:42,004 - INFO - 127.0.0.1 - - [04/Jun/2025 18:01:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:01:52,798 - INFO - 127.0.0.1 - - [04/Jun/2025 18:01:52] "GET /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 18:01:53,109 - INFO - 127.0.0.1 - - [04/Jun/2025 18:01:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:01:55,962 - INFO - 127.0.0.1 - - [04/Jun/2025 18:01:55] "POST /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 18:01:56,025 - INFO - 127.0.0.1 - - [04/Jun/2025 18:01:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:02:32,946 - INFO - 127.0.0.1 - - [04/Jun/2025 18:02:32] "POST /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 18:02:33,229 - INFO - 127.0.0.1 - - [04/Jun/2025 18:02:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:02:35,522 - INFO - 127.0.0.1 - - [04/Jun/2025 18:02:35] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 18:02:35,661 - INFO - 127.0.0.1 - - [04/Jun/2025 18:02:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:02:36,704 - INFO - 127.0.0.1 - - [04/Jun/2025 18:02:36] "GET /reports/weekly HTTP/1.1" 200 -
+2025-06-04 18:02:36,949 - INFO - 127.0.0.1 - - [04/Jun/2025 18:02:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:02:51,165 - INFO - 127.0.0.1 - - [04/Jun/2025 18:02:51] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 18:02:51,352 - INFO - 127.0.0.1 - - [04/Jun/2025 18:02:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:02:53,092 - INFO - 127.0.0.1 - - [04/Jun/2025 18:02:53] "GET /reports/actions-summary HTTP/1.1" 200 -
+2025-06-04 18:02:53,385 - INFO - 127.0.0.1 - - [04/Jun/2025 18:02:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:02:55,487 - INFO - 127.0.0.1 - - [04/Jun/2025 18:02:55] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 18:02:55,647 - INFO - 127.0.0.1 - - [04/Jun/2025 18:02:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:02:56,543 - INFO - 127.0.0.1 - - [04/Jun/2025 18:02:56] "GET /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 18:02:56,848 - INFO - 127.0.0.1 - - [04/Jun/2025 18:02:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:03:02,546 - INFO - 127.0.0.1 - - [04/Jun/2025 18:03:02] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 18:03:02,686 - INFO - 127.0.0.1 - - [04/Jun/2025 18:03:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:03:03,644 - INFO - 127.0.0.1 - - [04/Jun/2025 18:03:03] "GET /reports/weekly HTTP/1.1" 200 -
+2025-06-04 18:03:03,885 - INFO - 127.0.0.1 - - [04/Jun/2025 18:03:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:03:42,173 - INFO - 127.0.0.1 - - [04/Jun/2025 18:03:42] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 18:03:42,345 - INFO - 127.0.0.1 - - [04/Jun/2025 18:03:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:03:44,115 - INFO - 127.0.0.1 - - [04/Jun/2025 18:03:44] "GET /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 18:03:44,420 - INFO - 127.0.0.1 - - [04/Jun/2025 18:03:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:03:52,249 - INFO - 127.0.0.1 - - [04/Jun/2025 18:03:52] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 18:03:52,292 - INFO - 127.0.0.1 - - [04/Jun/2025 18:03:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:03:57,192 - INFO - 127.0.0.1 - - [04/Jun/2025 18:03:57] "GET /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 18:03:57,501 - INFO - 127.0.0.1 - - [04/Jun/2025 18:03:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:04:38,221 - INFO - 127.0.0.1 - - [04/Jun/2025 18:04:38] "GET /actions HTTP/1.1" 200 -
+2025-06-04 18:04:38,270 - INFO - 127.0.0.1 - - [04/Jun/2025 18:04:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:07:57,625 - INFO - 127.0.0.1 - - [04/Jun/2025 18:07:57] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 18:07:57,783 - INFO - 127.0.0.1 - - [04/Jun/2025 18:07:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:13:44,995 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 18:13:45,063 - INFO -  * Restarting with stat
+2025-06-04 18:13:45,497 - WARNING -  * Debugger is active!
+2025-06-04 18:13:45,501 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 18:13:46,544 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 18:13:46,584 - INFO -  * Restarting with stat
+2025-06-04 18:13:46,973 - WARNING -  * Debugger is active!
+2025-06-04 18:13:46,975 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 18:13:50,770 - INFO - 127.0.0.1 - - [04/Jun/2025 18:13:50] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 18:13:50,875 - INFO - 127.0.0.1 - - [04/Jun/2025 18:13:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:17:30,013 - INFO - 127.0.0.1 - - [04/Jun/2025 18:17:30] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 18:17:30,059 - INFO - 127.0.0.1 - - [04/Jun/2025 18:17:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:17:37,723 - INFO - 127.0.0.1 - - [04/Jun/2025 18:17:37] "[33mGET /reports/sector-history HTTP/1.1[0m" 404 -
+2025-06-04 18:17:40,338 - INFO - 127.0.0.1 - - [04/Jun/2025 18:17:40] "[33mGET /reports/sector-history HTTP/1.1[0m" 404 -
+2025-06-04 18:17:42,691 - INFO - 127.0.0.1 - - [04/Jun/2025 18:17:42] "[33mGET /reports/sector-history HTTP/1.1[0m" 404 -
+2025-06-04 18:18:12,458 - INFO - 127.0.0.1 - - [04/Jun/2025 18:18:12] "[33mGET /reports/actions-summary HTTP/1.1[0m" 404 -
+2025-06-04 18:21:06,735 - INFO - 127.0.0.1 - - [04/Jun/2025 18:21:06] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 18:21:06,837 - INFO - 127.0.0.1 - - [04/Jun/2025 18:21:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:41:56,414 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 18:41:56,487 - INFO -  * Restarting with stat
+2025-06-04 18:41:57,128 - WARNING -  * Debugger is active!
+2025-06-04 18:41:57,130 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 18:44:51,475 - INFO - 127.0.0.1 - - [04/Jun/2025 18:44:51] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 18:44:51,594 - INFO - 127.0.0.1 - - [04/Jun/2025 18:44:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:44:57,773 - INFO - 127.0.0.1 - - [04/Jun/2025 18:44:57] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 18:44:58,081 - INFO - 127.0.0.1 - - [04/Jun/2025 18:44:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:45:31,441 - INFO - 127.0.0.1 - - [04/Jun/2025 18:45:31] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 18:45:31,485 - INFO - 127.0.0.1 - - [04/Jun/2025 18:45:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:50:14,198 - INFO - package: mysql.connector.plugins
+2025-06-04 18:50:14,198 - INFO - plugin_name: mysql_native_password
+2025-06-04 18:50:14,200 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 18:50:14,232 - INFO - 127.0.0.1 - - [04/Jun/2025 18:50:14] "GET /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 18:50:14,280 - INFO - 127.0.0.1 - - [04/Jun/2025 18:50:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:52:03,246 - INFO - 127.0.0.1 - - [04/Jun/2025 18:52:03] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 18:52:03,399 - INFO - 127.0.0.1 - - [04/Jun/2025 18:52:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:52:06,091 - INFO - 127.0.0.1 - - [04/Jun/2025 18:52:06] "[33mGET /reports/actions-summary HTTP/1.1[0m" 404 -
+2025-06-04 18:53:17,309 - INFO - 127.0.0.1 - - [04/Jun/2025 18:53:17] "[33mGET /reports/actions-summary HTTP/1.1[0m" 404 -
+2025-06-04 18:55:00,909 - INFO - 127.0.0.1 - - [04/Jun/2025 18:55:00] "[33mGET /reports/actions-summary HTTP/1.1[0m" 404 -
+2025-06-04 18:56:17,565 - INFO - 127.0.0.1 - - [04/Jun/2025 18:56:17] "[33mGET /reports/sector-history HTTP/1.1[0m" 404 -
+2025-06-04 18:56:33,830 - INFO - 127.0.0.1 - - [04/Jun/2025 18:56:33] "[33mGET /reports/actions-summary HTTP/1.1[0m" 404 -
+2025-06-04 18:56:43,467 - INFO - 127.0.0.1 - - [04/Jun/2025 18:56:43] "[33mGET /reports/weekly HTTP/1.1[0m" 404 -
+2025-06-04 18:56:52,569 - INFO - 127.0.0.1 - - [04/Jun/2025 18:56:52] "GET /reports/worst-daily HTTP/1.1" 200 -
+2025-06-04 18:56:52,844 - INFO - 127.0.0.1 - - [04/Jun/2025 18:56:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:56:58,582 - INFO - 127.0.0.1 - - [04/Jun/2025 18:56:58] "GET /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 18:56:58,639 - INFO - 127.0.0.1 - - [04/Jun/2025 18:56:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:57:08,708 - INFO - 127.0.0.1 - - [04/Jun/2025 18:57:08] "GET /reports/maintained HTTP/1.1" 200 -
+2025-06-04 18:57:08,993 - INFO - 127.0.0.1 - - [04/Jun/2025 18:57:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:57:11,344 - INFO - 127.0.0.1 - - [04/Jun/2025 18:57:11] "GET /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 18:57:11,419 - INFO - 127.0.0.1 - - [04/Jun/2025 18:57:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:57:20,090 - INFO - 127.0.0.1 - - [04/Jun/2025 18:57:20] "GET /reports/maintained HTTP/1.1" 200 -
+2025-06-04 18:57:20,381 - INFO - 127.0.0.1 - - [04/Jun/2025 18:57:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:57:35,399 - INFO - 127.0.0.1 - - [04/Jun/2025 18:57:35] "GET /reports/evolution HTTP/1.1" 200 -
+2025-06-04 18:57:35,454 - INFO - 127.0.0.1 - - [04/Jun/2025 18:57:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:57:37,525 - INFO - 127.0.0.1 - - [04/Jun/2025 18:57:37] "POST /reports/evolution HTTP/1.1" 200 -
+2025-06-04 18:57:37,794 - INFO - 127.0.0.1 - - [04/Jun/2025 18:57:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:57:41,866 - INFO - 127.0.0.1 - - [04/Jun/2025 18:57:41] "POST /reports/evolution HTTP/1.1" 200 -
+2025-06-04 18:57:41,909 - INFO - 127.0.0.1 - - [04/Jun/2025 18:57:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 18:57:49,253 - INFO - 127.0.0.1 - - [04/Jun/2025 18:57:49] "GET /reports/evolution HTTP/1.1" 200 -
+2025-06-04 18:57:52,466 - INFO - 127.0.0.1 - - [04/Jun/2025 18:57:52] "GET /reports/evaluation-summary HTTP/1.1" 200 -
+2025-06-04 18:57:52,750 - INFO - 127.0.0.1 - - [04/Jun/2025 18:57:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:03:55,928 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 19:03:55,997 - INFO -  * Restarting with stat
+2025-06-04 19:03:56,673 - WARNING -  * Debugger is active!
+2025-06-04 19:03:56,676 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 19:03:57,800 - INFO - package: mysql.connector.plugins
+2025-06-04 19:03:57,800 - INFO - plugin_name: mysql_native_password
+2025-06-04 19:03:57,802 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 19:03:57,889 - INFO - 127.0.0.1 - - [04/Jun/2025 19:03:57] "GET /reports/evaluation-summary HTTP/1.1" 200 -
+2025-06-04 19:03:57,982 - INFO - 127.0.0.1 - - [04/Jun/2025 19:03:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:04:00,660 - INFO - 127.0.0.1 - - [04/Jun/2025 19:04:00] "[33mGET /reports/sector-history HTTP/1.1[0m" 404 -
+2025-06-04 19:04:03,964 - INFO - 127.0.0.1 - - [04/Jun/2025 19:04:03] "[33mGET /reports/actions-summary HTTP/1.1[0m" 404 -
+2025-06-04 19:04:08,265 - INFO - 127.0.0.1 - - [04/Jun/2025 19:04:08] "[33mGET /reports/sector-history HTTP/1.1[0m" 404 -
+2025-06-04 19:04:17,596 - INFO - 127.0.0.1 - - [04/Jun/2025 19:04:17] "[33mGET /reports/sector-history HTTP/1.1[0m" 404 -
+2025-06-04 19:04:26,803 - INFO - 127.0.0.1 - - [04/Jun/2025 19:04:26] "[33mGET /reports/actions-summary HTTP/1.1[0m" 404 -
+2025-06-04 19:04:37,764 - INFO - 127.0.0.1 - - [04/Jun/2025 19:04:37] "[33mGET /reports/weekly HTTP/1.1[0m" 404 -
+2025-06-04 19:06:12,044 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 19:06:12,102 - INFO -  * Restarting with stat
+2025-06-04 19:06:12,583 - WARNING -  * Debugger is active!
+2025-06-04 19:06:12,586 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 19:06:18,684 - INFO - package: mysql.connector.plugins
+2025-06-04 19:06:18,684 - INFO - plugin_name: mysql_native_password
+2025-06-04 19:06:18,685 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 19:06:18,763 - INFO - 127.0.0.1 - - [04/Jun/2025 19:06:18] "GET /reports/weekly HTTP/1.1" 200 -
+2025-06-04 19:06:18,849 - INFO - 127.0.0.1 - - [04/Jun/2025 19:06:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:06:24,713 - INFO - 127.0.0.1 - - [04/Jun/2025 19:06:24] "GET /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 19:06:24,989 - INFO - 127.0.0.1 - - [04/Jun/2025 19:06:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:06:28,449 - INFO - 127.0.0.1 - - [04/Jun/2025 19:06:28] "POST /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 19:06:28,496 - INFO - 127.0.0.1 - - [04/Jun/2025 19:06:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:06:34,504 - INFO - 127.0.0.1 - - [04/Jun/2025 19:06:34] "POST /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 19:06:34,770 - INFO - 127.0.0.1 - - [04/Jun/2025 19:06:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:13:09,597 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 19:13:09,667 - INFO -  * Restarting with stat
+2025-06-04 19:20:02,931 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-04 19:20:02,931 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 19:20:02,933 - INFO -  * Restarting with stat
+2025-06-04 19:20:03,344 - WARNING -  * Debugger is active!
+2025-06-04 19:20:03,347 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 19:20:07,016 - INFO - 127.0.0.1 - - [04/Jun/2025 19:20:07] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 19:20:07,136 - INFO - 127.0.0.1 - - [04/Jun/2025 19:20:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:20:13,076 - INFO - package: mysql.connector.plugins
+2025-06-04 19:20:13,077 - INFO - plugin_name: mysql_native_password
+2025-06-04 19:20:13,078 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 19:20:13,148 - INFO - 127.0.0.1 - - [04/Jun/2025 19:20:13] "GET /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 19:20:13,284 - INFO - 127.0.0.1 - - [04/Jun/2025 19:20:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:20:15,446 - INFO - 127.0.0.1 - - [04/Jun/2025 19:20:15] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 19:20:15,494 - INFO - 127.0.0.1 - - [04/Jun/2025 19:20:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:20:20,598 - INFO - 127.0.0.1 - - [04/Jun/2025 19:20:20] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 19:20:20,866 - INFO - 127.0.0.1 - - [04/Jun/2025 19:20:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:20:33,444 - INFO - 127.0.0.1 - - [04/Jun/2025 19:20:33] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 19:20:33,487 - INFO - 127.0.0.1 - - [04/Jun/2025 19:20:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:23:08,636 - INFO - 127.0.0.1 - - [04/Jun/2025 19:23:08] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 19:23:08,686 - INFO - 127.0.0.1 - - [04/Jun/2025 19:23:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:33:32,262 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 19:33:32,333 - INFO -  * Restarting with stat
+2025-06-04 19:33:32,806 - WARNING -  * Debugger is active!
+2025-06-04 19:33:32,808 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 19:33:39,904 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 19:33:39,945 - INFO -  * Restarting with stat
+2025-06-04 19:33:40,385 - WARNING -  * Debugger is active!
+2025-06-04 19:33:40,389 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 19:41:07,245 - INFO - package: mysql.connector.plugins
+2025-06-04 19:41:07,245 - INFO - plugin_name: mysql_native_password
+2025-06-04 19:41:07,247 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 19:41:07,374 - INFO - 127.0.0.1 - - [04/Jun/2025 19:41:07] "GET /?branch=Al+Khomes&evaluation=&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-04 19:41:07,570 - INFO - 127.0.0.1 - - [04/Jun/2025 19:41:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:41:12,409 - INFO - 127.0.0.1 - - [04/Jun/2025 19:41:12] "GET / HTTP/1.1" 200 -
+2025-06-04 19:41:12,462 - INFO - 127.0.0.1 - - [04/Jun/2025 19:41:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:41:17,035 - INFO - 127.0.0.1 - - [04/Jun/2025 19:41:17] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 19:41:17,328 - INFO - 127.0.0.1 - - [04/Jun/2025 19:41:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:41:21,086 - INFO - 127.0.0.1 - - [04/Jun/2025 19:41:21] "GET /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 19:41:21,224 - INFO - 127.0.0.1 - - [04/Jun/2025 19:41:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:41:25,105 - INFO - 127.0.0.1 - - [04/Jun/2025 19:41:25] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 19:41:25,375 - INFO - 127.0.0.1 - - [04/Jun/2025 19:41:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:41:31,952 - INFO - 127.0.0.1 - - [04/Jun/2025 19:41:31] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 19:41:31,998 - INFO - 127.0.0.1 - - [04/Jun/2025 19:41:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:41:43,723 - INFO - 127.0.0.1 - - [04/Jun/2025 19:41:43] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 19:41:44,006 - INFO - 127.0.0.1 - - [04/Jun/2025 19:41:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:41:46,729 - INFO - 127.0.0.1 - - [04/Jun/2025 19:41:46] "GET /reports/worst-daily HTTP/1.1" 200 -
+2025-06-04 19:41:46,875 - INFO - 127.0.0.1 - - [04/Jun/2025 19:41:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:44:22,999 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 19:44:23,068 - INFO -  * Restarting with stat
+2025-06-04 19:44:23,591 - WARNING -  * Debugger is active!
+2025-06-04 19:44:23,594 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 19:44:26,717 - INFO - package: mysql.connector.plugins
+2025-06-04 19:44:26,717 - INFO - plugin_name: mysql_native_password
+2025-06-04 19:44:26,719 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 19:44:26,748 - INFO - 127.0.0.1 - - [04/Jun/2025 19:44:26] "GET /reports/worst-daily HTTP/1.1" 200 -
+2025-06-04 19:44:26,881 - INFO - 127.0.0.1 - - [04/Jun/2025 19:44:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:44:55,944 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 19:44:56,005 - INFO -  * Restarting with stat
+2025-06-04 19:44:56,438 - WARNING -  * Debugger is active!
+2025-06-04 19:44:56,440 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 19:45:01,152 - INFO - 127.0.0.1 - - [04/Jun/2025 19:45:01] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 19:45:01,363 - INFO - 127.0.0.1 - - [04/Jun/2025 19:45:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:45:13,216 - INFO - package: mysql.connector.plugins
+2025-06-04 19:45:13,217 - INFO - plugin_name: mysql_native_password
+2025-06-04 19:45:13,218 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 19:45:13,250 - INFO - 127.0.0.1 - - [04/Jun/2025 19:45:13] "GET /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 19:45:13,480 - INFO - 127.0.0.1 - - [04/Jun/2025 19:45:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:45:15,839 - INFO - 127.0.0.1 - - [04/Jun/2025 19:45:15] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 19:45:15,879 - INFO - 127.0.0.1 - - [04/Jun/2025 19:45:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:45:17,842 - INFO - 127.0.0.1 - - [04/Jun/2025 19:45:17] "GET /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 19:45:22,533 - INFO - 127.0.0.1 - - [04/Jun/2025 19:45:22] "GET /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 19:45:22,813 - INFO - 127.0.0.1 - - [04/Jun/2025 19:45:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:45:24,692 - INFO - 127.0.0.1 - - [04/Jun/2025 19:45:24] "POST /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 19:45:24,735 - INFO - 127.0.0.1 - - [04/Jun/2025 19:45:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:45:26,997 - INFO - 127.0.0.1 - - [04/Jun/2025 19:45:26] "POST /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 19:45:27,258 - INFO - 127.0.0.1 - - [04/Jun/2025 19:45:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:45:38,598 - INFO - 127.0.0.1 - - [04/Jun/2025 19:45:38] "POST /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 19:45:38,638 - INFO - 127.0.0.1 - - [04/Jun/2025 19:45:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:46:09,464 - INFO - 127.0.0.1 - - [04/Jun/2025 19:46:09] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 19:46:09,511 - INFO - 127.0.0.1 - - [04/Jun/2025 19:46:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:46:31,751 - INFO - 127.0.0.1 - - [04/Jun/2025 19:46:31] "GET /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 19:46:31,882 - INFO - 127.0.0.1 - - [04/Jun/2025 19:46:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:46:33,508 - INFO - 127.0.0.1 - - [04/Jun/2025 19:46:33] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 19:46:33,776 - INFO - 127.0.0.1 - - [04/Jun/2025 19:46:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:46:37,012 - INFO - 127.0.0.1 - - [04/Jun/2025 19:46:37] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 19:46:37,056 - INFO - 127.0.0.1 - - [04/Jun/2025 19:46:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:48:48,787 - INFO - 127.0.0.1 - - [04/Jun/2025 19:48:48] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 19:48:48,902 - INFO - 127.0.0.1 - - [04/Jun/2025 19:48:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:48:49,777 - INFO - 127.0.0.1 - - [04/Jun/2025 19:48:49] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 19:48:50,048 - INFO - 127.0.0.1 - - [04/Jun/2025 19:48:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:48:51,080 - INFO - 127.0.0.1 - - [04/Jun/2025 19:48:51] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 19:48:51,123 - INFO - 127.0.0.1 - - [04/Jun/2025 19:48:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:50:42,776 - INFO - 127.0.0.1 - - [04/Jun/2025 19:50:42] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 19:50:42,829 - INFO - 127.0.0.1 - - [04/Jun/2025 19:50:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:50:46,762 - INFO - 127.0.0.1 - - [04/Jun/2025 19:50:46] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 19:50:47,022 - INFO - 127.0.0.1 - - [04/Jun/2025 19:50:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 19:52:56,280 - INFO - 127.0.0.1 - - [04/Jun/2025 19:52:56] "GET /admin/ HTTP/1.1" 200 -
+2025-06-04 19:52:56,399 - INFO - 127.0.0.1 - - [04/Jun/2025 19:52:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:00:36,769 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 20:00:36,827 - INFO -  * Restarting with stat
+2025-06-04 20:00:37,383 - WARNING -  * Debugger is active!
+2025-06-04 20:00:37,386 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 20:00:44,811 - INFO - 127.0.0.1 - - [04/Jun/2025 20:00:44] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 20:00:45,056 - INFO - 127.0.0.1 - - [04/Jun/2025 20:00:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:00:47,258 - INFO - package: mysql.connector.plugins
+2025-06-04 20:00:47,259 - INFO - plugin_name: mysql_native_password
+2025-06-04 20:00:47,261 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 20:00:47,339 - INFO - 127.0.0.1 - - [04/Jun/2025 20:00:47] "GET /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:00:47,465 - INFO - 127.0.0.1 - - [04/Jun/2025 20:00:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:00:50,659 - INFO - 127.0.0.1 - - [04/Jun/2025 20:00:50] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:00:50,705 - INFO - 127.0.0.1 - - [04/Jun/2025 20:00:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:00:54,228 - INFO - 127.0.0.1 - - [04/Jun/2025 20:00:54] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:00:54,489 - INFO - 127.0.0.1 - - [04/Jun/2025 20:00:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:00:58,720 - INFO - 127.0.0.1 - - [04/Jun/2025 20:00:58] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:00:58,762 - INFO - 127.0.0.1 - - [04/Jun/2025 20:00:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:01:01,719 - INFO - 127.0.0.1 - - [04/Jun/2025 20:01:01] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:01:01,984 - INFO - 127.0.0.1 - - [04/Jun/2025 20:01:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:01:06,396 - INFO - 127.0.0.1 - - [04/Jun/2025 20:01:06] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:01:06,437 - INFO - 127.0.0.1 - - [04/Jun/2025 20:01:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:01:10,786 - INFO - 127.0.0.1 - - [04/Jun/2025 20:01:10] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:01:11,060 - INFO - 127.0.0.1 - - [04/Jun/2025 20:01:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:04:40,755 - INFO - 127.0.0.1 - - [04/Jun/2025 20:04:40] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:04:40,858 - INFO - 127.0.0.1 - - [04/Jun/2025 20:04:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:08:17,399 - ERROR - \u062e\u0637\u0623 \u0641\u064a \u062a\u0642\u0631\u064a\u0631 \u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062a\u0642\u064a\u064a\u0645: Encountered unknown tag 'endblock'. You probably made a nesting mistake. Jinja is expecting this tag, but currently looking for 'elif' or 'else' or 'endif'. The innermost block that needs to be closed is 'if'.
+2025-06-04 20:08:17,401 - INFO - 127.0.0.1 - - [04/Jun/2025 20:08:17] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:08:17,448 - INFO - 127.0.0.1 - - [04/Jun/2025 20:08:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:09:41,013 - INFO - 127.0.0.1 - - [04/Jun/2025 20:09:41] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:09:41,057 - INFO - 127.0.0.1 - - [04/Jun/2025 20:09:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:09:46,693 - INFO - 127.0.0.1 - - [04/Jun/2025 20:09:46] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:09:46,967 - INFO - 127.0.0.1 - - [04/Jun/2025 20:09:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:09:49,051 - INFO - 127.0.0.1 - - [04/Jun/2025 20:09:49] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:09:49,100 - INFO - 127.0.0.1 - - [04/Jun/2025 20:09:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:09:49,591 - INFO - 127.0.0.1 - - [04/Jun/2025 20:09:49] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:09:49,825 - INFO - 127.0.0.1 - - [04/Jun/2025 20:09:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:09:50,911 - INFO - 127.0.0.1 - - [04/Jun/2025 20:09:50] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:09:50,960 - INFO - 127.0.0.1 - - [04/Jun/2025 20:09:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:09:52,096 - INFO - 127.0.0.1 - - [04/Jun/2025 20:09:52] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:09:52,359 - INFO - 127.0.0.1 - - [04/Jun/2025 20:09:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:09:53,621 - INFO - 127.0.0.1 - - [04/Jun/2025 20:09:53] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:09:53,660 - INFO - 127.0.0.1 - - [04/Jun/2025 20:09:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:11:00,887 - INFO - 127.0.0.1 - - [04/Jun/2025 20:11:00] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:11:00,933 - INFO - 127.0.0.1 - - [04/Jun/2025 20:11:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:11:06,213 - INFO - 127.0.0.1 - - [04/Jun/2025 20:11:06] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:11:06,469 - INFO - 127.0.0.1 - - [04/Jun/2025 20:11:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:11:08,350 - INFO - 127.0.0.1 - - [04/Jun/2025 20:11:08] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:11:08,391 - INFO - 127.0.0.1 - - [04/Jun/2025 20:11:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:11:10,602 - INFO - 127.0.0.1 - - [04/Jun/2025 20:11:10] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:11:10,709 - INFO - 127.0.0.1 - - [04/Jun/2025 20:11:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:11:11,884 - INFO - 127.0.0.1 - - [04/Jun/2025 20:11:11] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:11:11,932 - INFO - 127.0.0.1 - - [04/Jun/2025 20:11:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:12:07,280 - INFO - 127.0.0.1 - - [04/Jun/2025 20:12:07] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:12:07,527 - INFO - 127.0.0.1 - - [04/Jun/2025 20:12:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:12:09,316 - INFO - 127.0.0.1 - - [04/Jun/2025 20:12:09] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:12:09,372 - INFO - 127.0.0.1 - - [04/Jun/2025 20:12:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:12:10,571 - INFO - 127.0.0.1 - - [04/Jun/2025 20:12:10] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:12:10,846 - INFO - 127.0.0.1 - - [04/Jun/2025 20:12:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:12:11,489 - INFO - 127.0.0.1 - - [04/Jun/2025 20:12:11] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:12:11,532 - INFO - 127.0.0.1 - - [04/Jun/2025 20:12:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:12:12,015 - INFO - 127.0.0.1 - - [04/Jun/2025 20:12:12] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:12:12,278 - INFO - 127.0.0.1 - - [04/Jun/2025 20:12:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:12:20,449 - INFO - 127.0.0.1 - - [04/Jun/2025 20:12:20] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:12:20,497 - INFO - 127.0.0.1 - - [04/Jun/2025 20:12:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:12:21,107 - INFO - 127.0.0.1 - - [04/Jun/2025 20:12:21] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:12:21,356 - INFO - 127.0.0.1 - - [04/Jun/2025 20:12:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:12:23,419 - INFO - 127.0.0.1 - - [04/Jun/2025 20:12:23] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:12:23,463 - INFO - 127.0.0.1 - - [04/Jun/2025 20:12:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:12:23,932 - INFO - 127.0.0.1 - - [04/Jun/2025 20:12:23] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:12:24,198 - INFO - 127.0.0.1 - - [04/Jun/2025 20:12:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:14:40,896 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 20:14:40,980 - INFO -  * Restarting with stat
+2025-06-04 20:16:39,658 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-04 20:16:39,658 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 20:16:39,659 - INFO -  * Restarting with stat
+2025-06-04 20:16:40,069 - WARNING -  * Debugger is active!
+2025-06-04 20:16:40,071 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 20:16:42,246 - INFO - package: mysql.connector.plugins
+2025-06-04 20:16:42,246 - INFO - plugin_name: mysql_native_password
+2025-06-04 20:16:42,247 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 20:16:42,267 - ERROR - \u062e\u0637\u0623 \u0641\u064a \u062a\u0642\u0631\u064a\u0631 \u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062a\u0642\u064a\u064a\u0645: name 'selected_branch' is not defined
+2025-06-04 20:16:42,294 - INFO - 127.0.0.1 - - [04/Jun/2025 20:16:42] "[35m[1mPOST /reports/evaluation-history HTTP/1.1[0m" 500 -
+2025-06-04 20:16:42,399 - INFO - 127.0.0.1 - - [04/Jun/2025 20:16:42] "GET /reports/evaluation-history?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-06-04 20:16:42,452 - INFO - 127.0.0.1 - - [04/Jun/2025 20:16:42] "GET /reports/evaluation-history?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-06-04 20:16:42,841 - INFO - 127.0.0.1 - - [04/Jun/2025 20:16:42] "GET /reports/evaluation-history?__debugger__=yes&cmd=resource&f=console.png&s=T0Qk8BLePy0N9FwPNHyQ HTTP/1.1" 200 -
+2025-06-04 20:16:43,098 - INFO - 127.0.0.1 - - [04/Jun/2025 20:16:43] "GET /reports/evaluation-history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-06-04 20:18:15,029 - ERROR - \u062e\u0637\u0623 \u0641\u064a \u062a\u0642\u0631\u064a\u0631 \u062a\u0627\u0631\u064a\u062e \u0627\u0644\u062a\u0642\u064a\u064a\u0645: name 'selected_branch' is not defined
+2025-06-04 20:18:15,036 - INFO - 127.0.0.1 - - [04/Jun/2025 20:18:15] "[35m[1mPOST /reports/evaluation-history HTTP/1.1[0m" 500 -
+2025-06-04 20:18:15,079 - INFO - 127.0.0.1 - - [04/Jun/2025 20:18:15] "[36mGET /reports/evaluation-history?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:18:15,252 - INFO - 127.0.0.1 - - [04/Jun/2025 20:18:15] "[36mGET /reports/evaluation-history?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-04 20:18:15,581 - INFO - 127.0.0.1 - - [04/Jun/2025 20:18:15] "[36mGET /reports/evaluation-history?__debugger__=yes&cmd=resource&f=console.png&s=T0Qk8BLePy0N9FwPNHyQ HTTP/1.1[0m" 304 -
+2025-06-04 20:18:15,845 - INFO - 127.0.0.1 - - [04/Jun/2025 20:18:15] "[36mGET /reports/evaluation-history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-06-04 20:18:29,102 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 20:18:29,174 - INFO -  * Restarting with stat
+2025-06-04 20:18:29,646 - WARNING -  * Debugger is active!
+2025-06-04 20:18:29,649 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 20:20:31,627 - INFO - package: mysql.connector.plugins
+2025-06-04 20:20:31,627 - INFO - plugin_name: mysql_native_password
+2025-06-04 20:20:31,629 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 20:20:31,682 - INFO - 127.0.0.1 - - [04/Jun/2025 20:20:31] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:20:31,871 - INFO - 127.0.0.1 - - [04/Jun/2025 20:20:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:20:38,283 - INFO - 127.0.0.1 - - [04/Jun/2025 20:20:38] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:20:38,555 - INFO - 127.0.0.1 - - [04/Jun/2025 20:20:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:20:52,924 - INFO - 127.0.0.1 - - [04/Jun/2025 20:20:52] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:20:52,969 - INFO - 127.0.0.1 - - [04/Jun/2025 20:20:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:22:55,255 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 20:22:55,326 - INFO -  * Restarting with stat
+2025-06-04 20:22:55,791 - WARNING -  * Debugger is active!
+2025-06-04 20:22:55,794 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 20:23:00,095 - INFO - package: mysql.connector.plugins
+2025-06-04 20:23:00,095 - INFO - plugin_name: mysql_native_password
+2025-06-04 20:23:00,096 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 20:23:00,141 - INFO - 127.0.0.1 - - [04/Jun/2025 20:23:00] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:23:00,267 - INFO - 127.0.0.1 - - [04/Jun/2025 20:23:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:23:10,532 - INFO - 127.0.0.1 - - [04/Jun/2025 20:23:10] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:23:10,796 - INFO - 127.0.0.1 - - [04/Jun/2025 20:23:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:23:17,363 - INFO - 127.0.0.1 - - [04/Jun/2025 20:23:17] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:23:17,403 - INFO - 127.0.0.1 - - [04/Jun/2025 20:23:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:23:35,663 - INFO - 127.0.0.1 - - [04/Jun/2025 20:23:35] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 20:23:35,959 - INFO - 127.0.0.1 - - [04/Jun/2025 20:23:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:23:48,271 - INFO - 127.0.0.1 - - [04/Jun/2025 20:23:48] "GET /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 20:23:48,450 - INFO - 127.0.0.1 - - [04/Jun/2025 20:23:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:23:50,323 - INFO - 127.0.0.1 - - [04/Jun/2025 20:23:50] "POST /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 20:23:50,580 - INFO - 127.0.0.1 - - [04/Jun/2025 20:23:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:23:52,009 - INFO - 127.0.0.1 - - [04/Jun/2025 20:23:52] "POST /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 20:23:52,056 - INFO - 127.0.0.1 - - [04/Jun/2025 20:23:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:24:04,393 - INFO - 127.0.0.1 - - [04/Jun/2025 20:24:04] "POST /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 20:24:04,650 - INFO - 127.0.0.1 - - [04/Jun/2025 20:24:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:27:28,010 - INFO - 127.0.0.1 - - [04/Jun/2025 20:27:28] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:27:28,061 - INFO - 127.0.0.1 - - [04/Jun/2025 20:27:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:28:18,345 - INFO - 127.0.0.1 - - [04/Jun/2025 20:28:18] "POST /reports/sector-history HTTP/1.1" 200 -
+2025-06-04 20:28:18,605 - INFO - 127.0.0.1 - - [04/Jun/2025 20:28:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:28:42,132 - INFO - 127.0.0.1 - - [04/Jun/2025 20:28:42] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 20:28:42,179 - INFO - 127.0.0.1 - - [04/Jun/2025 20:28:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:29:45,856 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 20:29:45,920 - INFO -  * Restarting with stat
+2025-06-04 20:29:46,619 - WARNING -  * Debugger is active!
+2025-06-04 20:29:46,622 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 20:29:47,667 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 20:29:47,748 - INFO -  * Restarting with stat
+2025-06-04 20:29:48,206 - WARNING -  * Debugger is active!
+2025-06-04 20:29:48,210 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 20:29:50,050 - INFO - 127.0.0.1 - - [04/Jun/2025 20:29:50] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 20:29:50,264 - INFO - 127.0.0.1 - - [04/Jun/2025 20:29:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:29:52,162 - INFO - 127.0.0.1 - - [04/Jun/2025 20:29:52] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 20:29:52,477 - INFO - 127.0.0.1 - - [04/Jun/2025 20:29:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:29:56,314 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 20:29:56,374 - INFO -  * Restarting with stat
+2025-06-04 20:29:56,840 - WARNING -  * Debugger is active!
+2025-06-04 20:29:56,843 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 20:31:11,424 - INFO - 127.0.0.1 - - [04/Jun/2025 20:31:11] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 20:31:11,512 - INFO - 127.0.0.1 - - [04/Jun/2025 20:31:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:31:17,114 - INFO - package: mysql.connector.plugins
+2025-06-04 20:31:17,114 - INFO - plugin_name: mysql_native_password
+2025-06-04 20:31:17,116 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 20:31:17,230 - INFO - 127.0.0.1 - - [04/Jun/2025 20:31:17] "GET / HTTP/1.1" 200 -
+2025-06-04 20:31:17,326 - INFO - 127.0.0.1 - - [04/Jun/2025 20:31:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:33:53,172 - INFO - 127.0.0.1 - - [04/Jun/2025 20:33:53] "GET / HTTP/1.1" 200 -
+2025-06-04 20:33:53,238 - INFO - 127.0.0.1 - - [04/Jun/2025 20:33:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:33:53,349 - INFO - 127.0.0.1 - - [04/Jun/2025 20:33:53] "[33mGET /static/images/logo.png HTTP/1.1[0m" 404 -
+2025-06-04 20:34:04,893 - INFO - 127.0.0.1 - - [04/Jun/2025 20:34:04] "GET / HTTP/1.1" 200 -
+2025-06-04 20:34:04,967 - INFO - 127.0.0.1 - - [04/Jun/2025 20:34:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:34:20,716 - INFO - 127.0.0.1 - - [04/Jun/2025 20:34:20] "GET / HTTP/1.1" 200 -
+2025-06-04 20:34:20,976 - INFO - 127.0.0.1 - - [04/Jun/2025 20:34:20] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2025-06-04 20:34:29,156 - INFO - 127.0.0.1 - - [04/Jun/2025 20:34:29] "GET / HTTP/1.1" 200 -
+2025-06-04 20:34:29,204 - INFO - 127.0.0.1 - - [04/Jun/2025 20:34:29] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2025-06-04 20:34:32,587 - INFO - 127.0.0.1 - - [04/Jun/2025 20:34:32] "GET / HTTP/1.1" 200 -
+2025-06-04 20:34:32,851 - INFO - 127.0.0.1 - - [04/Jun/2025 20:34:32] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2025-06-04 20:34:38,242 - INFO - 127.0.0.1 - - [04/Jun/2025 20:34:38] "GET / HTTP/1.1" 200 -
+2025-06-04 20:34:38,288 - INFO - 127.0.0.1 - - [04/Jun/2025 20:34:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:35:56,776 - INFO - 127.0.0.1 - - [04/Jun/2025 20:35:56] "GET / HTTP/1.1" 200 -
+2025-06-04 20:35:56,825 - INFO - 127.0.0.1 - - [04/Jun/2025 20:35:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:35:56,915 - INFO - 127.0.0.1 - - [04/Jun/2025 20:35:56] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2025-06-04 20:36:03,818 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:03] "GET /admin/ HTTP/1.1" 200 -
+2025-06-04 20:36:03,978 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:36:04,038 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:04] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2025-06-04 20:36:05,736 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:05] "GET /actions HTTP/1.1" 200 -
+2025-06-04 20:36:05,958 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:36:06,104 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:06] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2025-06-04 20:36:06,795 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:06] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 20:36:06,990 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:36:07,045 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:07] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2025-06-04 20:36:07,658 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:07] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-06-04 20:36:38,929 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:38] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 20:36:39,194 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:36:39,285 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:39] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2025-06-04 20:36:50,920 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:50] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 20:36:50,961 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:36:51,129 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:51] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2025-06-04 20:36:55,606 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:55] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 20:36:55,652 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:36:55,861 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:55] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2025-06-04 20:36:57,911 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:57] "GET / HTTP/1.1" 200 -
+2025-06-04 20:36:57,978 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:36:58,094 - INFO - 127.0.0.1 - - [04/Jun/2025 20:36:58] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2025-06-04 20:37:45,943 - INFO - 127.0.0.1 - - [04/Jun/2025 20:37:45] "GET / HTTP/1.1" 200 -
+2025-06-04 20:37:45,988 - INFO - 127.0.0.1 - - [04/Jun/2025 20:37:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:37:46,077 - INFO - 127.0.0.1 - - [04/Jun/2025 20:37:46] "[33mGET /static/img/logo.png HTTP/1.1[0m" 404 -
+2025-06-04 20:39:48,148 - INFO - 127.0.0.1 - - [04/Jun/2025 20:39:48] "GET / HTTP/1.1" 200 -
+2025-06-04 20:39:48,197 - INFO - 127.0.0.1 - - [04/Jun/2025 20:39:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:39:48,344 - INFO - 127.0.0.1 - - [04/Jun/2025 20:39:48] "GET /static/img/logo.png HTTP/1.1" 200 -
+2025-06-04 20:42:19,646 - INFO - 127.0.0.1 - - [04/Jun/2025 20:42:19] "GET / HTTP/1.1" 200 -
+2025-06-04 20:42:19,694 - INFO - 127.0.0.1 - - [04/Jun/2025 20:42:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:42:19,816 - INFO - 127.0.0.1 - - [04/Jun/2025 20:42:19] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:42:21,673 - INFO - 127.0.0.1 - - [04/Jun/2025 20:42:21] "GET / HTTP/1.1" 200 -
+2025-06-04 20:42:21,802 - INFO - 127.0.0.1 - - [04/Jun/2025 20:42:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:42:21,854 - INFO - 127.0.0.1 - - [04/Jun/2025 20:42:21] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:44:10,382 - INFO - 127.0.0.1 - - [04/Jun/2025 20:44:10] "GET / HTTP/1.1" 200 -
+2025-06-04 20:44:10,433 - INFO - 127.0.0.1 - - [04/Jun/2025 20:44:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:44:10,468 - INFO - 127.0.0.1 - - [04/Jun/2025 20:44:10] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:47:24,292 - INFO - 127.0.0.1 - - [04/Jun/2025 20:47:24] "GET / HTTP/1.1" 200 -
+2025-06-04 20:47:24,383 - INFO - 127.0.0.1 - - [04/Jun/2025 20:47:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:47:24,461 - INFO - 127.0.0.1 - - [04/Jun/2025 20:47:24] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:47:29,886 - INFO - 127.0.0.1 - - [04/Jun/2025 20:47:29] "GET / HTTP/1.1" 200 -
+2025-06-04 20:47:29,957 - INFO - 127.0.0.1 - - [04/Jun/2025 20:47:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:47:30,055 - INFO - 127.0.0.1 - - [04/Jun/2025 20:47:30] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:48:52,338 - INFO - 127.0.0.1 - - [04/Jun/2025 20:48:52] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 20:48:52,521 - INFO - 127.0.0.1 - - [04/Jun/2025 20:48:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:48:52,600 - INFO - 127.0.0.1 - - [04/Jun/2025 20:48:52] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:49:57,269 - INFO - 127.0.0.1 - - [04/Jun/2025 20:49:57] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 20:49:57,325 - INFO - 127.0.0.1 - - [04/Jun/2025 20:49:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:49:57,532 - INFO - 127.0.0.1 - - [04/Jun/2025 20:49:57] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:53:04,165 - INFO - 127.0.0.1 - - [04/Jun/2025 20:53:04] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 20:53:04,217 - INFO - 127.0.0.1 - - [04/Jun/2025 20:53:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:53:04,412 - INFO - 127.0.0.1 - - [04/Jun/2025 20:53:04] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:53:37,646 - INFO - 127.0.0.1 - - [04/Jun/2025 20:53:37] "GET / HTTP/1.1" 200 -
+2025-06-04 20:53:37,710 - INFO - 127.0.0.1 - - [04/Jun/2025 20:53:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:53:37,792 - INFO - 127.0.0.1 - - [04/Jun/2025 20:53:37] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:55:14,446 - INFO - 127.0.0.1 - - [04/Jun/2025 20:55:14] "GET / HTTP/1.1" 200 -
+2025-06-04 20:55:14,491 - INFO - 127.0.0.1 - - [04/Jun/2025 20:55:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:55:14,573 - INFO - 127.0.0.1 - - [04/Jun/2025 20:55:14] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:55:27,746 - INFO - 127.0.0.1 - - [04/Jun/2025 20:55:27] "GET / HTTP/1.1" 200 -
+2025-06-04 20:55:27,802 - INFO - 127.0.0.1 - - [04/Jun/2025 20:55:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:55:27,866 - INFO - 127.0.0.1 - - [04/Jun/2025 20:55:27] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:55:34,458 - INFO - 127.0.0.1 - - [04/Jun/2025 20:55:34] "GET / HTTP/1.1" 200 -
+2025-06-04 20:55:34,512 - INFO - 127.0.0.1 - - [04/Jun/2025 20:55:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:55:34,612 - INFO - 127.0.0.1 - - [04/Jun/2025 20:55:34] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:55:37,334 - INFO - 127.0.0.1 - - [04/Jun/2025 20:55:37] "GET / HTTP/1.1" 200 -
+2025-06-04 20:55:37,383 - INFO - 127.0.0.1 - - [04/Jun/2025 20:55:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:55:37,487 - INFO - 127.0.0.1 - - [04/Jun/2025 20:55:37] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:56:08,210 - INFO - 127.0.0.1 - - [04/Jun/2025 20:56:08] "GET /?branch=&evaluation=&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-04 20:56:08,280 - INFO - 127.0.0.1 - - [04/Jun/2025 20:56:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:56:08,294 - INFO - 127.0.0.1 - - [04/Jun/2025 20:56:08] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:57:49,989 - INFO - 127.0.0.1 - - [04/Jun/2025 20:57:49] "GET /?branch=&evaluation=&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-04 20:57:50,043 - INFO - 127.0.0.1 - - [04/Jun/2025 20:57:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:57:50,091 - INFO - 127.0.0.1 - - [04/Jun/2025 20:57:50] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:58:00,867 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:00] "GET /?branch=&evaluation=&start_date=2025-06-03&end_date=2025-06-03 HTTP/1.1" 200 -
+2025-06-04 20:58:00,920 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:58:00,963 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:00] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:58:19,894 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:19] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 20:58:20,064 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:58:20,142 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:20] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:58:21,886 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:21] "GET /actions HTTP/1.1" 200 -
+2025-06-04 20:58:22,167 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:58:22,278 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:22] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:58:23,531 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:23] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 20:58:23,812 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:58:23,905 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:23] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:58:25,402 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:25] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 20:58:25,543 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:58:25,668 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:25] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:58:26,233 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:26] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 20:58:26,529 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:58:26,606 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:26] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:58:27,700 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:27] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 20:58:27,833 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:58:27,962 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:27] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:58:41,052 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:41] "GET /reports/worst-daily HTTP/1.1" 200 -
+2025-06-04 20:58:41,333 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:58:41,441 - INFO - 127.0.0.1 - - [04/Jun/2025 20:58:41] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:59:49,657 - INFO - 127.0.0.1 - - [04/Jun/2025 20:59:49] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 20:59:49,827 - INFO - 127.0.0.1 - - [04/Jun/2025 20:59:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:59:49,921 - INFO - 127.0.0.1 - - [04/Jun/2025 20:59:49] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 20:59:51,677 - INFO - 127.0.0.1 - - [04/Jun/2025 20:59:51] "GET /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 20:59:51,961 - INFO - 127.0.0.1 - - [04/Jun/2025 20:59:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 20:59:52,069 - INFO - 127.0.0.1 - - [04/Jun/2025 20:59:52] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:00:10,541 - INFO - 127.0.0.1 - - [04/Jun/2025 21:00:10] "GET /reports/worst-daily HTTP/1.1" 200 -
+2025-06-04 21:00:10,614 - INFO - 127.0.0.1 - - [04/Jun/2025 21:00:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:00:10,774 - INFO - 127.0.0.1 - - [04/Jun/2025 21:00:10] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:06:30,679 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 21:06:30,761 - INFO -  * Restarting with stat
+2025-06-04 21:06:31,354 - WARNING -  * Debugger is active!
+2025-06-04 21:06:31,357 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 21:06:34,703 - INFO - package: mysql.connector.plugins
+2025-06-04 21:06:34,703 - INFO - plugin_name: mysql_native_password
+2025-06-04 21:06:34,704 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 21:06:34,758 - INFO - 127.0.0.1 - - [04/Jun/2025 21:06:34] "GET /reports/worst-daily HTTP/1.1" 200 -
+2025-06-04 21:06:34,867 - INFO - 127.0.0.1 - - [04/Jun/2025 21:06:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:06:34,871 - INFO - 127.0.0.1 - - [04/Jun/2025 21:06:34] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:06:39,667 - INFO - 127.0.0.1 - - [04/Jun/2025 21:06:39] "POST /reports/worst-daily HTTP/1.1" 200 -
+2025-06-04 21:06:39,719 - INFO - 127.0.0.1 - - [04/Jun/2025 21:06:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:06:39,735 - INFO - 127.0.0.1 - - [04/Jun/2025 21:06:39] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:07:35,944 - INFO - 127.0.0.1 - - [04/Jun/2025 21:07:35] "GET /reports/worst-daily HTTP/1.1" 200 -
+2025-06-04 21:07:39,715 - INFO - 127.0.0.1 - - [04/Jun/2025 21:07:39] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 21:07:39,788 - INFO - 127.0.0.1 - - [04/Jun/2025 21:07:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:07:40,104 - INFO - 127.0.0.1 - - [04/Jun/2025 21:07:40] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:07:43,608 - INFO - 127.0.0.1 - - [04/Jun/2025 21:07:43] "GET /reports/worst-daily HTTP/1.1" 200 -
+2025-06-04 21:07:43,885 - INFO - 127.0.0.1 - - [04/Jun/2025 21:07:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:07:43,994 - INFO - 127.0.0.1 - - [04/Jun/2025 21:07:43] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:07:49,111 - INFO - 127.0.0.1 - - [04/Jun/2025 21:07:49] "POST /reports/worst-daily HTTP/1.1" 200 -
+2025-06-04 21:07:49,161 - INFO - 127.0.0.1 - - [04/Jun/2025 21:07:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:07:49,325 - INFO - 127.0.0.1 - - [04/Jun/2025 21:07:49] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:10:59,578 - INFO - 127.0.0.1 - - [04/Jun/2025 21:10:59] "POST /reports/worst-daily HTTP/1.1" 200 -
+2025-06-04 21:10:59,626 - INFO - 127.0.0.1 - - [04/Jun/2025 21:10:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:10:59,789 - INFO - 127.0.0.1 - - [04/Jun/2025 21:10:59] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:11:04,557 - INFO - 127.0.0.1 - - [04/Jun/2025 21:11:04] "POST /reports/worst-daily HTTP/1.1" 200 -
+2025-06-04 21:11:04,600 - INFO - 127.0.0.1 - - [04/Jun/2025 21:11:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:11:04,782 - INFO - 127.0.0.1 - - [04/Jun/2025 21:11:04] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:12:01,830 - INFO - 127.0.0.1 - - [04/Jun/2025 21:12:01] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 21:12:01,940 - INFO - 127.0.0.1 - - [04/Jun/2025 21:12:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:12:02,081 - INFO - 127.0.0.1 - - [04/Jun/2025 21:12:02] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:12:03,848 - INFO - 127.0.0.1 - - [04/Jun/2025 21:12:03] "GET /reports/weekly HTTP/1.1" 200 -
+2025-06-04 21:12:04,080 - INFO - 127.0.0.1 - - [04/Jun/2025 21:12:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:12:04,235 - INFO - 127.0.0.1 - - [04/Jun/2025 21:12:04] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:13:58,107 - INFO - 127.0.0.1 - - [04/Jun/2025 21:13:58] "GET /reports/weekly HTTP/1.1" 200 -
+2025-06-04 21:13:58,151 - INFO - 127.0.0.1 - - [04/Jun/2025 21:13:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:13:58,280 - INFO - 127.0.0.1 - - [04/Jun/2025 21:13:58] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:14:08,633 - INFO - 127.0.0.1 - - [04/Jun/2025 21:14:08] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 21:14:08,836 - INFO - 127.0.0.1 - - [04/Jun/2025 21:14:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:14:08,898 - INFO - 127.0.0.1 - - [04/Jun/2025 21:14:08] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:14:10,371 - INFO - 127.0.0.1 - - [04/Jun/2025 21:14:10] "GET /reports/weekly HTTP/1.1" 200 -
+2025-06-04 21:14:10,617 - INFO - 127.0.0.1 - - [04/Jun/2025 21:14:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:14:10,757 - INFO - 127.0.0.1 - - [04/Jun/2025 21:14:10] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:14:15,186 - INFO - 127.0.0.1 - - [04/Jun/2025 21:14:15] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 21:14:15,330 - INFO - 127.0.0.1 - - [04/Jun/2025 21:14:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:14:15,456 - INFO - 127.0.0.1 - - [04/Jun/2025 21:14:15] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:14:16,865 - INFO - 127.0.0.1 - - [04/Jun/2025 21:14:16] "GET /reports/actions-summary HTTP/1.1" 200 -
+2025-06-04 21:14:17,158 - INFO - 127.0.0.1 - - [04/Jun/2025 21:14:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:14:17,238 - INFO - 127.0.0.1 - - [04/Jun/2025 21:14:17] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:14:19,799 - INFO - 127.0.0.1 - - [04/Jun/2025 21:14:19] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 21:14:20,003 - INFO - 127.0.0.1 - - [04/Jun/2025 21:14:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:14:20,066 - INFO - 127.0.0.1 - - [04/Jun/2025 21:14:20] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:14:24,900 - INFO - 127.0.0.1 - - [04/Jun/2025 21:14:24] "GET /reports/worst-daily HTTP/1.1" 200 -
+2025-06-04 21:14:25,176 - INFO - 127.0.0.1 - - [04/Jun/2025 21:14:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:14:25,284 - INFO - 127.0.0.1 - - [04/Jun/2025 21:14:25] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:17:23,452 - INFO - 127.0.0.1 - - [04/Jun/2025 21:17:23] "GET /reports/worst-daily HTTP/1.1" 200 -
+2025-06-04 21:17:23,503 - INFO - 127.0.0.1 - - [04/Jun/2025 21:17:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:17:23,622 - INFO - 127.0.0.1 - - [04/Jun/2025 21:17:23] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:17:29,850 - INFO - 127.0.0.1 - - [04/Jun/2025 21:17:29] "POST /reports/worst-daily HTTP/1.1" 200 -
+2025-06-04 21:17:29,902 - INFO - 127.0.0.1 - - [04/Jun/2025 21:17:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:17:30,080 - INFO - 127.0.0.1 - - [04/Jun/2025 21:17:30] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:17:55,906 - INFO - 127.0.0.1 - - [04/Jun/2025 21:17:55] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 21:17:56,065 - INFO - 127.0.0.1 - - [04/Jun/2025 21:17:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:17:56,159 - INFO - 127.0.0.1 - - [04/Jun/2025 21:17:56] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:17:58,464 - INFO - 127.0.0.1 - - [04/Jun/2025 21:17:58] "GET /reports/weekly HTTP/1.1" 200 -
+2025-06-04 21:17:58,711 - INFO - 127.0.0.1 - - [04/Jun/2025 21:17:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:17:58,851 - INFO - 127.0.0.1 - - [04/Jun/2025 21:17:58] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:24:14,928 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 21:24:14,996 - INFO -  * Restarting with stat
+2025-06-04 21:24:15,492 - WARNING -  * Debugger is active!
+2025-06-04 21:24:15,496 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 21:27:00,139 - INFO - package: mysql.connector.plugins
+2025-06-04 21:27:00,140 - INFO - plugin_name: mysql_native_password
+2025-06-04 21:27:00,141 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 21:27:00,227 - INFO - 127.0.0.1 - - [04/Jun/2025 21:27:00] "GET /reports/weekly HTTP/1.1" 200 -
+2025-06-04 21:27:00,344 - INFO - 127.0.0.1 - - [04/Jun/2025 21:27:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:27:00,363 - INFO - 127.0.0.1 - - [04/Jun/2025 21:27:00] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:27:40,298 - INFO - 127.0.0.1 - - [04/Jun/2025 21:27:40] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 21:27:40,346 - INFO - 127.0.0.1 - - [04/Jun/2025 21:27:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:27:40,593 - INFO - 127.0.0.1 - - [04/Jun/2025 21:27:40] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:27:50,233 - INFO - 127.0.0.1 - - [04/Jun/2025 21:27:50] "POST /reports/weekly HTTP/1.1" 200 -
+2025-06-04 21:27:50,286 - INFO - 127.0.0.1 - - [04/Jun/2025 21:27:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:27:50,427 - INFO - 127.0.0.1 - - [04/Jun/2025 21:27:50] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:27:55,769 - INFO - 127.0.0.1 - - [04/Jun/2025 21:27:55] "GET / HTTP/1.1" 200 -
+2025-06-04 21:27:55,827 - INFO - 127.0.0.1 - - [04/Jun/2025 21:27:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:27:55,905 - INFO - 127.0.0.1 - - [04/Jun/2025 21:27:55] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:31:37,277 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 21:31:37,342 - INFO -  * Restarting with stat
+2025-06-04 21:31:37,849 - WARNING -  * Debugger is active!
+2025-06-04 21:31:37,853 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 21:31:46,881 - INFO - package: mysql.connector.plugins
+2025-06-04 21:31:46,882 - INFO - plugin_name: mysql_native_password
+2025-06-04 21:31:46,883 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 21:31:46,936 - INFO - 127.0.0.1 - - [04/Jun/2025 21:31:46] "POST /reports/weekly HTTP/1.1" 200 -
+2025-06-04 21:31:47,091 - INFO - 127.0.0.1 - - [04/Jun/2025 21:31:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:31:47,124 - INFO - 127.0.0.1 - - [04/Jun/2025 21:31:47] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:31:58,423 - INFO - 127.0.0.1 - - [04/Jun/2025 21:31:58] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 21:31:58,585 - INFO - 127.0.0.1 - - [04/Jun/2025 21:31:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:31:58,676 - INFO - 127.0.0.1 - - [04/Jun/2025 21:31:58] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:32:00,908 - INFO - 127.0.0.1 - - [04/Jun/2025 21:32:00] "GET /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 21:32:01,193 - INFO - 127.0.0.1 - - [04/Jun/2025 21:32:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:32:01,287 - INFO - 127.0.0.1 - - [04/Jun/2025 21:32:01] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:32:27,308 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 21:32:27,373 - INFO -  * Restarting with stat
+2025-06-04 21:32:27,873 - WARNING -  * Debugger is active!
+2025-06-04 21:32:27,875 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 21:34:30,647 - INFO - package: mysql.connector.plugins
+2025-06-04 21:34:30,647 - INFO - plugin_name: mysql_native_password
+2025-06-04 21:34:30,648 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 21:34:30,683 - INFO - 127.0.0.1 - - [04/Jun/2025 21:34:30] "GET /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 21:34:30,779 - INFO - 127.0.0.1 - - [04/Jun/2025 21:34:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:34:30,818 - INFO - 127.0.0.1 - - [04/Jun/2025 21:34:30] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:35:52,912 - INFO - 127.0.0.1 - - [04/Jun/2025 21:35:52] "GET /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 21:35:52,966 - INFO - 127.0.0.1 - - [04/Jun/2025 21:35:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:35:53,146 - INFO - 127.0.0.1 - - [04/Jun/2025 21:35:53] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:37:05,394 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 21:37:05,469 - INFO -  * Restarting with stat
+2025-06-04 21:38:13,661 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.115:5000
+2025-06-04 21:38:13,661 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 21:38:13,662 - INFO -  * Restarting with stat
+2025-06-04 21:38:14,056 - WARNING -  * Debugger is active!
+2025-06-04 21:38:14,059 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 21:38:15,512 - INFO - package: mysql.connector.plugins
+2025-06-04 21:38:15,512 - INFO - plugin_name: mysql_native_password
+2025-06-04 21:38:15,514 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 21:38:15,547 - INFO - 127.0.0.1 - - [04/Jun/2025 21:38:15] "GET /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 21:38:15,648 - INFO - 127.0.0.1 - - [04/Jun/2025 21:38:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:38:15,723 - INFO - 127.0.0.1 - - [04/Jun/2025 21:38:15] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:38:17,905 - INFO - 127.0.0.1 - - [04/Jun/2025 21:38:17] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 21:38:17,951 - INFO - 127.0.0.1 - - [04/Jun/2025 21:38:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:38:18,133 - INFO - 127.0.0.1 - - [04/Jun/2025 21:38:18] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:38:19,808 - INFO - 127.0.0.1 - - [04/Jun/2025 21:38:19] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 21:38:19,864 - INFO - 127.0.0.1 - - [04/Jun/2025 21:38:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:38:20,035 - INFO - 127.0.0.1 - - [04/Jun/2025 21:38:20] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:38:21,348 - INFO - 127.0.0.1 - - [04/Jun/2025 21:38:21] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 21:38:21,396 - INFO - 127.0.0.1 - - [04/Jun/2025 21:38:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:38:21,573 - INFO - 127.0.0.1 - - [04/Jun/2025 21:38:21] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:38:24,920 - INFO - 127.0.0.1 - - [04/Jun/2025 21:38:24] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 21:38:24,983 - INFO - 127.0.0.1 - - [04/Jun/2025 21:38:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:38:25,132 - INFO - 127.0.0.1 - - [04/Jun/2025 21:38:25] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:50:19,461 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 21:50:19,541 - INFO -  * Restarting with stat
+2025-06-04 21:50:20,056 - WARNING -  * Debugger is active!
+2025-06-04 21:50:20,060 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 21:53:26,708 - INFO - package: mysql.connector.plugins
+2025-06-04 21:53:26,709 - INFO - plugin_name: mysql_native_password
+2025-06-04 21:53:26,710 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 21:53:26,777 - INFO - 127.0.0.1 - - [04/Jun/2025 21:53:26] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 21:53:26,942 - INFO - 127.0.0.1 - - [04/Jun/2025 21:53:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:53:26,951 - INFO - 127.0.0.1 - - [04/Jun/2025 21:53:26] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:53:38,095 - INFO - 127.0.0.1 - - [04/Jun/2025 21:53:38] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 21:53:38,143 - INFO - 127.0.0.1 - - [04/Jun/2025 21:53:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:53:38,313 - INFO - 127.0.0.1 - - [04/Jun/2025 21:53:38] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:53:41,656 - INFO - 127.0.0.1 - - [04/Jun/2025 21:53:41] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 21:53:41,708 - INFO - 127.0.0.1 - - [04/Jun/2025 21:53:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:53:41,859 - INFO - 127.0.0.1 - - [04/Jun/2025 21:53:41] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:53:44,891 - INFO - 127.0.0.1 - - [04/Jun/2025 21:53:44] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 21:53:44,937 - INFO - 127.0.0.1 - - [04/Jun/2025 21:53:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:53:45,108 - INFO - 127.0.0.1 - - [04/Jun/2025 21:53:45] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:53:47,131 - INFO - 127.0.0.1 - - [04/Jun/2025 21:53:47] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 21:53:47,181 - INFO - 127.0.0.1 - - [04/Jun/2025 21:53:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:53:47,341 - INFO - 127.0.0.1 - - [04/Jun/2025 21:53:47] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:57:40,010 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 21:57:40,081 - INFO -  * Restarting with stat
+2025-06-04 21:57:40,680 - WARNING -  * Debugger is active!
+2025-06-04 21:57:40,682 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 21:57:44,249 - INFO - package: mysql.connector.plugins
+2025-06-04 21:57:44,249 - INFO - plugin_name: mysql_native_password
+2025-06-04 21:57:44,250 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 21:57:44,296 - INFO - 127.0.0.1 - - [04/Jun/2025 21:57:44] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 21:57:44,387 - INFO - 127.0.0.1 - - [04/Jun/2025 21:57:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:57:44,414 - INFO - 127.0.0.1 - - [04/Jun/2025 21:57:44] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 21:59:02,451 - INFO - 127.0.0.1 - - [04/Jun/2025 21:59:02] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 21:59:02,496 - INFO - 127.0.0.1 - - [04/Jun/2025 21:59:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 21:59:02,620 - INFO - 127.0.0.1 - - [04/Jun/2025 21:59:02] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:14:03,158 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 22:14:03,222 - INFO -  * Restarting with stat
+2025-06-04 22:14:03,861 - WARNING -  * Debugger is active!
+2025-06-04 22:14:03,864 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 22:14:08,243 - INFO - package: mysql.connector.plugins
+2025-06-04 22:14:08,243 - INFO - plugin_name: mysql_native_password
+2025-06-04 22:14:08,244 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 22:14:08,339 - INFO - 127.0.0.1 - - [04/Jun/2025 22:14:08] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 22:14:08,456 - INFO - 127.0.0.1 - - [04/Jun/2025 22:14:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:14:08,489 - INFO - 127.0.0.1 - - [04/Jun/2025 22:14:08] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:14:17,598 - INFO - 127.0.0.1 - - [04/Jun/2025 22:14:17] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 22:14:17,648 - INFO - 127.0.0.1 - - [04/Jun/2025 22:14:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:14:17,817 - INFO - 127.0.0.1 - - [04/Jun/2025 22:14:17] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:14:19,775 - INFO - 127.0.0.1 - - [04/Jun/2025 22:14:19] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 22:14:19,856 - INFO - 127.0.0.1 - - [04/Jun/2025 22:14:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:14:19,988 - INFO - 127.0.0.1 - - [04/Jun/2025 22:14:19] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:18:29,259 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 22:18:29,325 - INFO -  * Restarting with stat
+2025-06-04 22:18:29,819 - WARNING -  * Debugger is active!
+2025-06-04 22:18:29,821 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 22:18:31,443 - INFO - package: mysql.connector.plugins
+2025-06-04 22:18:31,443 - INFO - plugin_name: mysql_native_password
+2025-06-04 22:18:31,444 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 22:18:31,492 - INFO - 127.0.0.1 - - [04/Jun/2025 22:18:31] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 22:18:31,580 - INFO - 127.0.0.1 - - [04/Jun/2025 22:18:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:18:31,601 - INFO - 127.0.0.1 - - [04/Jun/2025 22:18:31] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:18:36,916 - INFO -  * Detected change in 'D:\\Coding\\Sectors\\routes\\reports.py', reloading
+2025-06-04 22:18:36,976 - INFO -  * Restarting with stat
+2025-06-04 22:18:37,474 - WARNING -  * Debugger is active!
+2025-06-04 22:18:37,477 - INFO -  * Debugger PIN: 715-006-802
+2025-06-04 22:18:41,511 - INFO - package: mysql.connector.plugins
+2025-06-04 22:18:41,511 - INFO - plugin_name: mysql_native_password
+2025-06-04 22:18:41,512 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-06-04 22:18:41,554 - INFO - 127.0.0.1 - - [04/Jun/2025 22:18:41] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 22:18:41,636 - INFO - 127.0.0.1 - - [04/Jun/2025 22:18:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:18:41,736 - INFO - 127.0.0.1 - - [04/Jun/2025 22:18:41] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:21:24,922 - INFO - 127.0.0.1 - - [04/Jun/2025 22:21:24] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 22:21:24,970 - INFO - 127.0.0.1 - - [04/Jun/2025 22:21:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:21:25,139 - INFO - 127.0.0.1 - - [04/Jun/2025 22:21:25] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:21:33,997 - INFO - 127.0.0.1 - - [04/Jun/2025 22:21:33] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 22:21:34,049 - INFO - 127.0.0.1 - - [04/Jun/2025 22:21:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:21:34,204 - INFO - 127.0.0.1 - - [04/Jun/2025 22:21:34] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:21:41,515 - INFO - 127.0.0.1 - - [04/Jun/2025 22:21:41] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 22:21:41,562 - INFO - 127.0.0.1 - - [04/Jun/2025 22:21:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:21:41,742 - INFO - 127.0.0.1 - - [04/Jun/2025 22:21:41] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:21:47,309 - INFO - 127.0.0.1 - - [04/Jun/2025 22:21:47] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 22:21:47,362 - INFO - 127.0.0.1 - - [04/Jun/2025 22:21:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:21:47,529 - INFO - 127.0.0.1 - - [04/Jun/2025 22:21:47] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:21:50,349 - INFO - 127.0.0.1 - - [04/Jun/2025 22:21:50] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 22:21:50,401 - INFO - 127.0.0.1 - - [04/Jun/2025 22:21:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:21:50,560 - INFO - 127.0.0.1 - - [04/Jun/2025 22:21:50] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:21:55,783 - INFO - 127.0.0.1 - - [04/Jun/2025 22:21:55] "POST /reports/performance-drop HTTP/1.1" 200 -
+2025-06-04 22:21:55,836 - INFO - 127.0.0.1 - - [04/Jun/2025 22:21:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:21:56,000 - INFO - 127.0.0.1 - - [04/Jun/2025 22:21:56] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:22:29,062 - INFO - 127.0.0.1 - - [04/Jun/2025 22:22:29] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 22:22:29,235 - INFO - 127.0.0.1 - - [04/Jun/2025 22:22:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:22:29,314 - INFO - 127.0.0.1 - - [04/Jun/2025 22:22:29] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:22:37,398 - INFO - 127.0.0.1 - - [04/Jun/2025 22:22:37] "GET /reports/evolution HTTP/1.1" 200 -
+2025-06-04 22:22:37,684 - INFO - 127.0.0.1 - - [04/Jun/2025 22:22:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:22:37,793 - INFO - 127.0.0.1 - - [04/Jun/2025 22:22:37] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:22:41,073 - INFO - 127.0.0.1 - - [04/Jun/2025 22:22:41] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 22:22:41,229 - INFO - 127.0.0.1 - - [04/Jun/2025 22:22:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:22:41,337 - INFO - 127.0.0.1 - - [04/Jun/2025 22:22:41] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:22:42,815 - INFO - 127.0.0.1 - - [04/Jun/2025 22:22:42] "GET /reports/worst-daily HTTP/1.1" 200 -
+2025-06-04 22:22:43,086 - INFO - 127.0.0.1 - - [04/Jun/2025 22:22:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:22:43,195 - INFO - 127.0.0.1 - - [04/Jun/2025 22:22:43] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:22:54,570 - INFO - 127.0.0.1 - - [04/Jun/2025 22:22:54] "POST /reports/worst-daily HTTP/1.1" 200 -
+2025-06-04 22:22:54,622 - INFO - 127.0.0.1 - - [04/Jun/2025 22:22:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:22:54,786 - INFO - 127.0.0.1 - - [04/Jun/2025 22:22:54] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:22:58,082 - INFO - 127.0.0.1 - - [04/Jun/2025 22:22:58] "POST /reports/worst-daily HTTP/1.1" 200 -
+2025-06-04 22:22:58,131 - INFO - 127.0.0.1 - - [04/Jun/2025 22:22:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:22:58,315 - INFO - 127.0.0.1 - - [04/Jun/2025 22:22:58] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:23:02,717 - INFO - 127.0.0.1 - - [04/Jun/2025 22:23:02] "GET /reports/worst-daily HTTP/1.1" 200 -
+2025-06-04 22:23:06,139 - INFO - 127.0.0.1 - - [04/Jun/2025 22:23:06] "GET /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 22:23:06,417 - INFO - 127.0.0.1 - - [04/Jun/2025 22:23:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:23:06,510 - INFO - 127.0.0.1 - - [04/Jun/2025 22:23:06] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:23:11,890 - INFO - 127.0.0.1 - - [04/Jun/2025 22:23:11] "POST /reports/evaluation-history HTTP/1.1" 200 -
+2025-06-04 22:23:11,941 - INFO - 127.0.0.1 - - [04/Jun/2025 22:23:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:23:12,122 - INFO - 127.0.0.1 - - [04/Jun/2025 22:23:12] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:23:16,432 - INFO - 127.0.0.1 - - [04/Jun/2025 22:23:16] "GET /reports/ HTTP/1.1" 200 -
+2025-06-04 22:23:16,652 - INFO - 127.0.0.1 - - [04/Jun/2025 22:23:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:23:16,699 - INFO - 127.0.0.1 - - [04/Jun/2025 22:23:16] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2025-06-04 22:23:22,305 - INFO - 127.0.0.1 - - [04/Jun/2025 22:23:22] "GET / HTTP/1.1" 200 -
+2025-06-04 22:23:22,500 - INFO - 127.0.0.1 - - [04/Jun/2025 22:23:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-04 22:23:22,687 - INFO - 127.0.0.1 - - [04/Jun/2025 22:23:22] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -

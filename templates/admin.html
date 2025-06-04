@@ -1,4 +1,7 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
+
+{% block title %}لوحة الإدارة{% endblock %}
+
 {% block content %}
 <div class="container mt-5">
   <h1 class="mb-4 text-center">🎛️ لوحة الإدارة</h1>
@@ -112,54 +115,53 @@
   </table>
 
   <div class="card" style="background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 12px; padding: 20px; margin-top: 40px;">
-  <h2 class="mb-3">🧮 منطق تقييم السكتورات (KPI Evaluation Logic)</h2>
-  <table style="width: 100%; border-collapse: collapse; text-align: center;">
-    <thead style="background-color: #e9ecef;">
-      <tr>
-        <th style="padding: 10px; border: 1px solid #ccc;">🔖 التقييم</th>
-        <th style="padding: 10px; border: 1px solid #ccc;">📋 الشرط الفني</th>
-        <th style="padding: 10px; border: 1px solid #ccc;">💡 التفسير والحل</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>⚫ بلا بيانات</td>
-        <td>avg_mbps = 0 و clients = 0</td>
-        <td>السكتور لا يرسل بيانات. تحقق من الاتصال بـ Zabbix أو من عمل جهاز البث.</td>
-      </tr>
-      <tr>
-        <td>🔴 ضعيف جدًا</td>
-        <td>avg_mbps &lt; 5</td>
-        <td>الأداء منخفض جدًا. افحص التداخل أو سوء التوجيه أو مشاكل في العتاد.</td>
-      </tr>
-      <tr>
-        <td>🟠 ازدحام</td>
-        <td>clients &gt; 25</td>
-        <td>عدد كبير من الزبائن، قد يكون السبب في انخفاض الأداء. فكر في توزيع الحمل.</td>
-      </tr>
-      <tr>
-        <td>🔵 يحتاج دعم</td>
-        <td>clients ≤ 5</td>
-        <td>السكتور غير مستغل جيدًا. افحص الموقع الجغرافي أو التوجيه أو احتياج المنطقة للخدمة.</td>
-      </tr>
-      <tr>
-        <td>🟡 متذبذب</td>
-        <td>5 ≤ avg_mbps ≤ 10</td>
-        <td>الأداء غير ثابت. راقب خلال عدة أيام لتحديد ما إذا كان الوضع مستقرًا أم لا.</td>
-      </tr>
-      <tr>
-        <td>🟢 جيد</td>
-        <td>5 ≤ clients ≤ 25 و avg_mbps &gt; 15</td>
-        <td>السكتور يعمل بشكل جيد ويغطي عددًا مناسبًا من المستخدمين بسرعة جيدة.</td>
-      </tr>
-      <tr>
-        <td>🟠 غير مصنف</td>
-        <td>لا ينطبق عليه أي من الشروط السابقة</td>
-        <td>تحتاج إلى مراجعة بيانات الأداء يدويًا لهذا السكتور لتحديد مشكلته.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+    <h2 class="mb-3">🧮 منطق تقييم السكتورات (KPI Evaluation Logic)</h2>
+    <table style="width: 100%; border-collapse: collapse; text-align: center;">
+      <thead style="background-color: #e9ecef;">
+        <tr>
+          <th style="padding: 10px; border: 1px solid #ccc;">🔖 التقييم</th>
+          <th style="padding: 10px; border: 1px solid #ccc;">📋 الشرط الفني</th>
+          <th style="padding: 10px; border: 1px solid #ccc;">💡 التفسير والحل</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>⚫ بلا بيانات</td>
+          <td>avg_mbps = 0 و clients = 0</td>
+          <td>السكتور لا يرسل بيانات. تحقق من الاتصال بـ Zabbix أو من عمل جهاز البث.</td>
+        </tr>
+        <tr>
+          <td>🔴 ضعيف جدًا</td>
+          <td>avg_mbps &lt; 5</td>
+          <td>الأداء منخفض جدًا. افحص التداخل أو سوء التوجيه أو مشاكل في العتاد.</td>
+        </tr>
+        <tr>
+          <td>🟠 ازدحام</td>
+          <td>clients &gt; 25</td>
+          <td>عدد كبير من الزبائن، قد يكون السبب في انخفاض الأداء. فكر في توزيع الحمل.</td>
+        </tr>
+        <tr>
+          <td>🔵 يحتاج دعم</td>
+          <td>clients ≤ 5</td>
+          <td>السكتور غير مستغل جيدًا. افحص الموقع الجغرافي أو التوجيه أو احتياج المنطقة للخدمة.</td>
+        </tr>
+        <tr>
+          <td>🟡 متذبذب</td>
+          <td>5 ≤ avg_mbps ≤ 10</td>
+          <td>الأداء غير ثابت. راقب خلال عدة أيام لتحديد ما إذا كان الوضع مستقرًا أم لا.</td>
+        </tr>
+        <tr>
+          <td>🟢 جيد</td>
+          <td>5 ≤ clients ≤ 25 و avg_mbps &gt; 15</td>
+          <td>السكتور يعمل بشكل جيد ويغطي عددًا مناسبًا من المستخدمين بسرعة جيدة.</td>
+        </tr>
+        <tr>
+          <td>🟠 غير مصنف</td>
+          <td>لا ينطبق عليه أي من الشروط السابقة</td>
+          <td>تحتاج إلى مراجعة بيانات الأداء يدويًا لهذا السكتور لتحديد مشكلته.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>
 {% endblock %}
-

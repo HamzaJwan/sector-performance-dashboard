@@ -1,6 +1,8 @@
-{% include 'partials/header.html' %}
-{% include 'partials/filters.html' %}
-{% include 'partials/table.html' %}
-</div> <!-- container -->
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block title %}لوحة التحكم{% endblock %}
+
+{% block content %}
+  {% include 'partials/filters.html' %}
+  {% include 'partials/table.html' %}
+{% endblock %}
