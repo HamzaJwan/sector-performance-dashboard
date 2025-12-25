@@ -107,5 +107,9 @@ app.register_blueprint(admin_bp, url_prefix='/admin')
 
 # بدء التطبيق
 if __name__ == '__main__':
+<<<<<<< HEAD
     app.run(host='0.0.0.0', port=5000, debug=True)
 >>>>>>> 84d317f ( النسخة الثانية:)
+=======
+    app.run(host='0.0.0.0', port=5000, debug=False)
+>>>>>>> 96174b2 (chore(server): lock production version + ignore env/logs/venv)

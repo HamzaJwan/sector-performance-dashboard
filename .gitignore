@@ -1,23 +1,25 @@
-# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Virtualenv
 venv/
 .venv/
 
-# Logs
-logs/*.log
+logs/
 *.log
 
-# OS / IDE
-.DS_Store
-Thumbs.db
+.env
+config.py
+
 .vscode/
 .idea/
+<<<<<<< HEAD
 
 # Secrets / local config
 .env
 config.py
+=======
+.DS_Store
+Thumbs.db
+>>>>>>> 96174b2 (chore(server): lock production version + ignore env/logs/venv)
