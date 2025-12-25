@@ -1,8 +1,23 @@
-venv/
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.db
-*.sqlite3
+
+# Virtualenv
+venv/
+.venv/
+
+# Logs
+logs/*.log
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets / local config
 .env
+config.py
