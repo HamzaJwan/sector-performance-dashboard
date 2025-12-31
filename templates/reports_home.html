@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+{% block title %}📊 مركز التقارير والتحليلات{% endblock %}
+{% block content %}
+<div class="container mt-5">
+  <h2 class="text-center mb-4">
+    📊 مركز التقارير والتحليلات
+  </h2>
+
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <!-- 1 -->
+
+    <div class="col">
+      <div class="card h-100 border-secondary shadow">
+        <div class="card-body">
+          <h5 class="card-title">🚰️ تقرير: ملخص عمليات الصيانة</h5>
+          <p class="card-text text-muted">إحصائية بأنواع عمليات الصيانة المنفذة وعددها في جميع السكتورات.</p>
+          <a href="/reports/actions-summary" class="btn btn-secondary">عرض التقرير</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="col">
+      <div class="card h-100 border-info shadow">
+        <div class="card-body">
+          <h5 class="card-title">📊 تقرير: الأداء الأسبوعي</h5>
+          <p class="card-text text-muted">تحليل لسرعة وأداء السكتورات خلال آخر 7 أيام، مع تصنيفها حسب التحميل.</p>
+          <a href="/reports/weekly" class="btn btn-info">عرض التقرير</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="col">
+      <div class="card h-100 border-danger shadow">
+        <div class="card-body">
+          <h5 class="card-title">📉 تقرير: أسوأ 10 سكتورات يوميًا</h5>
+          <p class="card-text text-muted">يعرض أعلى السكتورات من حيث نسبة التحميل اليومية (load_ratio).</p>
+          <a href="/reports/worst-daily" class="btn btn-danger">عرض التقرير</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4 -->
+    <div class="col">
+      <div class="card h-100 border-warning shadow">
+        <div class="card-body">
+          <h5 class="card-title">🔻 تقرير: انخفاض الأداء (Drop Detection)</h5>
+          <p class="card-text text-muted">يكشف السكتورات التي انخفضت سرعتها مقارنة بمتوسط الأسبوع السابق.</p>
+          <a href="/reports/performance-drop" class="btn btn-warning text-dark">عرض التقرير</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="col">
+      <div class="card h-100 border-success shadow">
+        <div class="card-body">
+          <h5 class="card-title">🔧 تقرير: السكتورات التي تمت صيانتها</h5>
+          <p class="card-text text-muted">يعرض السكتورات التي تم تنفيذ صيانة لها خلال فترة زمنية محددة.</p>
+          <a href="/reports/maintained" class="btn btn-success">عرض التقرير</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6 -->
+    <div class="col">
+      <div class="card h-100 border-dark shadow">
+        <div class="card-body">
+          <h5 class="card-title">📈 تقرير: تطور أداء سكتور معين</h5>
+          <p class="card-text text-muted">رسم بياني وجدولي يوضح تطور السرعة والتقييم لسكتور محدد مع مرور الوقت.</p>
+          <a href="/reports/evolution" class="btn btn-dark">عرض التقرير</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7 -->
+    <div class="col">
+      <div class="card h-100 border-info shadow">
+        <div class="card-body">
+          <h5 class="card-title">🏷️ تقرير: التقييم حسب الفروع</h5>
+          <p class="card-text text-muted">إحصائية بعدد السكتورات الممتازة والجيدة والضعيفة جدًا في كل فرع.</p>
+          <a href="/reports/evaluation-summary" class="btn btn-outline-info">عرض التقرير</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 8 -->
+    <div class="col">
+      <div class="card h-100 border-primary shadow">
+        <div class="card-body">
+          <h5 class="card-title">📊 تقرير: تاريخ تقييم السكتور</h5>
+          <p class="card-text text-muted">رسم بياني وملخص تحليلي يُظهر تغير التقييمات (ممتاز، ازدحام...) وتحليلها الزمني.</p>
+          <a href="/reports/evaluation-history" class="btn btn-primary">عرض التقرير</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="text-center mt-5">
+    <a href="/" class="btn btn-outline-secondary">⬅ العودة إلى الصفحة الرئيسية</a>
+  </div>
+</div>
+{% endblock %}
+<!-- 
+  This template provides a user-friendly interface for accessing various reports and analytics related to network performance.
+  Each card represents a different report, allowing users to easily navigate to the desired report.
+  The use of Bootstrap classes ensures a responsive and visually appealing layout.
+  The cards are styled with different border colors to differentiate between report types, enhancing usability.
+  The "عرض التقرير" buttons link to the respective report pages, making it easy for users to access detailed information.
+  The overall design is clean and modern, focusing on functionality while maintaining a professional appearance.

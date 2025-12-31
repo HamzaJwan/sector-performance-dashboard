@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}📈 تقرير الأداء الأسبوعي{% endblock %}
+
+{% block content %}
+<div class="card mt-4">
+  <div class="card-header bg-primary text-white">
+    <h2>📈 تقرير الأداء الأسبوعي</h2>
+  </div>
+  <div class="card-body">
+    <table id="weekly-report" class="display">
+      <thead>
+        <tr>
+          <th>الفرع</th>
+          <th>السكتور</th>
+          <th>📶 متوسط السرعة</th>
+          <th>🚀 السرعة القصوى</th>
+          <th>🔥 أعلى حمل</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in data %}
+        <tr>
+          <td>{{ row.branch }}</td>
+          <td>{{ row.hostname }}</td>
+          <td>{{ row.avg_speed }}</td>
+          <td>{{ row.peak_speed }}</td>
+          <td>{{ row.max_load }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

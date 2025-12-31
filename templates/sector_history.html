@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}📈 تاريخ السكتور{% endblock %}
+
+{% block content %}
+<h2>📈 تقرير: تاريخ السكتور</h2>
+<form method="POST">
+    <label>🔍 أدخل اسم السكتور (hostname):</label>
+    <input type="text" name="hostname" required>
+    <button type="submit">عرض</button>
+</form>
+{% if history %}
+    <table border="1" style="width:100%">
+        <thead>
+            <tr>
+                <th>⏱️ التاريخ</th>
+                <th>التقييم</th>
+                <th>📡 التردد</th>
+                <th>📶 متوسط السرعة</th>
+                <th>👥 العملاء</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for h in history %}
+            <tr>
+                <td>{{ h.last_updated }}</td>
+                <td>{{ h.evaluation }}</td>
+                <td>{{ h.frequency }}</td>
+                <td>{{ h.avg_mbps }}</td>
+                <td>{{ h.max_clients }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endif %}
+{% endblock %}

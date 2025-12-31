@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}📊 مركز مراقبة السكاتر{% endblock %}</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.3.6/css/buttons.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/colreorder/1.6.2/css/colReorder.dataTables.min.css">
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #f8f9fa;
+    }
+    .container {
+      max-width: 100%;
+    }
+    table {
+      width: 100% !important;
+      margin-bottom: 20px;
+      border-collapse: collapse;
+    }
+    th, td {
+      white-space: nowrap;
+      padding: 8px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+    thead th {
+      background-color: #3b82f6 !important;
+      color: white !important;
+      font-weight: bold;
+    }
+    .navbar {
+      background: linear-gradient(to left, #1e3a8a, #3b82f6);
+      direction: rtl;
+    }
+    .navbar-brand {
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+    .navbar-logo {
+      height: 42px;
+      margin-left: 12px;
+    }
+    .navbar-nav .nav-link {
+      color: white !important;
+      font-weight: 500;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    .navbar-nav .nav-link:hover {
+      text-decoration: underline;
+    }
+    .filter-bar {
+      margin-bottom: 24px;
+    }
+    .branch-filter {
+      max-width: 700px;
+      margin: 0 auto 1rem;
+    }
+    .report-header {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg shadow-sm py-2">
+    <div class="container-fluid justify-content-between align-items-center">
+      <div class="d-flex align-items-center">
+        <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Logo" class="navbar-logo">
+        <span class="text-white fw-bold me-3">ابشرو باللي يرضيكم يا قسم الأبراج 🙄</span>
+      </div>
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="/">🏠 الرئيسية</a></li>
+        <li class="nav-item"><a class="nav-link" href="/reports">📊 التقارير</a></li>
+        <li class="nav-item"><a class="nav-link" href="/actions">🛠️ سجل الإجراءات</a></li>
+        <li class="nav-item"><a class="nav-link" href="/admin">⚙️ لوحة الإدارة</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <div class="report-header">
+      {% if title %}
+        <h2 class="fw-bold mb-3">{{ title }}</h2>
+      {% endif %}
+      {% if description %}
+        <p class="text-muted">📝 <strong>وصف التقرير:</strong> {{ description }}</p>
+      {% endif %}
+      {% if purpose %}
+        <p class="text-muted">🎯 <strong>فائدة التقرير:</strong> {{ purpose }}</p>
+      {% endif %}
+    </div>
+
+    {% if branches is defined %}
+    <form method="POST" class="branch-filter row g-3">
+      <div class="col-md-4">
+        <label for="branch" class="form-label">🧭 اختر الفرع</label>
+        <select name="branch" id="branch" class="form-select" onchange="this.form.submit()">
+          <option value="">-- كل الفروع --</option>
+          {% for b in branches %}
+            <option value="{{ b }}" {% if selected_branch == b %}selected{% endif %}>{{ b }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="col-md-4">
+        <label for="days" class="form-label">📆 عدد الأيام لحساب المتوسط</label>
+        <select name="days" id="days" class="form-select" onchange="this.form.submit()">
+          <option value="3" {% if selected_days == 3 %}selected{% endif %}>3 أيام</option>
+          <option value="5" {% if selected_days == 5 %}selected{% endif %}>5 أيام</option>
+          <option value="7" {% if selected_days == 7 %}selected{% endif %}>7 أيام</option>
+          <option value="14" {% if selected_days == 14 %}selected{% endif %}>14 يومًا</option>
+        </select>
+      </div>
+      <div class="col-md-4">
+        <label for="drop" class="form-label">📉 نسبة انخفاض الأداء المقبولة</label>
+        <input type="number" name="drop" id="drop" class="form-control" min="1" max="100" step="1" value="{{ selected_drop|default(40) }}" onchange="this.form.submit()">
+        <div class="form-text">حدد النسبة المئوية التي تعتبر بها السكتور ضعيفًا مقارنةً بمتوسطه (مثلًا: 40%)</div>
+      </div>
+    </form>
+    {% endif %}
+
+    {% if table_headers and table_data %}
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped text-center align-middle">
+          <thead class="table-dark">
+            <tr>
+              {% for header in table_headers %}
+                <th>{{ header }}</th>
+              {% endfor %}
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in table_data %}
+              <tr>
+                {% for col in row.values() %}
+                  <td>{{ col }}</td>
+                {% endfor %}
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% else %}
+      <div class="alert alert-info text-center mt-4">
+        لا توجد بيانات لعرضها حاليًا.
+      </div>
+    {% endif %}
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.3.6/js/dataTables.buttons.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.colVis.min.js"></script>
+  <script src="https://cdn.datatables.net/colreorder/1.6.2/js/dataTables.colReorder.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      var table = $('table').DataTable({
+        paging: true,
+        searching: true,
+        ordering: true,
+        colReorder: true,
+        dom: 'Blfrtip',
+        buttons: ['colvis'],
+        lengthMenu: [10, 25, 50, 100]
+      });
+      table.on('draw', function() {
+        $('thead th').css({
+          'background-color': '#3b82f6',
+          'color': 'white',
+          'font-weight': 'bold'
+        });
+      });
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+[Unit]
+Description=Sector Stats Collector (collect_stats.py)
+After=network-online.target docker.service
+Wants=network-online.target docker.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/sector_analysis
+Environment=PYTHONUNBUFFERED=1
+EnvironmentFile=-/opt/sector_analysis/.env
+
+# حاول شغّل كونتينر قاعدة البيانات إن كان موجوداً (لا يفشل لو غير موجود)
+ExecStartPre=/bin/bash -lc '/usr/bin/docker start sectors-db >/dev/null 2>&1 || true'
+
+# تهيئة DB + Tables إن كانت غير موجودة
+ExecStartPre=/bin/bash -lc '/opt/sector_analysis/venv/bin/python /opt/sector_analysis/collect_stats.py --init-only'
+
+# تشغيل الجامع الفعلي
+ExecStart=/bin/bash -lc '/opt/sector_analysis/venv/bin/python /opt/sector_analysis/collect_stats.py'
+
+StandardOutput=append:/opt/sector_analysis/collect_stats.log
+StandardError=append:/opt/sector_analysis/collect_stats.log

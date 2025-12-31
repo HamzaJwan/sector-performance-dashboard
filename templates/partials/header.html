@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📊 مركز مراقبة السكتورات</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.3.6/css/buttons.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/colreorder/1.6.2/css/colReorder.dataTables.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+
+  <!-- JS Libraries -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.3.6/js/dataTables.buttons.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.colVis.min.js"></script>
+  <script src="https://cdn.datatables.net/colreorder/1.6.2/js/dataTables.colReorder.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: #f7f9fb;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar {
+      background: #1e293b;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    .navbar h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .navbar h1 img {
+      height: 28px;
+    }
+    .navbar nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin-left: 20px;
+      font-size: 0.95rem;
+      padding: 6px 12px;
+      border-radius: 6px;
+      background-color: #3b82f6;
+      transition: background-color 0.3s;
+    }
+    .navbar nav a:hover {
+      background-color: #2563eb;
+    }
+    .container {
+      padding: 30px;
+      max-width: 100%;
+    }
+
+    .filters-container {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+    .filters-container form {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+    .filters-container label {
+      font-weight: bold;
+      color: #333;
+    }
+    .filters-container select,
+    .filters-container input[type="date"],
+    .filters-container button {
+      padding: 6px 12px;
+      font-size: 0.95rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      transition: all 0.2s ease;
+    }
+    .filters-container button {
+      background-color: #3b82f6;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .filters-container button:hover {
+      background-color: #2563eb;
+    }
+
+    .dt-button.buttons-colvis {
+      background-color: #3b82f6 !important;
+      color: white !important;
+      border-radius: 6px;
+      border: none;
+      padding: 6px 12px;
+      font-weight: bold;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    .dt-button.buttons-colvis:hover {
+      background-color: #2563eb !important;
+    }
+
+    #sector-table {
+      width: 100% !important;
+      border-collapse: collapse;
+      table-layout: fixed;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    #sector-table th,
+    #sector-table td {
+      white-space: nowrap;
+      text-align: center;
+      padding: 8px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 150px;
+    }
+    #sector-table thead th {
+      background-color: #f0f0f0;
+      font-weight: bold;
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      border-top: 1px solid #ccc;
+    }
+  </style>
+
+  <script>
+    $(window).on('load', function () {
+      setTimeout(function () {
+        $('#sector-table').DataTable().columns.adjust().draw();
+      }, 500);
+    });
+  </script>
+</head>
+<body>
+  <div class="navbar">
+    <h1>
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/combo-chart--v1.png" alt="logo">
+      مركز مراقبة السكتورات
+    </h1>
+    <nav>
+      <a href="/">🏠 الرئيسية</a>
+      <a href="/reports">📁 التقارير</a>
+      <a href="/actions">⚙️ سجل الإجراءات</a>
+      <a href="/admin">🛠️ لوحة الإدارة</a>
+    </nav>
+  </div>
+  <div class="container">

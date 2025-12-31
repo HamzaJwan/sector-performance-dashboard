@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>🛠️ ملخص عمليات الصيانة</h2>
+<table border="1" style="width:100%">
+    <thead>
+        <tr>
+            <th>نوع العملية</th>
+            <th>عدد المرات</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in summary %}
+        <tr>
+            <td>{{ row.action_type }}</td>
+            <td>{{ row.total_actions }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

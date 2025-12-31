@@ -1,0 +1,13 @@
+[Unit]
+Description=Sector Analysis Bootstrap (restore-safe)
+After=network-online.target docker.service
+Wants=network-online.target docker.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/sector_analysis
+ExecStart=/bin/bash /opt/sector_analysis/scripts/bootstrap.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

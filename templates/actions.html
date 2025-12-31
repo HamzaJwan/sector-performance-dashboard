@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>🛠️ سجل صيانة السكتورات</h2>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    <ul>
+    {% for category, message in messages %}
+      <li class="alert alert-{{ category }}">{{ message }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
+
+<form method="POST">
+  <label>🌍 الفرع:</label>
+  <select id="branch-select" required>
+    <option value="">اختر فرعًا</option>
+    {% for b in branches %}
+      <option value="{{ b.name }}">{{ b.name }}</option>
+    {% endfor %}
+  </select>
+
+  <label>📡 السكتور:</label>
+  <select name="hostname" id="sector-select" required>
+    <option value="">اختر سكتور</option>
+    {% for s in sectors %}
+      <option value="{{ s.hostname }}" data-branch="{{ s.branch }}">{{ s.hostname }}</option>
+    {% endfor %}
+  </select>
+
+  <label>🛠️ نوع العملية:</label>
+  <select name="action_type" required>
+    {% for action in action_types %}
+      <option value="{{ action.id }}">{{ action.name }}</option>
+    {% endfor %}
+  </select>
+
+  <label>👷‍♂️ المهندس:</label>
+  <select name="performed_by" id="staff-select" required>
+    <option value="">اختر مهندس</option>
+    {% for s in staff %}
+      <option value="{{ s.full_name }}" data-branch="{{ s.branch }}">{{ s.full_name }}</option>
+    {% endfor %}
+  </select>
+
+  <label>📝 ملاحظات:</label>
+  <textarea name="notes" rows="3"></textarea>
+
+  <br>
+  <button class="btn" type="submit">💾 تسجيل العملية</button>
+</form>
+
+<table id="actions-table">
+  <thead>
+    <tr>
+      <th>📡 السكتور</th>
+      <th>🛠️ نوع العملية</th>
+      <th>👷‍♂️ المهندس</th>
+      <th>🕒 التاريخ</th>
+      <th>📝 ملاحظات</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for a in actions %}
+    <tr>
+      <td>{{ a.hostname }}</td>
+      <td>{{ a.action_name }}</td>
+      <td>{{ a.performed_by }}</td>
+      <td>{{ a.performed_at }}</td>
+      <td>{{ a.notes }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<script>
+  document.getElementById('branch-select').addEventListener('change', function () {
+    const selected = this.value;
+
+    // Filter sectors
+    document.querySelectorAll('#sector-select option').forEach(opt => {
+      opt.style.display = (opt.dataset.branch === selected || opt.value === "") ? 'block' : 'none';
+    });
+
+    // Filter staff
+    document.querySelectorAll('#staff-select option').forEach(opt => {
+      opt.style.display = (opt.dataset.branch === selected || opt.value === "") ? 'block' : 'none';
+    });
+
+    // Reset selections
+    document.getElementById('sector-select').value = "";
+    document.getElementById('staff-select').value = "";
+  });
+</script>
+{% endblock %}
